@@ -1,7 +1,9 @@
 # AnyoneCanDoIt
-An open source guide to mistake-resistant engineering(Work in progress)
+An open source guide to mistake-resistant engineering for plans that don't
+require natural talent to do. (Work in progress)
 
 
+## Intro
 A lot of planning these days includes the word "carefully".
 
 What does it mean? Well, it means you don't get distracted and do the wrong thing. Your hands don't shake and you don't forget anything.
@@ -19,6 +21,8 @@ apply to every situation, and they are heavily focused on electronics and softwa
 
 Nonetheless, I believe they may be useful in spotting likely issues with a plan.
 
+
+## Principles
 
 ### Redundancy.
 
@@ -172,12 +176,30 @@ Throwing things away is selling them, and being paid in empty space. If you don'
 
 Avoid any plan that involves a person remembering "When X, do Y" or "In 30 minutes, check on the pot".
 
-Especially avoid anything that requires regular recurring maintenance.   The cheapest plastic may last 500 years, while steel used in the same place may be total rusted when left alone.
+Especially avoid anything that requires regular recurring maintenance.   
+
+The cheapest plastic may last 500 years, while steel used in the same place may be total rusted when left alone.
 
 Choose plans that are independent of any human action, and especially independent of any *specific* person.
 
 
-The best way to predict the future is to create it yourself. As people's future state cannot be effectively predicted, anything dealing with the future should be left to machine.
+The best way to predict the future is to create it yourself. 
+As people's future state cannot be effectively predicted,
+ anything dealing with the future should be left to machine.
+
+
+If you're leaving a pot on the stove to do something else, set a timer
+on your phone.   If you need to bring something with you to work tomorrow, 
+leave it where it will be impossible to miss while getting ready, and additionally set
+a reminder. 
+
+Don't assume you or anyone else will be able to remember something later.
+
+And especially watch out for statements of the form "When X, I will do Y".
+
+I personally usually treat those as a complete impossibility that I am guaranteed to forget,
+if the matter is of any importance.
+
 
 ### Tests don't predict the future
 
@@ -283,10 +305,6 @@ Remember, connection can fail by coming undone, staying stuck, putting force on 
 Electrical contacts have all sorts of additional failure modes.
 
 Pay attention to connection points!
-
-### Relative Motion?
-
-When two things must stay fixed relative to each other, they should not have a long elaborate series of connections and objects in between them.
 
 ### No Remapping By Swapping
 
