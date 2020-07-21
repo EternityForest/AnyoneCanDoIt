@@ -335,3 +335,18 @@ One is that you cannot always be sure of the future, or what additional circumst
 
 Another is that, like the wet floor, "Being careful" must often be done continually, in this case each and every time, whereas removing the contributing factor often only needs to be done one time(as in mopping the water), and will persistently make things safer until something causes the factor to return.
 
+### Beware things that make *using* them the same as *engineering* them
+
+In the Linux world there's a lot of talk about modularity, but
+they usually leave final integration to the user.  A typical UNIX style program
+isn't a program at all, it's a building block to make your own program.
+
+This can be a major time sink, and it's important to recognize the value
+of integration, and purpose built devices.
+
+A multimeter *can* be used as a cable tester, but only in a very inconvenient
+way.
+
+A proper module system is seamless, and trivial to reconfigure, but this is often hard to
+achieve.  Beware of building toolkits to build another tool to do something,
+and mislabeling them as directly usable tools.
