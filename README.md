@@ -122,6 +122,8 @@ No manual bookkeeping that relies on someone updating one document to stay in sy
 
 The only time a user should do the same thing twice is as a confirmation. Redundancy should be part of the automated process, not something you do yourself.   
 
+When a confirmation *is* needed, the automated system should immediately check that the data is consistent.
+
 Requiring a user to reliably do the same action more times than needed is not redundancy, it is just multiplying the single points of failure, unless there is tolerance for some of them to be erroneous.
 
 A user should not deal with both the processed and unprocessed version of information.
@@ -171,6 +173,38 @@ Everything you do can fail. Things that happened in the past and already exist a
 
 Throwing things away is selling them, and being paid in empty space. If you don't need the empty space, you're just wasting things.
 
+### But don't hoard analog junk in the first place
+
+It's heavy, it's delicate, it takes up space, and it only does one thing.
+
+You might want to keep that outfit you wear once a year, but think twice before
+you buy that clock radio, corded power drill with a brushed motor, or
+other such thing.   Tech always improves, so there's rarely a reason to
+mess with the older versions.
+
+Even a desktop computer is questionable if you aren't a hardcore gamer. 
+Think light, solid state, digitally controlled, and futureproof.
+
+### Watch the clouds
+
+"Cloud services" are very popular, but they can disappear
+at any time, and sometimes cost money constantly, and it doesn't
+work without the internet.  As more and more
+software becomes cloud oriented, you may want to stat moving away
+from such things.
+
+Especially watch out for any physical devices tied to a specific
+cloud services.    Voice assistants tend to be from very big companies,
+and they probably want to keep selling data, so you might be able to trust that
+they will be around a while.
+
+But other things, like smart thermostats, can and have completely dropped support
+for old products.
+
+The ideal electronic device for consumers is connected, but in
+such a way that it can be controlled locally, without relying
+on the manufacturer after you already bought it, but these products
+usually take some research to find.
 
 ### There is no later
 
