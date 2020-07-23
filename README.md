@@ -385,6 +385,31 @@ A proper module system is seamless, and trivial to reconfigure, but this is ofte
 achieve.  Beware of building toolkits to build another tool to do something,
 and mislabeling them as directly usable tools.
 
+### Watch out for tasks involving listing or counting scattered elements
+
+Tasks like "Count how many cars are in that parking lot" are very difficult because
+there is no obvious ordering, and no way to know if you have already counted any particular item.
+
+If you have to do something like this, and can't find any kind of row/column based system, 
+one should not trust their memory. If all can fit in a single photograph, they can be counted and
+digitally marked, or, for things like outlets in a house, they can be physically marked with tape.
+
+Especially watch out for tasks involving listing things that do not yet exist, like "What will we need for the party?"
+
+For that, only a complete dry run test, or detailed plan down to the last paper plate is likely to help you function
+any better than your own talent and competence would.
+
+When making such a plan, look at every step and ensure that you have not lumped any separate steps together and left places where
+mistakes can hide. An overview, program of events, or schedule is not a plan.
+
+Pouring wine involves opening it, which may involve a corkscrew, and actually doing the pouring, which probably involves cups.
+
+And more than any of this, avoid any use whatsoever of undocumented lists of multiple items of any kind.  
+
+If you go to the store for five separate things, assume that one will, as a deterministic fact, be forgotten unless the entire list
+is written down.  If you are confident you remember everything and don't need to check the list, that is exactly when you need to check it.
+
+
 
 ### Think "Never again" not "Life Happens"
 
