@@ -384,3 +384,43 @@ way.
 A proper module system is seamless, and trivial to reconfigure, but this is often hard to
 achieve.  Beware of building toolkits to build another tool to do something,
 and mislabeling them as directly usable tools.
+
+
+### Think "Never again" not "Life Happens"
+
+For some people, mistakes are a natural part of life,
+to be embraced as a chance to learn about yourself and
+your capability under pressure.
+
+When making a plan to avoid mistakes, these people may attempt
+to guilt trip you.  They may not understand your need for such a plan.
+
+They may tell you to just carry on but "Be more careful" next time,
+with no explanation for how that works, or how you're
+supposed to not make unrelated mistakes while spending all this
+extra time "being careful" of the original mistake you are trying not
+to repeat.
+
+Many problems are highly preventable, and it is only
+a *lack of desire to prevent them* that stops us, or
+a belief that a need for constant vigilance against them
+is "just how life is", and that it's "not worth it" to
+make the changes needed to stop it.
+
+If a mistake jappens once, it can happen again, to the same
+person, or to someone else entirely, unless something is done
+differently.
+
+"Being more careful" isn't really doing something different
+unless you have a concrete plan.  Will you work slower? Will
+you double and triple check things in different ways? If not,
+then what stops "Being careful" from being empty words?
+
+Being careful is often a loaded phrase, implying that
+you were not being careful at all when the mistake was made.
+
+We don't have to accept this kind of thinking.  We don't have to constantly
+live just a little outside our capabilities while things fall apart around us.
+
+By making real, actionable plans, we can prevent many mistakes both big and
+small.
