@@ -410,6 +410,21 @@ If you go to the store for five separate things, assume that one will, as a dete
 is written down.  If you are confident you remember everything and don't need to check the list, that is exactly when you need to check it.
 
 
+### Compatible standards
+
+Many things are made better by being all the same.  Unfortunately, these things are made worse when they require things to be *all* the same.
+
+Nobody would be happy if they had to upgrade every device in the house when a new WiFi hotspot comes out.   Get the best when buying new, but leave room in plans for old and perfectly good things.
+
+Don't write code that doesn't run on old computers.
+
+And more than that, don't create disruption to existing processes.  Don't 
+fence off an area for a cable if a wireless link will do.  Don't delsy people's lives because you insist they first learn some new system to proceed.
+
+Don't use updates that run automatically.  Tech should stay out of the way, not add additional things people have to keep up with.
+
+Some things are obsolete and should be upgraded immediately, but usually only the user knows which things those are.
+
 
 ### Think "Never again" not "Life Happens"
 
