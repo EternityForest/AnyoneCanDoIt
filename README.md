@@ -425,6 +425,32 @@ Don't use updates that run automatically.  Tech should stay out of the way, not 
 
 Some things are obsolete and should be upgraded immediately, but usually only the user knows which things those are.
 
+### Minimize Unique parts
+
+It's bad enough to use dozens of parts when a few lines
+of code would do.   What's worse is to have dozens of
+one-of-a-kind, custom, handmade, imported, or otherwise nonstandard parts.
+
+
+Ever tried putting together a tent with four different lengths of poles
+and several different kinds of clips?
+
+Not only is this kind of design a hassle to build, it's expensive, as the 
+benefits of mass production are partly cancelled out, it leads to obsolescence
+when replacements are no longer available, and often, those parts are not
+well tested, as they are generally new and not made by the million.
+
+
+Especially avoid slightly modified off the sheet parts if possible, although it may still be better
+than a scratch build.
+
+In that case, you never know if the original manufacturer will change the internals
+of the design so that it no longer works, on top of the extra effort and unpredictably of
+customizing something.
+
+This also goes for unique pieces of software.  If you don't have time
+to do it better than the people who did it before, just use theirs.
+
 
 ### Think "Never again" not "Life Happens"
 
