@@ -462,6 +462,11 @@ Fully describing what you want is often equivalent to doing something by hand, o
 Computers can fnd the right decoder for a file format, they can reconnect when the network goes down, but designing a bookshelf requires
 a real understanding of how it will be used.   It is important to see what problems are "Hard", and can be fully described in a page or two, and what problems are "soft", meaning we don't really know the algorithm we use to do them.
 
+### Beware the Wear
+Many devices use flash memory. Many automatically save whatever you change.   Few take any steps to avoid wearing out the disk in a few years,
+because a few years is thought to be an acceptable lifetime for a device.  Don't do that. It's not acceptable!
+
+More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear(like saving to flash).
 
 ### Think "Never again" not "Life Happens"
 
