@@ -451,6 +451,17 @@ customizing something.
 This also goes for unique pieces of software.  If you don't have time
 to do it better than the people who did it before, just use theirs.
 
+### It's hard to automate things you can't describe
+
+Automation is great, but when usability or aesthetics matter, the computer isn't always going to "get it".
+
+To automate something, you need to be able to fully describe what you want, or just let machine learning guess.
+
+Fully describing what you want is often equivalent to doing something by hand, or else is a limited version that isn't actually what anyone wants.
+
+Computers can fnd the right decoder for a file format, they can reconnect when the network goes down, but designing a bookshelf requires
+a real understanding of how it will be used.   It is important to see what problems are "Hard", and can be fully described in a page or two, and what problems are "soft", meaning we don't really know the algorithm we use to do them.
+
 
 ### Think "Never again" not "Life Happens"
 
