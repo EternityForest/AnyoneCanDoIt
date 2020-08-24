@@ -9,7 +9,7 @@ Or, you could call it an experiment to write down all the math used in practice 
 ### Base 10
 Base 10 is when each digit has 10x the value of the last. `111`= one hundred, one ten, and one one.
 
-### Base 2(Binary)
+### [Base 2(Binary)](https://en.wikipedia.org/wiki/Binary_number)
 Base 2 aka binary is the same thing with 2s. `1111`= one 8, one 4, one 2, and one 1
 
 Since they look the same, in programming we mark binary literals with 0b, as in: `0b11` = 3 = 2+1
@@ -31,7 +31,7 @@ Nonetheless, it is the same as the other base systems.
 ### Non-integer bases
 These exist, but I am not going to pretend to understand them :P
 
-## Linear and Nonlinear functions
+## [Linear](https://en.wikipedia.org/wiki/Linear_function_(calculus)) and Nonlinear functions
 
 This will come up a whole lot.  For any function that takes a number as
 an input and returns another number, some will be linear, and others will not.
@@ -82,24 +82,6 @@ Multiplying by zero is always zero, like a closed gate letting through 0% of wha
 
 Multiplying by a negative number inverts. 5 times -2 is -10. -5 times -2 is 10.  This is useful in signal processing.
 
-#### Filters
-You can use this to make a simple smoothing filter.  At every step, when you get a new input `i`, set x to `x*0.7 + i * 0.3`.
-
-You are essentially moving about a third of the way between where you are and the new input every step, smoothing the input
-by slowly approaching it, filtering fast changes.
-
-Why 0.7 and 0.3? They have to add up to 1, but any two numbers can be used, and you can change them to control the speed.
-
-Obviously, if we have an input that's the same as the current state, nothing should change. If the total is less than one, the value would decrease, and if it was greater than one, it would increase, because x and i are the same. 
-
-Half of 5 and half of 5 again (Because the state and input are the same) is the same as the 5, but  half of five plus a third of five is clearly less.  
-
-To be sure they add up to 1, we might code it as `x = x*(1-s) +  i*s`, where s is our "speed".  Whatever we add to the s, gets taken away from that 1, so (1-s) and s always add up to one.
-
-This is an example of exponential decay, as every step, the difference between input and output is reduced by the speed factor.
-
-In real life, if our time steps are not perfectly even, we will need more complicated math to account for this fact.
-
 
 ## Division
 
@@ -117,12 +99,14 @@ But if one plots 1/x on a graph, the result is not linear.  I don't
 know why, but not knowing about it wasted my time on a programmer problem one time,
 so I'm writing it down!
 
+#### Fig. 1: Plot of 1/x, not a straight line at all.
+![Not what you'd expect?](images/math/one_over_x.png)
 
 ### Negative numbers
 
-5/-1 is -5.  I don't think I've ever seen division by a negative in real life.
+5/-1 is -5.  I don't think I've ever seen division by a negative in real life. It is confusing.
 
-### Division by zero
+### [Division by zero](https://en.wikipedia.org/wiki/Division_by_zero)
 
 This is not usually a thing that can be done, except in some wierd algebra thing where you
 figure out a result indirectly, maybe.
@@ -133,3 +117,49 @@ Whenever you are dividing by X, where X is the product of some kind of algorithm
 if you don't want your system to crash.
 
 
+
+## First order filters
+You can use this to make a simple smoothing filter.  At every step, when you get a new input `i`, set x to `x*0.7 + i * 0.3`.
+
+You are essentially moving about a third of the way between where you are and the new input every step, smoothing the input
+by slowly approaching it, filtering fast changes.
+
+Why 0.7 and 0.3? They have to add up to 1, but any two numbers can be used, and you can change them to control the speed.
+
+Obviously, if we have an input that's the same as the current state, nothing should change. If the total is less than one, the value would decrease, and if it was greater than one, it would increase, because x and i are the same. 
+
+Half of 5 and half of 5 again (Because the state and input are the same) is the same as the 5, but  half of five plus a third of five is clearly less.  
+
+To be sure they add up to 1, we might code it as `x = x*(1-s) +  i*s`, where s is our "speed".  Whatever we add to the s, gets taken away from that 1, so (1-s) and s always add up to one.
+
+This is an example of exponential decay, as every step, the difference between input and output is reduced by the speed factor.
+
+In real life, if our time steps are not perfectly even, we will need more complicated math to account for this fact.
+
+### Filter [Time Constants](https://en.wikipedia.org/wiki/Time_constant)
+
+We will also need to choose the "speed" appropriately. Typically, people have a Time Constant in mind. A time constant is the time
+it takes for the difference between the input and output to decay to 1/e (about 37%) of the input, after an instant step change.
+
+It is also the time it *would* take for the difference to decay to zero, if it kept on decaying at the same rate as right after the step change.
+As it does not do that, and progressively slows down as it gets closer, the difference will never actually get to zero in theory. In real life,
+it will, because numbers in computers have limited precision.
+
+#### Linearity
+
+These filters are apparently "linear", even though if you plot the response to a step change over time, they don't look like they are.
+
+Nonetheless, they will not introduce new frequencies into the signal, just attenuate or enhance existing ones, annd if applied to audio,
+will not add distortion.
+
+#### Similarity to [RC filters](https://en.wikipedia.org/wiki/RC_circuit)
+
+The common RC first order lowpass filter acts a very similar way. The time constant is determined by τ=RC.
+In this formula, τ is measured in seconds, R in ohms and C in farads.
+
+Note that the greater the difference between input and output, the faster it moves, the same as in our code, where the movement is
+always a fraction of that distance.
+
+
+
+![RC Lowpass filter](images/math/rc_lowpass.png)
