@@ -31,7 +31,33 @@ Nonetheless, it is the same as the other base systems.
 ### Non-integer bases
 These exist, but I am not going to pretend to understand them :P
 
+## Linear and Nonlinear functions
+
+This will come up a whole lot.  For any function that takes a number as
+an input and returns another number, some will be linear, and others will not.
+
+Linear functions make a straight line if you graph the input vs the output.
+Linear functions behave similarly at any scale, the same size input step makes the same size output step, no matter what the value was.When dealing with a nonlinear function, you might find:
+
+* Audio distrotion. Linear functions won't add new frequencies to sound.  Crunchy electric guitar like stuff is nonlinear.
+
+* Thresholds.  Stuff won't behave the same at different power levels, file sizes, or whatever.  
+* Some nonlinear functions will have huge changes for small steps past a certain point.
+* Diminishing returns.  Some nonlinear functions will take more and more input for the same amount of output change.
+
+When dealing with linear functions in things you can directly perceive, like light, it probably won't
+look linear, because eyes and ears don't have a linear response.  Brightness generally has a diminishing returns type curve, it
+takes more power to look twice as bright the higher you go.
+
+There is usually no way to combine different linear functions to get something nonlinear.
+
+
 ## Multiplicaton
+
+## Linearity
+
+A constant times X makes a linear graph.  X times X is the same as X**2, which is most 
+definitely not linear.
 
 ### Rectangles
 Multiplying the lengths of the sides of something gives the square area.  4ft* 8ft= 32 square feet.  1ft* ft=1 square foot.
@@ -47,7 +73,14 @@ Instead, you could pass the full list to a proper sorting algorithm(Which uses c
 
 ### Scaling
 
-It can also make things bigger or smaller. x * 0.5 is half of something, x * 2 is twice that thing.
+It can also make things bigger or smaller. x * 0.5 is half of something, x * 2 is twice that thing.  Because it is linear, 
+doing this to an audio signal will not distort.
+
+Multiplying by zero is always zero, like a closed gate letting through 0% of what tries to come in.
+
+### Negative numbers
+
+Multiplying by a negative number inverts. 5 times -2 is -10. -5 times -2 is 10.  This is useful in signal processing.
 
 #### Filters
 You can use this to make a simple smoothing filter.  At every step, when you get a new input `i`, set x to `x*0.7 + i * 0.3`.
@@ -66,3 +99,37 @@ To be sure they add up to 1, we might code it as `x = x*(1-s) +  i*s`, where s i
 This is an example of exponential decay, as every step, the difference between input and output is reduced by the speed factor.
 
 In real life, if our time steps are not perfectly even, we will need more complicated math to account for this fact.
+
+
+## Division
+
+### Relation to Multiplication
+
+Multiplying by 1/x  is the same as dividing by x.
+
+But division by a variable does not produce a linear plot.
+
+12 divided by 6 is 2.  12/3 is 4.   When we have half the divisor,
+we get half the output. It seems like this should result in a linear chart,
+to someone (like me!). without a real understanding of math.
+
+But if one plots 1/x on a graph, the result is not linear.  I don't
+know why, but not knowing about it wasted my time on a programmer problem one time,
+so I'm writing it down!
+
+
+### Negative numbers
+
+5/-1 is -5.  I don't think I've ever seen division by a negative in real life.
+
+### Division by zero
+
+This is not usually a thing that can be done, except in some wierd algebra thing where you
+figure out a result indirectly, maybe.
+
+
+Computers will generate NaN, not a number, infinity, or just raise an error.
+Whenever you are dividing by X, where X is the product of some kind of algorithms, be sure it will not ever be zero,
+if you don't want your system to crash.
+
+
