@@ -92,11 +92,11 @@ Multiplying by 1/x  is the same as dividing by x.
 But division by a variable does not produce a linear plot.
 
 12 divided by 6 is 2.  12/3 is 4.   When we have half the divisor,
-we get half the output. It seems like this should result in a linear chart,
+we get double the output. It seems like this should result in a linear chart,
 to someone (like me!). without a real understanding of math.
 
-But if one plots 1/x on a graph, the result is not linear.  I don't
-know why, but not knowing about it wasted my time on a programmer problem one time,
+But if one plots 1/x on a graph, the result is not linear.  I don't actually
+know why, but not knowing about it wasted my time on a programming problem one time,
 so I'm writing it down!
 
 #### Fig. 1: Plot of 1/x, not a straight line at all.
