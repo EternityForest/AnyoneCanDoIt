@@ -31,6 +31,24 @@ There should not be anywhere in your plan where a single failure can have signif
 Two is one and one is none, not just with things, but with actions.  If the plan starts with "It's basically impossible, but I know one guy who can do it by hand for a good price" you might want a different plan.
 
 
+When adding redundancy, often it is best to use unrelated technologies.
+
+People use candles and lanterns as a backup for a flashlight not because
+they are in any way better, but because they are different enough
+that they may not be affected by the kind of thing that might cause all your flashlights
+to fail at once.
+
+Similarly, when double checking you have all the items packed, you may
+choose to count the number of items on the list and in the box, without concerning
+yourself with anything but the total number, and then check off each item individually.
+
+This kind of random unrelated strategy may uncover problems not found simply
+by repeating the same method twice.
+
+Of course, when one method is very reliable, having two copies
+of the gold standard isn't usually a bad thing.
+
+
 ### Storage and Organization
 
 It's essentially *always* worth the money to buy a case for your phone. If you're gonna buy something that needs an extra adapter, buy one that doesn't if you can.  Use Bluetooth headphones instead of corded ones.
