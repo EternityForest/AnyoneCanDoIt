@@ -309,6 +309,19 @@ of the frequency.  This is not true of aliasing, which makes sines at "reflected
 
 This is why aliasing sounds harsh and unmusical.
 
+## Geometry in mechanical design
+
+Geometry is rather often used when building things, but in this case, 
+even less knowledge of math is required now that there are programs like FreeCAD
+which allow you to directly enter constraints like "These two lines must be at this angle",
+and will solve everything for you in real time.
+
+I am told this is not sufficient in real large buildings with a chance of falling over of you get 
+it wrong, and real engineers do, or at least should do, some level
+of manual verification, probaby largely as an additional check, solving the problem
+in unrelated ways to find any errors in the reasoning.
+
+But for the home 3D printer, this is, again, the computer's job.
 
 ## First order filters
 You can use this to make a simple smoothing filter.  At every step, when you get a new input `i`, set x to `x*0.7 + i * 0.3`.
@@ -385,7 +398,9 @@ Now you have 2 "simultaneous equations" that can be solved to find X and Y.
 Normally, people who are actually learning this stuff start
 with single equations, and don't progress to simultaneous equations till later.
 
-But when telling a computer to solve it for you, it's all trivially easy anyway.
+But when telling a computer to solve it for you, it's all trivially easy anyway. 
+Again, like arithmetic, for the purposes of getting by without knowing how it works,
+solving and rearranging equations is a job for totally free programs like XCas.
 
 And also, I can't think of any practical examples with
 just one equation.
