@@ -462,6 +462,18 @@ Fully describing what you want is often equivalent to doing something by hand, o
 Computers can fnd the right decoder for a file format, they can reconnect when the network goes down, but designing a bookshelf requires
 a real understanding of how it will be used.   It is important to see what problems are "Hard", and can be fully described in a page or two, and what problems are "soft", meaning we don't really know the algorithm we use to do them.
 
+In addition, aesthetics will always depend on context and one should not expect it to be ignored.
+
+Many people will not appreciate something generated entirely by machine.
+
+Many things are only valuable because of the origin story.  In many
+cases the origin has a dark side, and one can argue that the origin, the aesthetic,
+and the symbolism are all representative of something evil that should not be desired.
+
+Nonetheless, one cannot expect something entirely artificial to be appreciated unless
+it has some sort of context.
+
+
 ### Beware the Wear
 Many devices use flash memory. Many automatically save whatever you change.  
 
@@ -537,6 +549,78 @@ employee, and honesty is always valued.
 
 Someone with a decade of experience doing consistently terrible work, however, is clearly no better
 than someone with only a year of experience.
+
+### Slow is smooth, smooth is fast
+
+While machines can place multiple parts per second
+with sub millimeter accuracy, you probably cannot.
+
+If you try to, you will likely break something. And even if you don't, someone
+else probably will while trying to keep up.  Avoid this.
+
+
+### Manufactured Hurries and artificial deadlines
+
+These are terrible mental devices that have been used for everything from
+landing someone in the hospital, to making unwanted sexual advances.
+
+The way it works is pretty simple.   Someone has a bad idea, which they
+want to pursue for irrational reasons.  Perhaps trying the hardest ski route with no experience.
+
+If you resist or hesitate, one tactic they almost instinctively seem to employ
+is a sense of urgency.
+
+They will speed up their words and movements, speaking in short, controlled bursts
+as if using an assault weapon of verbal Diarrhea.
+
+Traditionally, one may associate talking too fast with weakness
+or being on the defensive. However, someone using this tactic likely
+is already filled with confidence. They have no complicated reasoning
+to explain, and thus the short bursts of words seem enthusiastic, not defensive.
+
+And on top of it, this tactic often happens on one-on-one situations.
+
+
+The trouble occurs when you respond.  If you take your time to explain something,
+they may interrupt you, or look as though they are threatening to.
+
+If you match their pace, you will probably sound like a maniac and stumble
+over your own sentences, because you quite likely need more words to explain
+your position than "It will be awesome bro!".
+
+On top of this, your reasons may well involve a mistrust you don't feel comfortable expressing.
+
+They may be saying something you know to be untrue, like "It's perfectly safe",
+and you may think you are not in a position to argue.
+
+The added self censorship makes it even harder to speak at their pace.
+
+
+They have given themselves the home field advantage, an insane
+conversational style to match an insane idea.
+
+
+
+On top of it all, they may physically move towards their part of whatever they are planning,,
+threatening to leave you behind, or implement the bad plan without your agreement at all.
+
+In these cases, there may be no other answer aside from short controlled bursts of your
+own, such as "No way!", possibly with your expletives of choice.
+
+The strategy on their part relies on you thinking that you need a reason to refuse,
+and that you must make a decision immediately.
+
+As your reason may not be explainable in a matter of seconds, you may feel that your reason
+is not valid or good enough.   However, if they don't need a reason to *do* whatever it is,
+than surely you don't need a reason to *not do* whatever it is.
+
+The tactic may also rely on an implication that overthinking things is "weak" or otherwise bad.
+I believe this is best ignored entirely, to the absolute best of your ability, on account of the vast amount problems one can find by
+trying too hard to prove themselves.
+
+Facebook, incidentally, is thought to use this via endless scrolling, 
+forcing an immediate interaction, or else the risk of losing that content forever
+to the miles long news feed.
 
 ### Think "Never again" not "Life Happens"
 
