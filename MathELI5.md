@@ -1,18 +1,44 @@
 # Math: Explain it like I'm 5
 
-Inspired by a subreddit.  You might call this "Looking at math the completely wrong way, for people who should probably just actually learn it".
+Inspired by a subreddit. All the math that someone
+with no math talent knows and uses without actually understanding,
+and the facts that people who actually knows math seem to think are "too obvious"
+to write down.
 
-Or, you could call it an experiment to write down all the math used in practice by a totally non-math person.
+None of the fundamentals and excercises I never learned. You
+should probably go actually learn math. 
+
+
+Alpha quality! Hasn't been reviewed!
+
+
+
 
 ## Base systems
 
 ### Base 10
 Base 10 is when each digit has 10x the value of the last. `111`= one hundred, one ten, and one one.
 
+
+
+The number of combinations of an N digit lock is 10**N. For three digits, you
+start with ten choices for the first.
+
+For every possible choice, there are ten more choices, giving 100 total.
+
+For each of those 100, there are now 10 choices for the final number, giving 1000 total.
+
+Note that a real three digit number only goes up to 999, although there are a thousand possibilities, 
+because zero is the first possibility.
+
+This fact causes massive numbers of errors in programming, when people get confused by it.  They are generally known as a type of off-by-one error.
+
 ### [Base 2(Binary)](https://en.wikipedia.org/wiki/Binary_number)
 Base 2 aka binary is the same thing with 2s. `1111`= one 8, one 4, one 2, and one 1
 
 Since they look the same, in programming we mark binary literals with 0b, as in: `0b11` = 3 = 2+1
+
+The number of possible combinations of N bits, is always 2 to the N.
 
 ### Base 16(Hexadecimal)
 
@@ -82,6 +108,24 @@ Multiplying by zero is always zero, like a closed gate letting through 0% of wha
 
 Multiplying by a negative number inverts. 5 times -2 is -10. -5 times -2 is 10.  This is useful in signal processing.
 
+## Percents
+
+Percents are pretty much multiplication. 10 percent of
+50 is the same as 10 times 0.10.
+
+Note that there are 100 percent steps, and 100 steps
+of 0.01 between 0 and 1, which is why this works.
+
+This also means that percentages are reversible, because multiplication is.
+
+10 percent of 50 is 5.  50 percent of 10 is also 5. Many times
+the reversed version is easier to mentally calculate, if for some unlikely reason you don't
+have your phone.
+
+As an aside, some math people will insist this is very
+obvious, but like most of the stuff in this file, I only know because
+of some random Facebook meme.
+
 
 ## Division
 
@@ -117,6 +161,93 @@ Whenever you are dividing by X, where X is the product of some kind of algorithm
 if you don't want your system to crash.
 
 
+## Exponentiation 
+
+2**5 means "Two times itself five times, or 2*2*2*2*2". It is also said as
+"Two raised to the power of five" or "to the fifth power" or similar.
+
+Numbers which can be written as 2**something are powers of two, the first few of which are:
+1, 2, 4, 8, 16, 32, 64, 128, 256, 512,1024, 2048, 4096, 8192
+
+These numbers are extremely common when dealing with computers, and numbers that are
+two to some other power of two(2**8=256, 2**4=16, etc) are especially common.
+
+The number of possible combination of N bits is 2**N.
+
+### Squaring
+
+X**2 is Squaring, as mentioned before, and it gives you the
+area of a square, if X is the length of the sides.
+
+To go backwards, and get length from an area, one would use a square root.
+
+x**3 is cubing.  It gives you the volume of a cube given the length of it's edge.
+
+
+
+### X**0
+
+Any positive real number raised to the power of 0, is 1. 
+Any negative real number raised to the power of 0, is -1
+
+I am sure there's a cool math reason for this, but it
+also happens to be really convienent in programming.
+
+
+### 0**0
+
+I have no idea what is going on here.  Android calculator thinks it
+is "Undefined, or 1”.  That probably means you shouldn't rely
+oon it to do something sane in 
+ programming languages if you don't specificaly check the spec.
+
+I have never seen this in real life, or thought of it before just now.
+
+## Sine waves
+
+sin(x), when graphed, makes a sine wave. Those waves 
+are a pure frequency, but only if infinitely long.
+
+Any finite wave has the "Clicks and pops" of the starting and ending, but in
+practice, some waves are thought of as pure tones.
+
+Any repeating periodic sound or RF pattern or any other wave you can plot on a graph,
+can be made of different stacked sine waves
+of different frequencies, powers, and offsets.
+
+Figuring out what waves go into something is what a Fourier Transform does.
+
+Inverse Fourier Transforms can calculate a waveform given the "ingredient" sine waves.
+
+Most kinds of nonlinear functions (Like vaccum tube distortion!) will add new frequencies not in the input.
+This will sound audibily distorted, and interfere with the operation of various circuits that might be interpreting it.
+
+
+### Sampling
+
+If you are taking digital samples of a signal, and you sample slower
+than twice the frequency of the highest sine wave, you get aliasing,
+which causes the familiar illusion where helicopter blades go backwards,
+and which can make a sawblade under fluorescent light stand still.
+
+If you always sample at the very top of the wave, it will look like you have an 
+unchanging signal.
+
+Aliasing will usually create an illusory sine wave for every input wave above the cutoff,
+ at some related  frequency.
+
+### Harmonics
+
+The familiar square, triangle, sawtooth, etc waves that repeat, but are not sine waves, are made
+up of a sine at the "main" frequency, and a set of sines at multiples of it.
+
+Creating a perfectly sharp square requires infinite waves, which is
+why perfectly sharp waves aren't usually a thing in real life.
+
+When distortion distorts a sine wave, the additional new tones are usually at multiples
+of the frequency.  This is not true of aliasing, which makes sines at "reflected" points.
+
+This is why aliasing sounds harsh and unmusical.
 
 ## First order filters
 You can use this to make a simple smoothing filter.  At every step, when you get a new input `i`, set x to `x*0.7 + i * 0.3`.
@@ -163,3 +294,65 @@ always a fraction of that distance.
 
 
 ![RC Lowpass filter](images/math/rc_lowpass.png)
+
+## Algebra
+
+As typically encountered, algebra is the fact that you 
+can move parts of equations around to make new equations,
+which are guaranteed to be true if the original is true.
+
+Suppose you have 10 feet of wood to build a 16:9 frame.
+
+X and Y are the final horizontal and vertical dimensions.
+
+You know that X/Y=16/9,  because that's the ratio you want.
+
+you know that X+Y is 10 feet, if we just ignore concerns about inner
+outer size for now.
+
+Now you have 2 simultaneous equation that can be solved to find X and Y.
+
+Normally, people who are actually learning this stuff start
+with single equations, and don't progress to simultaneous equations till later.
+
+But when telling a computer to solve it for you, it's all trivially easy anyway.
+
+And also, I can't think of any practical examples with
+just one equation.
+
+
+I am told that learning to actually do this by hand opens
+up a whole new way of thinking, and you may want to actually learn it.
+
+
+### Solutions?
+
+Some equations may have multiple solutions. Depending
+on context, it may mean you have multiple options, or,
+that the information you want cannot be found from
+the input.
+
+Given the average brightness of an image, there's no algebra
+to return the original picture, it is simply lost.
+
+
+In some cases, there may be conflicts between different
+equations, and one might want to instead find the answer
+with the least total amount of error, or, on some cases,
+the least *squares* of the errors.
+
+This usually happens when there are more equations than
+unknown variables you are looking for, and is called an overdetermined system.
+
+This conflict is similar to the same kind of thing in
+an overconstrained machine design.
+
+## Calculus
+
+This deals with the study of continuous things that
+don't seem to have an answer otherwise. Actually learning this
+is said to expand your mind even more, and to be a very fulfilling experience.
+
+I can't actually say I have ever used anything like it I'm real lifez
+but the people who knows it, use it *all the time*, on projects that could not 
+happen without it.
