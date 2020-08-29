@@ -463,10 +463,80 @@ Computers can fnd the right decoder for a file format, they can reconnect when t
 a real understanding of how it will be used.   It is important to see what problems are "Hard", and can be fully described in a page or two, and what problems are "soft", meaning we don't really know the algorithm we use to do them.
 
 ### Beware the Wear
-Many devices use flash memory. Many automatically save whatever you change.   Few take any steps to avoid wearing out the disk in a few years,
-because a few years is thought to be an acceptable lifetime for a device.  Don't do that. It's not acceptable!
+Many devices use flash memory. Many automatically save whatever you change.  
 
-More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear(like saving to flash).
+Few take any steps to avoid wearing out the disk in a few years,
+because a few years is thought to be an acceptable lifetime for a device.  
+
+Don't do that. It's not acceptable!  Actions outside the user's control especially
+should not contribute to device wear.  Things should not just be expected to wear down
+over time.
+
+More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear(like saving to flash)
+
+
+### Replacability!
+
+Things that don't last, should be replacable. Don't let a design leave the drawing
+board if it becomes disposable because of one part. Beyond that, things that wear should
+be common and available anywhere, like 0.7mm pencil leads, not propietary to one manufacturer, or
+even handmade and totally unique.
+
+
+### Never assume that problems will be correctly reported
+
+People do not consistently report issues, even when it is 
+their responsibility to do so.
+
+The issue may make themself or a friend look bad.  It
+may also make an enemy look bad, who may retaliate.
+
+Perhaps they forgot, or even wilfully sabotaged the situation in question
+themselves.  Perhaps they think you don't want to be bothered.  Maybe they
+have already reported several issues and think you're getting tired of them.
+
+Whatever the case may be, people will often not tell you things
+you need to know, unless you specificaly ask, and even then, they may not know.
+
+
+### People are bad at monitoring things
+
+Never assume that a person is capable of monitoring an automated process,
+or someone else's work, just because they have done this work themselves.
+
+It is a well known phenomena that people switching to the role of
+monitor can easily become complacent, and sometimes the results
+can be worse than before the automation or extra help.
+
+### Regression to prior learning
+
+If a potentially dangerous action is similar to a common action
+that people will have learned before, assume that the dangerous action *will* be mistakenly
+performed, and that this will most likely occur during a time of stress when the situation is
+already primed for a disaster.
+
+### Beware indirect proxies of quality
+
+Simple. German Engineered.  Made in America. All
+metal construction. Handmade. Natural.
+
+None of these are a crystal ball
+to tell you how a product will perform, look, or whether it will last.
+
+What they tell you is how well they conform to some tradition that
+seems, to someone, to be associated with quality.  There may be
+reasons for this in some cases, but over time, these vauge indicators
+become goals in and of themselves, and eventually they can become philosophical
+axioms, where the value of product itself is irrelevant, and the choice
+is made for idealistic reasons.
+
+When dealing with people, such as looking for someone 
+to do a job, words like Certified. Experienced. Intelligent, Honest,
+etc, come into play.   In this case, one presumably *does* want a properly trained
+employee, and honesty is always valued.
+
+Someone with a decade of experience doing consistently terrible work, however, is clearly no better
+than someone with only a year of experience.
 
 ### Think "Never again" not "Life Happens"
 
