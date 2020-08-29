@@ -57,6 +57,46 @@ Nonetheless, it is the same as the other base systems.
 ### Non-integer bases
 These exist, but I am not going to pretend to understand them :P
 
+
+## Variables
+
+Variables are placeholders, usually a number, for something you don't know yet.
+
+Often they the "Inputs and outputs" of a formula, allowing you to state an equation,
+because you don't know the specific numbers you will need to input until you actually measure them.
+
+This is almost certainly the wrong way to think of them, but in practice, they are quite often similar
+to inputs and outputs. 
+
+They are often a single letter, but can also be words or symbols.
+
+
+#### Programming
+
+Variables in math are not the same as variables in
+programming.   In math, X=70 is a statement that the two are equal,
+in most programming languages, X=70 is a command to store the number 70
+in the container called X, which can later be overwritten with something else.
+
+They are often not really similar to inputs and outputs, but closer to scratchpads
+when you can store things.    In addition, in some languages, they don't truly represent
+storage locations at all, and are actually labels you can attach to objects, which can have 
+multiple labels to "be stored in different places at the same time".
+
+Pure functional languages have a concept of variables that is much closer
+to the mathematical meaning.
+
+### Graphs
+
+When graphing something, the Y or vertical position is usually the dependant variable,
+because we are studying how it goes up and down as we move from left to right(The horizontal position is usually called Y, 
+and is usually the independent variable, because it's doing it's own thing, we increase it evenly as we go across the chart to see what happens).
+
+Often the independent variable is time, and the vertical axis represents how something changes over time.
+
+There are all sorts of other charts that may use different meanings for each axis, this is just a very common convention.
+
+
 ## [Linear](https://en.wikipedia.org/wiki/Linear_function_(calculus)) and Nonlinear functions
 
 This will come up a whole lot.  For any function that takes a number as
@@ -140,8 +180,14 @@ we get double the output. It seems like this should result in a linear chart,
 to someone (like me!). without a real understanding of math.
 
 But if one plots 1/x on a graph, the result is not linear.  I don't actually
-know why, but not knowing about it wasted my time on a programming problem one time,
-so I'm writing it down!
+know why.  It is important because there is no way to implement division
+by an arbitrary value with just multiplication, although you can implement division by
+one specific value by multiplying.
+
+This is important because many very small cheap chips don't
+have hardware division, and multiplication is much faster, so
+you may want to watch out for equations involving dividing by a number
+that can change.
 
 #### Fig. 1: Plot of 1/x, not a straight line at all.
 ![Not what you'd expect?](images/math/one_over_x.png)
@@ -222,6 +268,7 @@ Inverse Fourier Transforms can calculate a waveform given the "ingredient" sine 
 Most kinds of nonlinear functions (Like vaccum tube distortion!) will add new frequencies not in the input.
 This will sound audibily distorted, and interfere with the operation of various circuits that might be interpreting it.
 
+Sine waves also have something I don't understand to to with circles and trigonometry.
 
 ### Sampling
 
@@ -234,7 +281,7 @@ If you always sample at the very top of the wave, it will look like you have an
 unchanging signal.
 
 Aliasing will usually create an illusory sine wave for every input wave above the cutoff,
- at some related  frequency.
+ at some related frequency.
 
 ### Harmonics
 
@@ -248,6 +295,7 @@ When distortion distorts a sine wave, the additional new tones are usually at mu
 of the frequency.  This is not true of aliasing, which makes sines at "reflected" points.
 
 This is why aliasing sounds harsh and unmusical.
+
 
 ## First order filters
 You can use this to make a simple smoothing filter.  At every step, when you get a new input `i`, set x to `x*0.7 + i * 0.3`.
@@ -301,6 +349,15 @@ As typically encountered, algebra is the fact that you
 can move parts of equations around to make new equations,
 which are guaranteed to be true if the original is true.
 
+It allows one to work backwards, and find questions given the answer.
+
+Arithmetic will be enough to answer things like X=5*2, but
+algebra allows one to work backwards, and find the value of
+X in equations like "10=  X*2", which asks "What number do you
+have to multiply by 2 to get 5"
+
+It also allows you to solver problems that are defined by multiple equations.
+
 Suppose you have 10 feet of wood to build a 16:9 frame.
 
 X and Y are the final horizontal and vertical dimensions.
@@ -310,7 +367,7 @@ You know that X/Y=16/9,  because that's the ratio you want.
 you know that X+Y is 10 feet, if we just ignore concerns about inner
 outer size for now.
 
-Now you have 2 simultaneous equation that can be solved to find X and Y.
+Now you have 2 "simultaneous equations" that can be solved to find X and Y.
 
 Normally, people who are actually learning this stuff start
 with single equations, and don't progress to simultaneous equations till later.
@@ -346,6 +403,7 @@ unknown variables you are looking for, and is called an overdetermined system.
 
 This conflict is similar to the same kind of thing in
 an overconstrained machine design.
+
 
 ## Calculus
 
