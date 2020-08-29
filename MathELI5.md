@@ -55,7 +55,20 @@ and in some cases special padding rules apply to the decoders.
 Nonetheless, it is the same as the other base systems.
 
 ### Non-integer bases
-These exist, but I am not going to pretend to understand them :P
+These exist, but I am not going to pretend to understand them.
+
+## Arithmetic
+
+This deals with the basic operations like addition and subtraction.  I have no reason to doubt
+the teachers who say that learning this is essential for understanding the 
+concepts. I will leave such discussions of education to them.
+
+Perhaps if I somehow found time to learn it, I'd be making six figures
+in a chemistry lab, rather than writing this!
+
+But in any case, it is rather uncommon to need to calculate something
+while you are away from a smart phone, so for the purposes of getting by
+without actually understanding it, this is entirely a computer's job.
 
 
 ## Variables
@@ -71,7 +84,7 @@ to inputs and outputs.
 They are often a single letter, but can also be words or symbols.
 
 
-#### Programming
+### Programming
 
 Variables in math are not the same as variables in
 programming.   In math, X=70 is a statement that the two are equal,
