@@ -520,6 +520,15 @@ It is a well known phenomena that people switching to the role of
 monitor can easily become complacent, and sometimes the results
 can be worse than before the automation or extra help.
 
+### Take the job of monitoring seriously
+
+On a related note, When you are there to watch for trouble, no matter how rare the trouble may be, 
+you must still take your job seriously.
+
+If you slack off because you don't expect trouble,
+you are not acting with integrity.
+
+
 ### Regression to prior learning
 
 If a potentially dangerous action is similar to a common action
