@@ -120,7 +120,7 @@ Linear functions behave similarly at any scale, the same size input step makes t
 
 * Audio distrotion. Linear functions won't add new frequencies to sound.  Crunchy electric guitar like stuff is nonlinear.
 
-* Thresholds.  Stuff won't behave the same at different power levels, file sizes, or whatever.  
+* Thresholds.  Stuff won't behave the same at different power levels, file sizes, or whatever.  Even with no literal sharp cliff like threshold, in practice there may be obvious points where things act different.
 * Some nonlinear functions will have huge changes for small steps past a certain point.
 * Diminishing returns.  Some nonlinear functions will take more and more input for the same amount of output change.
 
@@ -184,7 +184,8 @@ of some random Facebook meme.
 
 ### Relation to Multiplication
 
-Multiplying by 1/x  is the same as dividing by x.
+Multiplying by 1/x  is the same as dividing by x.  Multiplying by x will "undo" dividing by x, and give you
+the original number back, and vice versa, dividing can "undo" multiplication by the same number.
 
 But division by a variable does not produce a linear plot.
 
@@ -219,30 +220,42 @@ Computers will generate NaN, not a number, infinity, or just raise an error.
 Whenever you are dividing by X, where X is the product of some kind of algorithms, be sure it will not ever be zero,
 if you don't want your system to crash.
 
+The reason this makes no sense is pretty simple.  Normally, when you divide by a number, you can multiply it by
+the same number to get the original. But there is no standard real number than, when multiplied by zero,
+gives something other than zero. Multiplying by zero is like an "off switch" that doesn't let anything through.
+
+Clearly, if division by zero had a defined result, it can't be a regular number, and still work in
+the way we might expect division to work.
+
 
 ## Exponentiation 
 
-2**5 means "Two times itself five times, or 2*2*2*2*2". It is also said as
+2\*\*5 means "Two times itself five times, or 2*2*2*2*2". It is also said as
 "Two raised to the power of five" or "to the fifth power" or similar.
 
-Numbers which can be written as 2**something are powers of two, the first few of which are:
+It is sometimes also written as 2^5, but that symbol is also used for other things occasionally, in programming,
+so I will use Python's notation, with two stars.
+
+Numbers which can be written as 2\*\*something are powers of two, the first few of which are:
 1, 2, 4, 8, 16, 32, 64, 128, 256, 512,1024, 2048, 4096, 8192
 
 These numbers are extremely common when dealing with computers, and numbers that are
-two to some other power of two(2**8=256, 2**4=16, etc) are especially common.
+two to some other power of two(2\*\*8=256, 2\*\*4=16, etc) are especially common.
 
-The number of possible combination of N bits is 2**N.
+The number of possible combination of N binary bits is 2\*\*N.
 
 ### Squaring
 
-X**2 is Squaring, as mentioned before, and it gives you the
+X\*\*2 is Squaring, as mentioned before, and it gives you the
 area of a square, if X is the length of the sides.
 
 To go backwards, and get length from an area, one would use a square root.
 
-x**3 is cubing.  It gives you the volume of a cube given the length of it's edge.
+x\*\*3 is cubing.  It gives you the volume of a cube given the length of it's edge.
 
 
+### X\*\*1
+Anything to the one, is itself. Five times itself one time, is just 5.
 
 ### X**0
 
@@ -260,7 +273,16 @@ is "Undefined, or 1”.  That probably means you shouldn't rely
 oon it to do something sane in 
  programming languages if you don't specificaly check the spec.
 
-I have never seen this in real life, or thought of it before just now.
+I have never seen this in real life, or thought of it before just now, and it doesn't seem to really make any sense.
+
+### Non integer powers
+
+You can raise something to the power of 1.5, just like you can raise it to 2 or 3 or any other integer! But keep in mind, the result will not be halfway between x\*\*1 and
+x\*\*2.  If it were, it would not make the same nice continous curve the exponential functions make.
+
+In reality, raising to any number is just as valid as raising to an integer, the only difference as far as I know,is that integers can be explained as "X times itself Y times", but there is probably some deeper mathematical phenomena underlying it all which explains the values in between more completely.
+
+The oversimplified explanation however, is that the values in between follow the same curve you would expect them to, from looking at the integer powers, rather than following a "curve" made of straight lines between integer points.
 
 ## Sine waves
 
