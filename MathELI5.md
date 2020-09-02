@@ -357,7 +357,7 @@ numbers are used for points below or to the left of the center.
 
 
 ## Pythagorean Theorem
-This tells you how long the long side of a triangle is, given the other two sides. c is the long side, the other two
+This tells you how long the long side of a triangle right triangle (One that has a 90 degree corner in it) is, given the other two sides. c is the long side, the other two
 are a and b, and they are always defined by:
 a/*/*2 + b/*/*2 =  c/*/*2
 
@@ -366,6 +366,12 @@ square root of the whole thing, and you'll get the missing side.
 
 There are a whole bunch of proofs of this, which I am told are very beautiful to
 those who understand them.
+
+Note that the long side will never be one of the two sides that touches the corner. 
+We can see this because the triangle is half a rectangle, and the diagonal of a rectangle is 
+longer than any of the sides.
+
+I believe the correct name for the long side is actually the "hypotenuse".
 
 
 ### Distance between points
