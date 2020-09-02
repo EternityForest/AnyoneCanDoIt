@@ -523,3 +523,16 @@ is said to expand your mind even more, and to be a very fulfilling experience.
 I can't actually say I have ever used anything like it I'm real lifez
 but the people who knows it, use it *all the time*, on projects that could not 
 happen without it.
+
+
+To quote Reddit's `r/BeagleInTheSnow`, who helpfully took a look at this draft:
+
+ Life is full of changes and a great number of them can be quantified. Down to the weather outside - Imagine it's sunny in the morning, but a stormfront rolls in by afternoon and the temperature falls considerably. 
+ 
+ when you say "boy, it sure cooled off quickly!" you've actually unlocked a key intuition of calculus! That being, calculus can describe how one attribute of a system (say, temperature) changes with respect to some other attribute (say, time).
+ 
+ In fact, in technical terms, you've described the rate of change of temperature with respect to time: dT°/dt. The key word is "quickly" - loosely speaking, "quickly" is the rate of change of the system - this is a derivative. 
+ 
+ In the real world, it is used to describe how physical systems change (generally over time). This can be used to model the number of predator/prey in an ecosystem, the performance of stocks, the temperature and weather, the speed of your car... among many other things.
+
+
