@@ -21,7 +21,7 @@ Base 10 is when each digit has 10x the value of the last. `111`= one hundred, on
 
 
 
-The number of combinations of an N digit lock is 10**N. For three digits, you
+The number of combinations of an N digit lock is 10\*\*N. For three digits, you
 start with ten choices for the first.
 
 For every possible choice, there are ten more choices, giving 100 total.
@@ -42,7 +42,7 @@ The number of possible combinations of N bits, is always 2 to the N.
 
 ### Base 16(Hexadecimal)
 
-Hex is the same, but with 16 values, 0 through 15 and, we use ABCDEF for the extra numbers. We mark hex with 0x(I don't know why). `0xFF` = 15*16 + 15*1 = 255 = the max number you can fit in a byte.
+Hex is the same, but with 16 values, 0 through 15 and, we use ABCDEF for the extra numbers. We mark hex with 0x(I don't know why). `0xFF` = 15\*16 + 15\*1 = 255 = the max number you can fit in a byte.
 
 Now because four bits has 16 possible combinations(2 to the 4), we can use one hex digit(having 16 possible vals) to represent four bits.
 This means we can use two hex digits for 8 bits, which is a byte, which makes hexadecimal very useful for binary data.
@@ -128,18 +128,19 @@ When dealing with linear functions in things you can directly perceive, like lig
 look linear, because eyes and ears don't have a linear response.  Brightness generally has a diminishing returns type curve, it
 takes more power to look twice as bright the higher you go.
 
-There is usually no way to combine different linear functions to get something nonlinear.
+There is usually no way to stack different linear functions with addition to get something nonlinear. This is related to the fact
+that no combination of resistors will introduce nonlinearity(In theory, real resistors do wierd stuff with tempeature changes).
 
 
 ## Multiplicaton
 
 ## Linearity
 
-A constant times X makes a linear graph.  X times X is the same as X**2, which is most 
+A constant times X makes a linear graph.  X times X is the same as X\*\*2, which is most 
 definitely not linear.
 
 ### Rectangles
-Multiplying the lengths of the sides of something gives the square area.  4ft* 8ft= 32 square feet.  1ft* ft=1 square foot.
+Multiplying the lengths of the sides of something gives the square area.  4ft\* 8ft= 32 square feet.  1ft\* ft=1 square foot.
 
 #### Algorithm Complexity 
 This also means that any algorithm like "Do something with every possible pair of one input from the list A and one from B" will take an amount of time proportional to the length of A times the length of B, since every step in the algorithm is one of the "Square feet" in the "table" where each side has one foot per item on the list.
@@ -152,7 +153,7 @@ Instead, you could pass the full list to a proper sorting algorithm(Which uses c
 
 ### Scaling
 
-It can also make things bigger or smaller. x * 0.5 is half of something, x * 2 is twice that thing.  Because it is linear, 
+It can also make things bigger or smaller. x *\ 0.5 is half of something, x \* 2 is twice that thing.  Because it is linear, 
 doing this to an audio signal will not distort.
 
 Multiplying by zero is always zero, like a closed gate letting through 0% of what tries to come in.
@@ -230,7 +231,7 @@ the way we might expect division to work.
 
 ## Exponentiation 
 
-2\*\*5 means "Two times itself five times, or 2*2*2*2*2". It is also said as
+2\*\*5 means "Two times itself five times, or 2\*2\*2\2\*2". It is also said as
 "Two raised to the power of five" or "to the fifth power" or similar.
 
 It is sometimes also written as 2^5, but that symbol is also used for other things occasionally, in programming,
@@ -259,8 +260,7 @@ Anything to the one, is itself. Five times itself one time, is just 5.
 
 ### X**0
 
-Any positive real number raised to the power of 0, is 1. 
-Any negative real number raised to the power of 0, is -1
+Any number raised to the power of 0, is 1, except possibly zero in some cases(see below!)
 
 I am sure there's a cool math reason for this, but it
 also happens to be really convienent in programming.
@@ -270,10 +270,12 @@ also happens to be really convienent in programming.
 
 I have no idea what is going on here.  Android calculator thinks it
 is "Undefined, or 1”.  That probably means you shouldn't rely
-oon it to do something sane in 
- programming languages if you don't specificaly check the spec.
+on it to do something sane in programming languages if you don't specificaly check the spec.
+ 
+Xonsh/Python however, just says 1, so your milage may vary on that one.
 
 I have never seen this in real life, or thought of it before just now, and it doesn't seem to really make any sense.
+But it is good to know that it 
 
 ### Non integer powers
 
