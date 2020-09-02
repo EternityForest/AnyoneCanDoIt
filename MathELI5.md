@@ -17,9 +17,9 @@ Alpha quality! Hasn't been reviewed!
 ## Base systems
 
 ### Base 10
-Base 10 is when each digit has 10x the value of the last. `111`= one hundred, one ten, and one one.
+Base 10 is when each digit has 10x the value of the last. `437`= four hundreds, three tens, and seven ones, or, more concisely, `4\*100 + 3\*10 + 7\*1 `
 
-
+As a note, the multiplication by one at the end is does nothing, anything times one is just the number you started with, but in programming things are sometimes writen more verbosely to make the intent clear, although mathematicians may see it as unnecessary clutter.
 
 The number of combinations of an N digit lock is 10\*\*N. For three digits, you
 start with ten choices for the first.
@@ -75,8 +75,8 @@ without actually understanding it, this is entirely a computer's job.
 
 Variables are placeholders, usually a number, for something you don't know yet.
 
-Often they the "Inputs and outputs" of a formula, allowing you to state an equation,
-because you don't know the specific numbers you will need to input until you actually measure them.
+Often they the "Inputs and outputs" of a formula, allowing you to state an equation that describes something general,
+even if you don't know the specific numbers you will need to input until, you actually measure them.
 
 This is almost certainly the wrong way to think of them, but in practice, they are quite often similar
 to inputs and outputs. 
