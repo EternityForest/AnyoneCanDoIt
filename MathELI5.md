@@ -309,6 +309,63 @@ of the frequency.  This is not true of aliasing, which makes sines at "reflected
 
 This is why aliasing sounds harsh and unmusical.
 
+## Coordinate Systems
+
+There are many ways to specifiy the position of something, but it is common to
+to describe the position of a point in terms of XYZ coordinates,three numbers
+representing a position along each of the three dimensions of space
+that most people are familiar with. 
+
+On a computer screen, 
+X is quite the distance left to right, starting at the far left.
+
+Y is the top to bottom position, starting at the top of the screen.
+
+Z is the distance away from the viewer.
+
+
+These may be different in some cases.  In 3D printing, Z is
+the top to bottom depth.  But they are always 3 perpendicular 
+axes.
+
+In graph charts, X0, Y0 may be in the very center, and negative
+numbers are used for points below or to the left of the center.
+
+
+## Pythagorean Theorem
+This tells you how long the long side of a triangle is, given the other two sides. c is the long side, the other two
+are a and b, and they are always defined by:
+a/*/*2 + b/*/*2 =  c/*/*2
+
+In other words, square each of the two sides, then add them, then take the
+square root of the whole thing, and you'll get the missing side.
+
+There are a whole bunch of proofs of this, which I am told are very beautiful to
+those who understand them.
+
+
+### Distance between points
+
+If you have two points, and you go "across" then "down"
+to get from one to another, you get an L shape.  You can find
+the lengths of the lines just by subtracting the X and Y positions.
+
+If you add another line directly between the points, 
+you get a triangle, and you can find the length of that line
+the same as any other triangle.
+
+### Distance between three points
+
+For reasons I don't understand, you can extend this to three
+dimensions.  
+
+Take all the individual dimensions differences, X, Y, and Z, representing the
+horizontal, vertical, and front-to-back position,
+and square each one.  Add them all and square root them, and you get the 3D
+distance.
+
+
+
 ## Geometry in mechanical design
 
 Geometry is rather often used when building things, but in this case, 
