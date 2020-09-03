@@ -585,6 +585,29 @@ with sub millimeter accuracy, you probably cannot.
 If you try to, you will likely break something. And even if you don't, someone
 else probably will while trying to keep up.  Avoid this.
 
+### Get the lead out
+
+There are few luxuries that can compare to *not* having to carry 
+a bunch of heavy crap.  Be very careful about the weight of the things you buy, if
+you will be carrying them even a short while, and ruthlessly prune or upgrade anything in
+your bag that weighs you donw.  If it costs money I'm sure
+there are meals at restaurants you can skip, because not much tastes as
+good as not hauling crap around.
+
+Similarly, when designing portable things, aim for the smallest weight
+and minimum number of items.
+
+And if you must carry something, try to put it on a rolling cart. You will probably
+feel much better at the end of the day.
+
+### Literally get the lead out
+
+I'm sure you know about lead paint and gas, but did you know it could be in your
+keys? The prongs and plastic of your extension cord(It is or was used to stabilize PVC)?
+
+Brass often uses it to make machining easier. Old crystal glass has it. Maybe
+new crystal glass too. It has all kinds of uses, so don't
+assume any random thing is good safe.
 
 ### Manufactured Hurries and artificial deadlines
 
