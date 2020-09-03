@@ -9,7 +9,7 @@ None of the fundamentals and excercises I never learned. You
 should probably go actually learn math. 
 
 
-Alpha quality! Hasn't been reviewed!
+Alpha quality! Hasn't been fully reviewed!
 
 
 
@@ -78,8 +78,9 @@ Variables are placeholders, usually a number, for something you don't know yet.
 Often they the "Inputs and outputs" of a formula, allowing you to state an equation that describes something general,
 even if you don't know the specific numbers you will need to input until, you actually measure them.
 
-This is almost certainly the wrong way to think of them, but in practice, they are quite often similar
-to inputs and outputs. 
+I think they are also like the english "So and so" for an unknown person,
+or "Such and such" for and unknown thing, which someone might use when making aan abstract,
+general statement that isn't about any particular person, but *is* about people in general.
 
 They are often a single letter, but can also be words or symbols.
 
@@ -94,7 +95,7 @@ in the container called X, which can later be overwritten with something else.
 They are often not really similar to inputs and outputs, but closer to scratchpads
 when you can store things.    In addition, in some languages, they don't truly represent
 storage locations at all, and are actually labels you can attach to objects, which can have 
-multiple labels to "be stored in different places at the same time".
+multiple labels, to "be stored in different places at the same time".
 
 Pure functional languages have a concept of variables that is much closer
 to the mathematical meaning.
@@ -285,6 +286,66 @@ x\*\*2.  If it were, it would not make the same nice continous curve the exponen
 In reality, raising to any number is just as valid as raising to an integer, the only difference as far as I know,is that integers can be explained as "X times itself Y times", but there is probably some deeper mathematical phenomena underlying it all which explains the values in between more completely.
 
 The oversimplified explanation however, is that the values in between follow the same curve you would expect them to, from looking at the integer powers, rather than following a "curve" made of straight lines between integer points.
+
+## Logarithms
+
+The log of a number x, in a given base, is the number you would need to raise the base to the power of, in order to get x.
+
+If y=log10(x), than x=10\*\*y.
+
+Logs are always in a base, usually logn, the natural logarithm, using
+the mathematical constant e, log10, or log2.
+
+They are distinct from square or cubic roots, in that a square root
+asks "What number, when raised to the two, gives me X", wheras a base 2 logarithm
+asks "What number would I have to raise 2 to, to give X".
+
+If you're raising X to the Y, a log finds Y, but a root finds X.
+
+
+### Use in implementing multiplication
+
+A slide rule is a calculator that amounts to two rulers, that slide.
+
+It's easy to see how you could make an adder this way, but not obvious how one
+would multiply.
+
+Logarithms have the neat property that the log of a\*b, is the same as the log of b plus the log of a.
+
+Essentially, if one has a table of logarithms, and "antilogarithm" to convert back,
+one can multiply by looking up the numbers in the table, adding, and converting back.
+
+
+Obviously, nobody really does this anymore, but the property is still a very important
+fundamental thing that finds use elsewhere. In fact, there are still computers
+that can add much faster than they can multiply.
+
+### Count the Zeros!
+
+Adding a zero to a decimal integer multiplies by ten, log10(10) is 1
+log10(100) is 2, etc.
+
+1,10, 100, etc, are known as the "powers of ten" just like
+1,2,4,8 are the powers of two.
+
+### Complexity theory
+
+Some advanced algorithms are known to only get slower with the log of the input.
+
+People like these, because as we can see in the zero counting argument, the slowdown eventually
+levels off, as it takes a lot of points added on to add a single zero to
+a very large number.  Think of how much you have to add to 1000000000 to get 10000000000. 
+
+It is a lot!
+
+
+These are actually better than linear time, which means they probably don't
+do something to every input, and instead skip some.  Of we did something
+with every input, unless there's a large overhead, we would usually
+expect twice the input data to take twice as long to handle.
+
+More commonly, you see things that scale with N log N, or N times the logarithm of N.
+Not sure why that seems to show up so much.
 
 ## Sine waves
 
