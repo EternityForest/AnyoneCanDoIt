@@ -333,6 +333,20 @@ of the frequency.  This is not true of aliasing, which makes sines at "reflected
 
 This is why aliasing sounds harsh and unmusical.
 
+## Area and volume
+
+These are measured in square units and cubic units, respectively.  A square inch is teh area of a square that
+is one inch on each side, and a cubic inch is the volume of a cube that is one inch on all sides.
+
+You can use any unit, but note that a cubic foot is not 12 cubic inches, but 12\*12\*12=1728 cubic inches, because squaring and cubing
+are nonlinear.  Area and volume increase faster than you might thing when you increase the lengths of the sides.
+
+
+When you extrude a 2D shape out into 3D space, like as if you pressed Play-doh throuh a shaped nozzle, the of the resulting object volume is the area, in square units, times the length you extruded it.
+
+A cylinder is pretty much an extruded circle(math people may use a different word than "extruded"), so one can get it's volume by the length times the circle's area.
+
+
 ## Coordinate Systems
 
 There are many ways to specifiy the position of something, but it is common to
@@ -355,6 +369,25 @@ axes.
 In graph charts, X0, Y0 may be in the very center, and negative
 numbers are used for points below or to the left of the center.
 
+## Pi / π
+Pi is a mathematical constant, approxiamtely 3.14159265359, which is the ratio of a circle's circumference to it's diameter. It is often represented as π.
+
+If you measure a circle across it's area, and multiply by pi, you get the round trip distance if you walked along it back to where you started.
+
+Pi is irrational, meaning there are no two integers you can divide to exactly produce it. It also goes on forever, you can never calculate the exact value of pi, although supercomputes know it to trillions of digits of precision.
+
+There is no obvious repeating patttern in the digits either, it is said that all of Shakespeare's work is hidden somewhere, along with digital data of every image in every format, and any other data you can imagine.
+
+
+### Areas and Volumes
+
+Pi times the radius squared, or `pi*(r\*\*2)` gives the area of a circle, in square units. If you give the radius in millimeters, you get square millimeters, if inches, you get square inches.
+
+The volume of a sphere is defined by `volume = (4/3) \* (pi * radius \*\* 3)`, and the surface area by`surface = 4 \* pi \* radian \*\*2`.
+I'm not sure what the explanation for those is, but they are well known and easy to find online.
+
+
+
 
 ## Pythagorean Theorem
 This tells you how long the long side of a triangle right triangle (One that has a 90 degree corner in it) is, given the other two sides. c is the long side, the other two
@@ -367,9 +400,14 @@ square root of the whole thing, and you'll get the missing side.
 There are a whole bunch of proofs of this, which I am told are very beautiful to
 those who understand them.
 
-Note that the long side will never be one of the two sides that touches the corner. 
+Note that the long side will never be one of the two sides that touches the 90 degree corner. 
 We can see this because the triangle is half a rectangle, and the diagonal of a rectangle is 
 longer than any of the sides.
+
+Also note that there will only be one 90 degree corner. Since there are only three points, if you had two such corners,
+they would be connected, and form a 180 degree turn, or two paralell lines, which would not meet and form a triangle,
+unless you are using some bizzare non-euclidean geometry, but if you are using that in real life, you are probably a math expert already,
+or a Cthulhu spawn.
 
 I believe the correct name for the long side is actually the "hypotenuse".
 
@@ -540,5 +578,87 @@ To quote Reddit's `r/BeagleInTheSnow`, who helpfully took a look at this draft:
  In fact, in technical terms, you've described the rate of change of temperature with respect to time: dT°/dt. The key word is "quickly" - loosely speaking, "quickly" is the rate of change of the system - this is a derivative. 
  
  In the real world, it is used to describe how physical systems change (generally over time). This can be used to model the number of predator/prey in an ecosystem, the performance of stocks, the temperature and weather, the speed of your car... among many other things.
+
+
+## Prime Numbers
+
+According to wikipedia:
+  A prime number (or a prime) is a natural number greater than 1 that is not a product of two smaller natural numbers.  
+
+Which is an odd way to describe it, I've always heard it stated as "A number that can't be evenly divided by anything except itself, and one"
+
+Two, despite being even, is a prime.  All other even numbers are "composite", meaning not prime. Even numbers can be divided by two, so the other even numbers have themselves, one, and two as divisors, totalling three.
+
+There are an infinite number of prime numbers.
+
+### Is one a prime?
+It really seems like it should be, and in history, has been treated as one.  However, if you treat one as prime, a lot of other theorems
+don't make sense or have to be reworded, so the generally accepted definition excludes one.  
+
+Depending on your view of the philosophy, Both the set of all primes, and the set of all primes, plus one "exist" regardless of what we call them, but choosing to exclude one for what we know as primes makes a lot of things neater and more elegant, which mathematicians love.
+
+### Fundamental Theorem of arithmetic
+
+From Wikipedia:
+
+   The fundamental theorem of arithmetic states that every integer greater than 1 is either a prime number, or can be represented as the product of prime numbers and that, moreover, this representation is unique, aside from other combinations of the order of the factors.
+
+In other words, you can make any integer by multiplying primes, but for any given number, there is only one way to do so.
+
+### Product of two primes
+
+This implies that if you multiply two primes, the resulting number cannot be made with any other two primes, as those two
+are the unique representation.
+
+There is no known easy way to go backwards, and find the original primes, once the numbers get large enough, although quantum computing could do so. This property is used in cryptography.
+
+### First few primes
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271
+
+
+## Highly composite numbers
+
+A highly composite number is a positive integer with more divisors than any smaller positive integer.  They are essentially the "opposite"
+of primes, and as such are extremely useful, but little known. The number 360, which is chosen as the number of degrees in a circle, is one such number, and it can be evenly divided by: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120, 180, and 360
+
+This is very convenient, as it gives us nice round numbers for many different angles, including very common ones like 180, 90, and 45.
+
+### List of the first few
+1, 2, 4, 6, 12, 24, 36, 48, 60, 120, 180, 240, 360, 720, 840, 1260, 1680, 2520, 5040, 7560, 10080, 15120, 20160, 25200, 27720, 45360, 50400, 55440, 83160, 110880, 166320, 221760, 277200, 332640, 498960, 554400, 665280, 720720, 1081080, 1441440
+
+### Superior highly composite number
+According to wikipedia:
+
+   In mathematics, a superior highly composite number is a natural number which has more divisors than any other number scaled relative to some positive power of the number itself. It is a stronger restriction than that of a highly composite number, which is defined as having more divisors than any smaller positive integer.
+   
+But to most of us, it means "They REALLY have a lot of divisors. The first 15 superior highly composite numbers, 2, 6, 12, 60, 120, 360, 2520, 5040, 55440, 720720, 1441440, 4324320, 21621600, 367567200, 6983776800.  They get big in a real hurry, but the enduring popularity of 12(a dozen!), 60(A minute!), and 360(a circle!) may have something to do with this property.  I'm sure you can think of even more examples of these numbers in use.
+
+
+
+
+
+### Fermat's Last Theorem
+
+The theorem itself might not seem interesting to you, but the amount of human drama and deep passion that came from it definitely makes it
+worth including in any overview of mathematics.
+
+   In number theory, Fermat's Last Theorem (sometimes called Fermat's conjecture, especially in older texts) states that no three positive integers a, b, and c satisfy the equation a\*\*n + b\*\*n = c\*\*n for any integer value of n greater than 2
+
+This probably has very little practical use to most, but the history is so interesting that it can be appreciated even if you
+have no clue what the math means, like I sure don't.
+
+It was proposed around 1637, and remained unsolved for hundreds of years.  Fermat himself supposedly wrote a note in the margin that he had a proof, however nobody knows for sure, and if it is true, if it was a joke or not.
+
+It was finally proved by English mathematician Andrew Wiles around 1993, working in largely secret, possibly to avoid ridicule for trying such an ambitiuos thing.
+
+People worked for a *long* time on this, and I think it's a wonderful example of just how deep the rabbit hole goes, and how dedicated to
+their work a mathematician is.  In the end, his proof was around 100 pages long, and understood by only a handful.
+
+I think Wile's himself expresses the feeling best:
+
+   "Some mathematics problems look simple, and you try them for a year or so, and then you try them for a hundred years, and it turns out that they're extremely hard to solve. There's no reason why these problems shouldn't be easy, and yet they turn out to be extremely intricate. [Fermat's] Last Theorem is the most beautiful example of this."
+
+   "I carried this problem around in my head basically the whole time. I would wake up with it first thing in the morning, I would be thinking about it all day, and I would be thinking about it when I went to sleep. Without distraction I would have the same thing going round and round in my mind."
+
 
 
