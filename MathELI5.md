@@ -453,7 +453,7 @@ I'm not sure what the explanation for those is, but they are well known and easy
 ## Pythagorean Theorem
 This tells you how long the long side of a triangle right triangle (One that has a 90 degree corner in it) is, given the other two sides. c is the long side, the other two
 are a and b, and they are always defined by:
-a/*/*2 + b/*/*2 =  c/*/*2
+a\*\*2 + b\*\*2 =  c\*\*2
 
 In other words, square each of the two sides, then add them, then take the
 square root of the whole thing, and you'll get the missing side.
