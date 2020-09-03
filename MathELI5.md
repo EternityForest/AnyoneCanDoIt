@@ -13,49 +13,19 @@ Alpha quality! Hasn't been fully reviewed!
 
 
 
+## Variables: Who put letters in the math?
 
-## Base systems
+Variables are placeholders, usually a letter or a word, for something you don't know yet.
 
-### Base 10
-Base 10 is when each digit has 10x the value of the last. `437`= four hundreds, three tens, and seven ones, or, more concisely, `4\*100 + 3\*10 + 7\*1 `
+Often they the "Inputs and outputs" of a formula, allowing you to state an equation that describes something general,
+even if you don't know the specific numbers you will need to input until, you actually measure them.
 
-As a note, the multiplication by one at the end is does nothing, anything times one is just the number you started with, but in programming things are sometimes writen more verbosely to make the intent clear, although mathematicians may see it as unnecessary clutter.
+I think they are also like the english "So and so" for an unknown person,
+or "Such and such" for and unknown thing, which someone might use when making aan abstract,
+general statement that isn't about any particular person, but *is* about people in general.
 
-The number of combinations of an N digit lock is 10\*\*N. For three digits, you
-start with ten choices for the first.
+They are often a single letter, but can also be words or symbols.
 
-For every possible choice, there are ten more choices, giving 100 total.
-
-For each of those 100, there are now 10 choices for the final number, giving 1000 total.
-
-Note that a real three digit number only goes up to 999, although there are a thousand possibilities, 
-because zero is the first possibility.
-
-This fact causes massive numbers of errors in programming, when people get confused by it.  They are generally known as a type of off-by-one error.
-
-### [Base 2(Binary)](https://en.wikipedia.org/wiki/Binary_number)
-Base 2 aka binary is the same thing with 2s. `1111`= one 8, one 4, one 2, and one 1
-
-Since they look the same, in programming we mark binary literals with 0b, as in: `0b11` = 3 = 2+1
-
-The number of possible combinations of N bits, is always 2 to the N.
-
-### Base 16(Hexadecimal)
-
-Hex is the same, but with 16 values, 0 through 15 and, we use ABCDEF for the extra numbers. We mark hex with 0x(I don't know why). `0xFF` = 15\*16 + 15\*1 = 255 = the max number you can fit in a byte.
-
-Now because four bits has 16 possible combinations(2 to the 4), we can use one hex digit(having 16 possible vals) to represent four bits.
-This means we can use two hex digits for 8 bits, which is a byte, which makes hexadecimal very useful for binary data.
-
-### Base 64
-This is normally represented as ASCII text, and in the usual applicaion, is a little more complicated because
-64 combinations only represents 6 bits, and bytes work with 8, meaning we must stufff three bytes into 4 characters, 
-and in some cases special padding rules apply to the decoders.
-
-Nonetheless, it is the same as the other base systems.
-
-### Non-integer bases
-These exist, but I am not going to pretend to understand them.
 
 ## Arithmetic
 
@@ -70,19 +40,6 @@ But in any case, it is rather uncommon to need to calculate something
 while you are away from a smart phone, so for the purposes of getting by
 without actually understanding it, this is entirely a computer's job.
 
-
-## Variables
-
-Variables are placeholders, usually a number, for something you don't know yet.
-
-Often they the "Inputs and outputs" of a formula, allowing you to state an equation that describes something general,
-even if you don't know the specific numbers you will need to input until, you actually measure them.
-
-I think they are also like the english "So and so" for an unknown person,
-or "Such and such" for and unknown thing, which someone might use when making aan abstract,
-general statement that isn't about any particular person, but *is* about people in general.
-
-They are often a single letter, but can also be words or symbols.
 
 
 ### Programming
@@ -236,7 +193,7 @@ the way we might expect division to work.
 "Two raised to the power of five" or "to the fifth power" or similar.
 
 It is sometimes also written as 2^5, but that symbol is also used for other things occasionally, in programming,
-so I will use Python's notation, with two stars.
+so I will use Python's notation, with two stars, to represent exponentiation.
 
 Numbers which can be written as 2\*\*something are powers of two, the first few of which are:
 1, 2, 4, 8, 16, 32, 64, 128, 256, 512,1024, 2048, 4096, 8192
@@ -286,6 +243,54 @@ x\*\*2.  If it were, it would not make the same nice continous curve the exponen
 In reality, raising to any number is just as valid as raising to an integer, the only difference as far as I know,is that integers can be explained as "X times itself Y times", but there is probably some deeper mathematical phenomena underlying it all which explains the values in between more completely.
 
 The oversimplified explanation however, is that the values in between follow the same curve you would expect them to, from looking at the integer powers, rather than following a "curve" made of straight lines between integer points.
+
+
+
+## Base systems
+
+### Base 10
+Base 10 is when each digit has 10x the value of the last. `437`= four hundreds, three tens, and seven ones, or, more concisely, 
+`4*100 + 3*10 + 7*1 `
+
+As a note, the multiplication by one at the end is does nothing, anything times one is just the number you started with, but in programming things are sometimes writen more verbosely to make the intent clear, although mathematicians may see it as unnecessary clutter.
+
+The number of combinations of an N digit lock is 10\*\*N, or "Ten raised to the power of N", meaning ten times ten, repeated N times(See Exponentiation).
+
+For three digits, you start with ten choices for the first.
+
+For every possible choice, there are ten more choices, giving 100 total.
+
+For each of those 100, there are now 10 choices for the final number, giving 1000 total.
+
+Note that a real three digit number only goes up to 999, although there are a thousand possibilities, 
+because zero is the first possibility.
+
+This fact causes massive numbers of errors in programming, when people get confused by it.  They are generally known as a type of off-by-one error.
+
+### [Base 2(Binary)](https://en.wikipedia.org/wiki/Binary_number)
+Base 2 aka binary is the same thing with 2s. `1111`= one 8, one 4, one 2, and one 1
+
+Since they look the same, in programming we mark binary literals with 0b, as in: `0b11` = 3 = 2+1
+
+The number of possible combinations of N bits, is always 2**N, or 2 times itself N times.
+
+### Base 16(Hexadecimal)
+
+Hex is the same, but with 16 values, 0 through 15 and, we use ABCDEF for the extra numbers. We mark hex with 0x(I don't know why). `0xFF` = 15\*16 + 15\*1 = 255 = the max number you can fit in a byte.
+
+Now because four bits has 16 possible combinations(2 to the 4), we can use one hex digit(having 16 possible vals) to represent four bits.
+This means we can use two hex digits for 8 bits, which is a byte, which makes hexadecimal very useful for binary data.
+
+### Base 64
+This is normally represented as ASCII text, and in the usual applicaion, is a little more complicated because
+64 combinations only represents 6 bits, and bytes work with 8, meaning we must stufff three bytes into 4 characters, 
+and in some cases special padding rules apply to the decoders.
+
+Nonetheless, it is the same as the other base systems.
+
+### Non-integer bases
+These exist, but I am not going to pretend to understand them.
+
 
 ## Logarithms
 
