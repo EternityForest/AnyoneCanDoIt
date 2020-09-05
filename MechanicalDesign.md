@@ -5,6 +5,121 @@ engineers, who build things.  If your thing could kill
 someone if it goes wrong, get a real mechanical engineer!
 
 
+## Covering Up
+
+There is one main way I know of, to build things that look decent,
+without an incredible amount of skill.  Even a simple wooden box can be much harder than it looks.
+
+The essential way of making things, if you don't have rock-steady hands,
+is to separate the structure and the visible part.
+
+Most of these methods rely on choosing an aesthetic that does not require extreme
+precision.  This causes a bit of conflict, because modernist design aims to hide nothing, 
+and show off your skill, precision, and spotlessness.
+
+However, no matter the fashion, a design that hides nothing will look bad if there are any
+imperfections.
+
+Moreover, even one tiny flaw will be incredibly visible against a near perfect backdrop.
+
+
+
+### Fabric
+
+As a textured material with a bit of randomness, and it's own structure that tends to make curved edges, and cover
+unevenness, fabric is incredibly forgiving.  the crappiest workmanship becomes invisible when covered with
+even moderately thick or coarse fabric.
+
+### Paper
+
+Paper is also forgiving, in that it is essentially the only material
+that is easy to cut precisely, and the fact that it can be printed means that designs
+are not limited to what you can draw yourself.  It can be made incredibly strong
+with my number of polymer finishes.
+
+Paper mache is mistake-resistant because it can be reshaped and remolded
+by trial and error for a long period, and because it's texture tends to hide things.
+
+When mache is done with epoxy, it essentially becomes a strong composite material,
+almost like the poor man's fiberglass.
+
+Like fabric, paper can be used to cover things make of other materials,
+hiding any imperfections.
+
+
+### Cordage
+
+Cord wrapping is one of the easiest ways to hide things of all,
+and in addition, it provides a fair amount of padding against impact.
+
+
+
+### Putty
+
+Various putties and plasters, most of all hot glue because it can
+be melting, share the ease of use of paper mache for the same reason.
+
+### Wood
+
+Bare wood does not hide mistakes.  Joints that are not perfectly square
+are almost immediately evident.
+
+
+
+## Freehand: the clumsy person's bane
+
+Some people can do amazing things with just their hands.
+
+For the rest of us, when we do anything, there should be a
+reason and a rationale for why it will work, and that reason should not include us
+directly.
+
+Anything that can't be tweaked and adjusted freely should
+be done with some sort of guide, transferring the responsibility for precision
+from ourselves, to the guide itself.
+
+
+## Stress Concentration
+
+Whenever you have a sharp corner, tight bend, or transition from
+bendy to flexible, that location specificaly, is where breakage will likely happen.
+
+Often this is especially bad because the sharp corner is at the end of something
+acting as a long lever.
+
+This effect seems to be the most common way a 3D printed part can fail.
+
+Even knots in a rope weaken it.  
+
+### Solutions
+
+* Keep it from moving
+* use something like rubber to create a more gradual bending
+* eliminate the sharp corner entirely.
+
+
+## 3D printed layers
+
+Print orientation matters.  Layers detach from each other with less force
+than trying to rip the plastic in a single layer.
+
+## Ridgidity and direction
+
+Flat bars bend up and down (Think of a springy plank a pirate might walk),
+much more than side to side.
+
+You can bend sheet metal, but if you roll it into a pipe, 
+you can't bend it nearly as easily.
+
+However, if a pipe is crushed, it may bend like a hinge.
+
+Things need to have some thickness going in the same axis as the load trying not bned them.
+
+
+
+
+
+
 ## Method of Exact Constraints
 
 This one is pretty important.  Almost everyone has
