@@ -17,7 +17,12 @@ Instead of just relying on our own ability, let's think of some ways we can stop
 
 
 This is a fairly extreme set of principles. They likely will not
-apply to every situation, and they are heavily focused on electronics and software (Though some are applicable elsewhere).
+apply to every situation.
+
+Many are mostly relevant to product design, but they also apply to the selection of existing products.
+
+They are derived from a combination of personal experience, study of mistakes of others, and adaptations
+of industry techniques like [https://en.wikipedia.org/wiki/Crew_resource_management].
 
 Nonetheless, I believe they may be useful in spotting likely issues with a plan.
 
