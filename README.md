@@ -53,6 +53,8 @@ by repeating the same method twice.
 Of course, when one method is very reliable, having two copies
 of the gold standard isn't usually a bad thing.
 
+
+
 ### "Life Experience": Is it really worth it?
 
 While we absolutely shouuld respect, listen to. and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
@@ -65,6 +67,51 @@ There are heroes who are known the world over for their resolve and toughness.  
 contributions to the world by being careful, looking at the evidence, and avoiding getting themselves into trouble, without ever willingly doing any of these "character building" things we hear so much about.
 
 Clearly, one does not need to get blackout drunk and hung over, tear a ligament at the gym, or backpack across a foreign country alone to accomplish things, and many do all those things, and wind up in quite the sad state anyway.
+
+### Always follow procedure, even when you are absolutely sure you don't need to
+
+There are multiple reasons for this.  One is that your assessment may be wrong,
+and by deviating from procedure, you leave yourself open to the consequences of your assessment, whereas
+by following it, you can succeeded regardless of the quality of your own judgement
+
+The more important reason is that it is said you will play the way you practice, and
+every time you practice doing it wrong, you make it harder to remember to do it right.
+
+You may think you are talented enough to keep it all straight in your head (and even the most
+obvious mistakes can be made by the best of us), but what about the people around you?
+
+If you drag others into your deviation from procedure, you make their lives harder.
+
+And if you are the leader, it may well be you that takes the blame for the mistakes they make.
+
+
+More generally, never drag another person, whatsoever, into your
+playing fast and loose, doing things the hard way lifestyle.  When someone
+says they can't do something your way, listen to them.
+
+### Nothing to prove
+
+If you don't want to do something, and it doesn't need to be done, there's
+no sense wasting thousands of hours to prove you can.
+
+### Nothing to hide
+
+Every secret or lie you tell will likely require maintenance.
+Perhaps with more lies, and the tower will eventually collapse.
+
+Not only this, but any slightly bad thing you do can be used as leverage by those far worse than you.
+
+The shady recesses of crooked deals, scams, petty theft, and not-quite-white lies
+are simply not worth it.
+
+A stolen item can be found anywhere, by anyone, at anytime.
+
+Not only this, but immoral actions are generally very hard to reverse,
+and have completely unpredictable consequences.  You don't know who will be angry,
+what they can do, or who will want revenge. 
+
+In every way, and on every level, even the common everyday crimes,
+hurtful actions, and lies, are a bad deal.
 
 ### Storage and Organization
 
