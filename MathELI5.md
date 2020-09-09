@@ -138,6 +138,16 @@ As an aside, some math people will insist this is very
 obvious, but like most of the stuff in this file, I only know because
 of some random Facebook meme.
 
+## Averaging
+
+The most common kind of average is the mean.  To take the mean, you add all
+the number together, and decide the result by the count of numbers you added.
+
+When you take the mean of 2 numbers, the result you get will be halfway between the two.
+
+If you average numbers in groups, then average the averages, the result is
+exactly the same as averaging all the numbers in one big average.
+
 
 ## Division
 
@@ -447,9 +457,9 @@ There is no obvious repeating patttern in the digits either, it is said that all
 
 ### Areas and Volumes
 
-Pi times the radius squared, or `pi*(r\*\*2)` gives the area of a circle, in square units. If you give the radius in millimeters, you get square millimeters, if inches, you get square inches.
+Pi times the radius squared, or `pi*(r**2)` gives the area of a circle, in square units. If you give the radius in millimeters, you get square millimeters, if inches, you get square inches.
 
-The volume of a sphere is defined by `volume = (4/3) \* (pi * radius \*\* 3)`, and the surface area by`surface = 4 \* pi \* radian \*\*2`.
+The volume of a sphere is defined by `volume = (4/3) \* (pi * radius ** 3)`, and the surface area by`surface = 4 * pi * radius **2`.
 I'm not sure what the explanation for those is, but they are well known and easy to find online.
 
 
@@ -498,6 +508,35 @@ horizontal, vertical, and front-to-back position,
 and square each one.  Add them all and square root them, and you get the 3D
 distance.
 
+### Area of a triangle
+
+The area of a triangle is half that of the smallest rectangle it would fit in, if the base of it
+ran along one of the sides of the rectangle.
+
+
+Consider a triangle with a base that is 1 unit wide.  At the tip, it has zero width.
+
+Since the lines Are straight, we could see them as lines graphing a linear function, they don't
+bend or do any bizzare stuff.  This means halfway up the triangle, the width will be 0.5,
+since the width is a linear function that goes from 1 to 0, and the midpoint of those is 0.5.
+
+Now consider we divide it into 100 slices, bottom to top.
+
+We take the bottom slice, 1, and the top slice, 0, and we find the average is 0.5.
+
+We go up a bit, and find a slice that is 0.99 wide, and the slice below the top, which is 0.01.
+
+We gain one, but we lose one.  The average stays 0.5.
+
+We know that if we average different groups of numbers, then average the averages,
+the result will be the same as if we averaged everything individually.   This means that
+the average width is 0.5.
+
+Thus it makes sense that the area of a triangle would be half the area of the rectangle it fits in.
+
+
+This is of course probably not rigorous enough to actually be a proof
+in any sense of the word, but it does somewhat explain why the formula works
 
 
 ## Geometry in mechanical design
