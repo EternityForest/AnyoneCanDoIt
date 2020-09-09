@@ -145,8 +145,17 @@ the number together, and decide the result by the count of numbers you added.
 
 When you take the mean of 2 numbers, the result you get will be halfway between the two.
 
-If you average numbers in groups, then average the averages, the result is
-exactly the same as averaging all the numbers in one big average.
+## Averaging in groups vs all at once
+
+If you average numbers in groups, then average the averages,
+the result is not always the same as averaging all the numbers in one big average.
+
+For that to give the same result every time, the number of elements of all groups has to be the same.
+
+This is one of those "The internet seems to agree it's true" things I have no explanation for.
+
+This also apparently trips up and confuses people analyzing data,
+and could even be used to intentionally mislead people.
 
 
 ## Division
@@ -508,7 +517,7 @@ horizontal, vertical, and front-to-back position,
 and square each one.  Add them all and square root them, and you get the 3D
 distance.
 
-### Area of a triangle
+## Area of a triangle
 
 The area of a triangle is half that of the smallest rectangle it would fit in, if the base of it
 ran along one of the sides of the rectangle.
@@ -526,17 +535,22 @@ We take the bottom slice, 1, and the top slice, 0, and we find the average is 0.
 
 We go up a bit, and find a slice that is 0.99 wide, and the slice below the top, which is 0.01.
 
-We gain one, but we lose one.  The average stays 0.5.
+We gain one, but we lose one. The average width of every pair of slices is 0.5, and the total
+width of every pair is 1, it's just distributed in different ways. 
 
-We know that if we average different groups of numbers, then average the averages,
-the result will be the same as if we averaged everything individually.   This means that
-the average width is 0.5.
 
-Thus it makes sense that the area of a triangle would be half the area of the rectangle it fits in.
+Thus it makes sense that the area of a triangle would be half the area of the rectangle it fits in,
+because the average thickness would seem, informally, to be half the width of the base.
 
 
 This is of course probably not rigorous enough to actually be a proof
-in any sense of the word, but it does somewhat explain why the formula works
+in any sense of the word, but it does somewhat explain why the formula works.
+
+### Relationship to rectangles
+
+Another way to see it is that a rectangle can be cut diagonally to make two triangles, which
+are obviously the biggest triangles that fit in the rectangle with the base along a side,
+and each is half the size of the rectangle.
 
 
 ## Geometry in mechanical design
