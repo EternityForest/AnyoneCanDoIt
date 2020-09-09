@@ -649,6 +649,18 @@ with sub millimeter accuracy, you probably cannot.
 If you try to, you will likely break something. And even if you don't, someone
 else probably will while trying to keep up.  Avoid this.
 
+### Writing Right
+
+A common complaint of people who feel unskilled is legible handwriting, but this
+too can at least partially be faked.
+
+Italic calligraphy is, as far as I can tell, the easiest style of writing that has
+tutorials, but ignore the whole part about keeping up a rhythm, and don't worry about using a fountain
+pen.    The "cheat" way to write legibly is to think about and plan every letter before writing it.
+
+This is fast enough for a few documents and greeting cards. Unless you are a doctor, almost anything else either doesn't need to be fast, or doesn't
+need to be neat, in the computer age.
+
 ### Get the lead out
 
 There are few luxuries that can compare to *not* having to carry 
@@ -757,7 +769,7 @@ a belief that a need for constant vigilance against them
 is "just how life is", and that it's "not worth it" to
 make the changes needed to stop it.
 
-If a mistake jappens once, it can happen again, to the same
+If a mistake happens once, it can happen again, to the same
 person, or to someone else entirely, unless something is done
 differently.
 
