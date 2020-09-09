@@ -519,8 +519,10 @@ distance.
 
 ## Area of a triangle
 
-The area of a triangle is half that of the smallest rectangle it would fit in, if the base of it
+The area of a triangle that has a right angle is half that of the smallest rectangle it would fit in, if the base of it
 ran along one of the sides of the rectangle.
+
+Apparently, *any* triangle has an area of half of (base * height), no matter the shape.
 
 
 Consider a triangle with a base that is 1 unit wide.  At the tip, it has zero width.
@@ -542,6 +544,8 @@ width of every pair is 1, it's just distributed in different ways.
 Thus it makes sense that the area of a triangle would be half the area of the rectangle it fits in,
 because the average thickness would seem, informally, to be half the width of the base.
 
+It also makes sense for this to be true even when the tip is off center and the sides aren't even.
+It's still linearly coming to a point, reaching zero width at the full height.
 
 This is of course probably not rigorous enough to actually be a proof
 in any sense of the word, but it does somewhat explain why the formula works.
