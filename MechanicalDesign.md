@@ -111,7 +111,9 @@ much more than side to side.
 You can bend sheet metal, but if you roll it into a pipe, 
 you can't bend it nearly as easily.
 
-However, if a pipe is crushed, it may bend like a hinge.
+However, if a pipe is crushed, it may bend like a hinge. This is very bad and seems to metal fatigue rather
+fast if repeated only a few times.  This effect makes male 0.1" crimp pins some of the
+most delicate connectors you can get.
 
 Things need to have some thickness going in the same axis as the load trying not bned them.
 
