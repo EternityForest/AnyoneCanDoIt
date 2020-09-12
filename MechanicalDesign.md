@@ -199,34 +199,58 @@ if regular bearings are used.  But the rod is probably a tiny bit bendy and the 
 probably have some play, and the world won't end if it's a nanometer off.
 
 
-Some bearings are so ridgid that only two creates an overconstaint. 
+Some bearings are so rigid that only two creates an overconstaint. 
 
 
 Now add a third bearing in the middle.  The rod is already totally constrained from
-pointing different ways, and the extra bearing is redundant.
+pointing different ways by the first two bearings,  and the extra bearing is redundant.
 
-You might have trouble even getting the rod through three fixed bearings.
+You might have trouble even getting the rod through three fixed bearings at all.
 
-
-Once you get it through, even if misalignment tolerate bearings are used, if the
+Once you do get it through, even if misalignment tolerate bearings are used, if the
 center one is out of line with the others for any reason, you have a problem.
 
-Again, in practice this works fine, because the assembly is either precise, or so wobbly it doesn't need to be.
+Again, in practice this works fine, because the assembly is either precise, or so wobbly it doesn't need to be, but
+if this is being made by hand or in small quantities, or will be exposed to forces that might bend things and misalign things,
+you might notice some issues.
+
 
 
 ### Peg in a hole
 
 If the peg is tight, by itself this is an overconstaint, with it's characteristic need
-for precision, or wobbly materials.
+for precision, or wobbly materials and tolerance of inaccuracy.  If things expand and contract, they get jammed or lose precision.
 
-If the peg is loose, however, it will not constrain in all directions, as the peg only touches one side of the hole.
+If the peg is loose, however, it will not really constrain in all directions, as the peg only touches one side of the hole.
 
 This means at any given time, it still has play in directions other that towards the side of the hole it's on.
 
-If it's in the middle, it's not constrained at all.
+If it's in the middle, it's not constrained at all, as it still has room to move in any direction.
 
 
 This shows how constraints can exist or not exist at different times in the same assembly.
+
+Instead of a peg in a hole, one might use a peg in a corner, only touching 2 points of the corner, and held there by a spring.
+Even if the peg is damaged, of still stays in one spot.
+
+Note that this also applies pretty much any time something fits into something that constrains it from all sides.
+
+
+I don't know the real techical reason this generates overconstaint, but my best guess would be
+that each of the walls has its own idea of where the part should be, and one must either be ignored (a loose fit), or things have
+to smash and bend, actually changing each walls "idea of where things should be" to match what's going on.
+
+
+### Two holes
+
+Often it's taken for granted that accurate pegs and holes can be made good enough,
+but what about when we have TWO pegs and holes?
+
+This is quite common when attaching wood together, but usually holes are drilled and screws are driven with everything in place, so alignment is pretty much guaranteed.
+
+Still, this is an example of overconstraint. Both holes constrain the same axes, and were the board to expand and change the distance, A whole lot of force and bending could result.
+
+
 
 
 ### Compliance and adjustability
@@ -242,10 +266,9 @@ without actually constraining it, and requiring precision.
 Subfloors can separate from floor joists over time(Possibly from warping involving some other overconstaint),
 and squeak as nails slide.
 
-clearly there is some kind of overconstraint happening, or the subfloor
-would perfectly rest on the joists.  However,the subfloor is a solid board,
+We the want subfloor to perfectly rest flat on the joists  However,the subfloor is a solid board,
 and the joists are meant to support it along the whole entire length,
-so there are effectively infinite constraints points all competing to by the high spot
+so there are effectively infinite constraints points all competing to be the "high spots"
 it actually rests on.
 
 A little warp, and, you've got a gap, and a squeak can live there!
@@ -253,6 +276,10 @@ A little warp, and, you've got a gap, and a squeak can live there!
 
 ### Sealing
 
-Trying to seal something is an example of overconstraint, as you need the whole surface of the seal to be touching.
+Trying to seal something is often an example of overconstraint, as you need the whole surface of the seal to be touching, meaning you have a lot of different
+points trying to do the same thing.
 
 This is why o rings are used, to take up the gaps that show up anyway if you don't get everything micrometer-perfect, or someone accidentally makes a tiny scratch.
+
+
+In practice, sealed parts usually work because the parts that actually do the sealin
