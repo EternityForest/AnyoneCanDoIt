@@ -267,6 +267,13 @@ mess with the older versions.
 Even a desktop computer is questionable if you aren't a hardcore gamer. 
 Think light, solid state, digitally controlled, and futureproof.
 
+Every item has some kind of cost in terms of space, maintenance time, hassle required to
+use, weight to carry, or even subscription service costs.    While the total number of items, and the level of
+complexity they add is irrelevant, the costs of these items is very relevant.
+
+A shelf of action figures may have very low cost, but a second fridge using energy and blocking
+a path may have a very high cost.
+
 ### Watch the clouds
 
 "Cloud services" are very popular, but they can disappear
