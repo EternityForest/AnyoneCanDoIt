@@ -149,6 +149,28 @@ This applies to non-physical "Material" too, like lines of code.  Anything you h
 Go with things that are cheap, common, and inert.
 
 
+### Positive Locking
+
+This probably has a well-defined engineering meaning,
+but in everyday language, a "positive" click, latch, lock, or connection is
+one that is absolute.  You cannot disconnect in any way but the intended manner without breaking something,
+and it cannot incrementally loosen over time.
+
+Consider velcro, which has varying levels of "attachedness" depending on
+how thoroughly it was pressed together, and it's age.   Or, consider a loose
+bold which can come undone by vibration, or two parts held simply by having "just the right amount"
+of friction to allow someone to wedge it in securely.
+
+Contrast this with a magnet, that will not detach unless the holding force is exceeded,
+and will not slowly come undone under vibration.  Or, the lock on a front door.
+
+Positive locks are usually held in place by physically blocking the path of something,
+friction is not particularly relevant.
+
+Screws can be considered positive under vibration-free conditions,
+but nuts and bolts can and do undo themselves in some cases if nothing is
+done to stop this.
+
 ### Don't trust Elegance
 
 Scientists and engineers LOVE simple, short, expressions of some deeper truth, that cuts right to the essence of what it means to be a pencil or a knife or a razor or something.
