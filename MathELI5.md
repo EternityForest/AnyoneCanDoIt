@@ -26,6 +26,11 @@ general statement that isn't about any particular person, but *is* about people 
 
 They are often a single letter, but can also be words or symbols.
 
+## Notation
+
+In math, you can multiply things just by putting them next to each other. 2A means "two times whatever A is".  However, programming languages don't use this syntax,
+and calculators need you to explicitly say which function you are using, so in this guide I will be using the explicit conventions, as that is what this stuff looks like in real
+life for most people. 
 
 ## Arithmetic
 
@@ -265,6 +270,7 @@ The oversimplified explanation however, is that the values in between follow the
 
 
 
+
 ## Base systems
 
 ### Base 10
@@ -462,6 +468,29 @@ If you measure a circle across it's area, and multiply by pi, you get the round 
 Pi is irrational, meaning there are no two integers you can divide to exactly produce it. It also goes on forever, you can never calculate the exact value of pi, although supercomputes know it to trillions of digits of precision.
 
 There is no obvious repeating patttern in the digits either, it is said that all of Shakespeare's work is hidden somewhere, along with digital data of every image in every format, and any other data you can imagine.
+
+
+## Circles
+
+A circle can be defined as the set of all points which are the same distance from the center.  The intersection of a cone with a flate plane paralell to the base is a circle.
+
+## Elipses
+
+An elipse is like a circle, but it has TWO centers. An ellipse is "the set of all points in a plane such that the sum of the distances from two fixed points (foci) is constant.
+
+As you get closer to one point, you will always get farther than the other. This means that you can draw one by pinning two ends of a piece of string to the centers, and
+pulling the pen so that the string is taut but not actually attatched to the pen.  Any point you can reach that way is part of the elipse.
+
+The long radius, half it's width if it is in "landscape mode", is called a, whereas the short radius, half it's height, is called b.  I don't think that mathematically a and b actually
+have to be the long and short sides, but all the examples I see have a as the long one.
+
+The sum of the distances between any point on the elipse and the two centers will always be 2*a.  This means that your string, in the aforementioned string method, must be exactly as long as the elipse should be
+wide.
+
+There appears to be no equation to exactly calculate the perimeter of an elipse.  There are good approximations, but the ones listed in tutorials are utter garbage, often 10 percent off or worse.
+
+One excellent one was discovered by Ramanujan, but apparently computers a very complicated one, by Rackaucas.
+
 
 
 ### Areas and Volumes
