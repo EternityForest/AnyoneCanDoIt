@@ -712,6 +712,22 @@ pen.    The "cheat" way to write legibly is to think about and plan every letter
 This is fast enough for a few documents and greeting cards. Unless you are a doctor, almost anything else either doesn't need to be fast, or doesn't
 need to be neat, in the computer age.
 
+### You can cheat at drawing too
+
+They say anyone can learn to draw, and that it's fulfilling enough
+to be worth it.  They're probably right, but for those of us without hours a
+day to spare, the cheat programs like Inkscape and Blender.
+
+Unlike real drawing, vector and 3D art does not require a sense of proportion
+or perspective.  If you put something in the wrong place, you can literally move a line over.
+
+If you made a line too thick or thin, you can adjust it.  You're not directly
+drawing with ink or pixels, you're working directly with shapes and lines,
+which are much simpler than the many square inches of paper badly placed mark messes up.
+
+Layers in programs like Krita have a similar effect, in that you can work on small parts of a drawing at
+a time, without messing up previous work if you get it wrong.
+
 ### Get the lead out
 
 There are few luxuries that can compare to *not* having to carry 
