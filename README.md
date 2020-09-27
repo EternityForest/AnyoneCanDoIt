@@ -127,6 +127,19 @@ Stay away from all screws aside from Torx heads. Phillips requires pressing and 
 
 Especially avoid anything involving "carefully prying". Nobody wants that.
 
+### Insanity is believing Einstein ever said that dang quote
+
+Most worthwhile progress is made by doing the same thing over and over in slight variations till the results change.
+
+This quote was never said by Einstein so far as I know, and it is fairly harmful, especially in engineering, where it is used to advocate a return to older technology before even trying to improve the newer tech.
+
+The decision to keep going or to turn back must be made with sound logic, not arbitrary observations of small numbers of situations, most of which are more influenced by outside factors than the action in question.
+
+If this quote were any more popular, we would have no musicians,because they would stop practing after a lesson or two.
+
+Rather than asking "How is this working", ask "has this worked for anyone else" and "what reasons do I have to believe this will work in the future" and "What assumptions do those reasons rely on".
+
+All too often this quote is a lazy shortcut used to dismiss things without thinking.
 
 ### Minimum Energy
 
@@ -175,17 +188,26 @@ done to stop this.
 
 Scientists and engineers LOVE simple, short, expressions of some deeper truth, that cuts right to the essence of what it means to be a pencil or a knife or a razor or something.
 
+They are mathematical theorems made concrete. No part could be added or removed and still make sense, and not much can be changed without
+totally changing the character of the whole thing.   The people that like this stuff might use the word "Perfection" to describe it.
+
 They also love to wonder why consumer products aren't built like this anymore.   To everyone else, it's obvious.
 
-Non-engineers are trying to sign a check, not marvel at your skill.  The rest of us will be bored long before we ever have a clue why you did what you did.
+Non-engineers are trying to sign a check and have stuff work, not marvel at your skill.  The rest of us will be bored long before we ever have a clue why you did what you did.
 
 And more than that, simplicity usually just moves the complexity elsewhere, namely, to the user. It's another word for "manual".
 
-Elegance is a design constraint that doesn't accomplish much.  It results in parts that perform multiple functions at different times, things that loop back on each other so that everything affects every other part, and nobody will have a clue what you're doing.
 
-It's also generally ugly and delicate, because the aesthetic parts, the function parts, and the protective parts are one and the same.  
+Elegance is a design constraint that doesn't accomplish much.  
 
-Many argue that it's just the price of fine craftsmanship, that an old 1800s writing desk was not meant to be set drinks on, but accepting that principle means putting the responsibility back on the people, rather than preventing failure at the design stage.
+It results in parts that perform multiple functions at different times, things that loop back on each other so that everything affects every other part, and nobody will have a clue what you're doing.
+
+Even untrained people can instantly recognize the genius of things like that, but most of the time, it's not practical.
+
+It's also generally ugly and delicate, because the aesthetic parts, the function parts, and the protective parts are one and the same, and can't be optimized separately 
+
+Many argue that it's just the price of fine craftsmanship, that an old 1800s writing desk was not meant to be set drinks on, but accepting that principle means putting the responsibility back on the people, rather than preventing failure at the design stage,
+where you have the best chance of stopping it once and for all, regardless of unexpected circumstances.
 
 
 ### No Guessing
