@@ -728,6 +728,56 @@ which are much simpler than the many square inches of paper badly placed mark me
 Layers in programs like Krita have a similar effect, in that you can work on small parts of a drawing at
 a time, without messing up previous work if you get it wrong.
 
+### Know your Knots(or pretend to)
+
+The usual overhand knot is often a terrible choice,
+but the others are hard to learn.  The exception is
+the common area shoelace knot, which has a verbal description that doesn't rely 
+on muscle memory at all, but it is surprising hard to find.
+
+Most people seem to have no trouble learning to tie this, but I definitely had plenty of it before finding this hack.
+
+What people use to tie their shoes is actually a doubly slipped variant of a reef or square knot.
+
+Once you've seen a picture of a square knot, it's fairly easy to remember the rhyme "Right over left, left over right
+makes a knot both tidy and tight".
+
+"slipped" variations of many knots exist, that have a "pull tab" to instantly untie it.
+
+They are almost always made by having the end of a rope retrace it's path and go back the way it came.
+
+This is usually accomplished by doubling over the end of a rope to make a loop, and the tying the final step with the loop
+inside of the end.
+
+A square knot has two ends, and so has two slipped pull tabs.
+
+This is much the same as a slipped "regular knot",made by sticking the end back through the hole, but not pulling it all the way,
+because that is how you untie it.
+
+If you can't directly remember spatial things, theory and descriptions are much easier.
+
+
+
+Another knot like this is the uni knot.  The important thing with that one is that there are three
+line segments. One down through the eye, through it, one back up along the first, and another going back down.
+
+The coiled part is around the first two, but "inside of" the final one, which is used both to get into place to start
+winding upwards, and to apply pressure to the coils so they don't uncoil.
+
+
+Sheet bends are almost the easiest way to join two ropes reasonably well. the first rope loops back on itself to make an eye.
+
+The second rope comes through the eye, from the back, then down and around the back of the "neck" of the eye loop, over the top
+coming forwards, and then down in between itself and the eye.  This one also has a slipped variant, where it goes back up in between itself and the eye to form the
+pull tab.
+
+
+
+Another extremely easy knot is the tautline hitch, but it is only easy if you are following
+a picture.  It is useful because it can be slid by hand, but will not slide under tension by itself.
+
+
+
 ### Get the lead out
 
 There are few luxuries that can compare to *not* having to carry 
