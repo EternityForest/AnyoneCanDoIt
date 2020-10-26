@@ -424,6 +424,61 @@ of the frequency.  This is not true of aliasing, which makes sines at "reflected
 
 This is why aliasing sounds harsh and unmusical.
 
+## AC and DC
+
+Technically, Alternating current is current on a wire that reverses polarity 
+on  a repeating cycle, but the terms sometimes get used in casual discussion for anything that oscillates.
+
+If we take a graph of a flat line at 5, we could say, by analogy to electronics, 
+that the DC part is 5, and there is no AC part.
+
+If we then add a sine wave that goes from 1 to -1, we
+will get a graph of a sine wave, translated(Usually a fancy term for
+"moved") up by five units.
+
+The combination of the two has an AC part of 2(measuring peak to peak), and a
+DC part of 5.
+
+You can get the DC part of any wave, given a sufficiently long sample for a good average,
+just by averaging the value at every sample.
+
+Subtracting that average from each sample gets you the AC part of the waveform.
+
+## RMS
+
+We usually measure the magnitude of an AC wave in RMS, Root Mean Squared.
+
+What this means is that for every point along the wave, we take the square root,
+then we take the average of those squares.
+
+The value will then always be positive, and reflect the power level of the signal.
+
+Why not just average the absolute value, and skip all that hassle?
+
+Well, many effects are nonlinear. In particular, the power given off as heat
+by the current in a resistor (like a old fashioned light bulb or a heater),
+varies nonlinearly with voltage.
+
+If we feed an AC voltage to one of these devices, the power it will use, is
+the same as you would get with a DC voltage at the same level as the RMS power.
+
+Things are different now that many devices actively control exactly how much
+power they use, regardless of input voltage, but remember, RMS is a mathematical
+concept that applies to more than just voltage.
+
+There are many non-linear effects, and RMS gives a very useful measure of
+"how big a wave is", even when there's no complete answer, because it's always changing.
+
+
+Nonetheless, peak to peak, the difference between top and bottom, is still a useful metric for many
+purposes.
+
+Another thing to note is that the ratio between peak to peak and RMS voltage varies with the
+type of wave, be it sine, square, or even random noise.
+
+As household electricity is measured in RMS, the real peak of the wave can be around 170 volts even though
+the nominal voltage is 120vac RMS.
+
 ## Area and volume
 
 These are measured in square units and cubic units, respectively.  A square inch is teh area of a square that
@@ -487,10 +542,20 @@ have to be the long and short sides, but all the examples I see have a as the lo
 The sum of the distances between any point on the elipse and the two centers will always be 2*a.  This means that your string, in the aforementioned string method, must be exactly as long as the elipse should be
 wide.
 
-There appears to be no equation to exactly calculate the perimeter of an elipse.  There are good approximations, but the ones listed in tutorials are utter garbage, often 10 percent off or worse.
+There appears to be no equation to exactly calculate the perimeter of an elipse.  There are good approximations, but the ones listed in tutorials are often utter garbage, often 10 percent off or worse.
 
-One excellent one was discovered by Ramanujan, but apparently computers a very complicated one, by Rackaucas.
+One excellent one was discovered by Ramanujan, but apparently computers use a very complicated one, by Rackaucas.
 
+The good approximations are probably good enough.
+
+I also have heard that the intersection of a cone and a plane that is NOT parallel to the base, will
+produce an ellipse.
+
+If the two center points are the same point, you get a circle, which can be considered a
+"degenerate ellipse".
+
+A *degenerate case* in math, as I understand it, just means it fits all the requirements it be part of some larger, more complex set of things,
+but it's properties are such that it is actually part of some simpler subset.
 
 
 ### Areas and Volumes
@@ -731,6 +796,65 @@ To quote Reddit's `r/BeagleInTheSnow`, who helpfully took a look at this draft:
  
  In the real world, it is used to describe how physical systems change (generally over time). This can be used to model the number of predator/prey in an ecosystem, the performance of stocks, the temperature and weather, the speed of your car... among many other things.
 
+### Integration
+
+When you "integrate" something in calculus, you're basically just finding the area
+under the curve that you would get, if you graphed it, although "Under" might not be the best description if there's
+negative numbers involved.
+
+### Differentiation
+
+To differentiate, or take the derivative, means to find the rate of change in a function.
+
+This produces a new function and a new graph.  For example, the derivative of a diagonal line, is just
+a flat line, because the rate of change itself doesn't change.
+
+
+### They're opposites!
+
+Now suppose you have a constant flat line at 1.   The area "under" the line, between
+1 and 0, is an infinitely long rectangle (I'm not sure if that makes sense in geometry, but it's a simple way to describe it)
+
+Let's divide it up into 1 unit long squares.  1\*1 is just 1, so every time
+we move forward by 1 step, the total area under the curve we have seen so far increases by 1.
+
+If we were to plot that integral, we would see a diagonal slope(Ok fine, a "linear function").
+
+It's slope would obviously be one unit up for every one unit forward.
+
+
+Now suppose we differentiate that slope.   The rate of change at any point is 1/1, so we get back our
+original line.
+
+### They're not about steps
+
+Calculatus allows one to mathematically and symbolically derive a new
+function that describes an integral or derivative.  When you do calculus, you
+probably aren't starting with a table of points and making another table by adding and subtracting.
+
+You start with a function, and wind up with another function.
+
+In doing so, you learn something about "What makes the function tick".  Maybe the rate of change
+speeds up over time. Maybe it slows down to zero.  This result may be practical, interesting, or even
+beautiful.   
+
+How one goes about this, I have no idea.   But powerful CAS software
+can do it for you.
+
+As I don't understand this stuff well enough to see for myself the "real beauty of the patterns all around us",
+I can really only trust that it is in fact, there, considering how many see it.
+
+
+### Gravity
+
+Gravity accelerates things by a certain number of meters per second, every second.   Wind resistance
+increases as the speed does, slowing it down.
+
+If I drop a ball, when does it land? What is the top speed it will reach if I drop it from a tower?
+
+It is easy to see why physicists and engineers love calculus so much, and how one might figure out
+when a ball hits the ground, if they understood it, or had access to the right software
+and references.
 
 ## Prime Numbers
 
