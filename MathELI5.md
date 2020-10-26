@@ -937,4 +937,21 @@ I think Wile's himself expresses the feeling best:
    "I carried this problem around in my head basically the whole time. I would wake up with it first thing in the morning, I would be thinking about it all day, and I would be thinking about it when I went to sleep. Without distraction I would have the same thing going round and round in my mind."
 
 
+## Is Math Real?
+
+Math is definitely a real tool, that can produce useful results.  But there are different schools
+of thought on if mathematical concepts are true "things" that people discover, or just techniques we invent.
+
+Many believe that "Math is the language of the universe", while some believe it is no more privleged than any other tool.
+
+The question doesn't seem to be of much practical concern, but reading a bit on Mathematical Realism
+may be an interesting insight into the minds of some mathematicians.
+
+## The Queen of the Sciences
+
+This title has been applied to math, seemingly because every other branch of science appears to use it.
+
+When doing an experiment, you want to know if you got that result by random chance.
+
+And so scientists use math to calculate what the odds of getting a certain result purely by chance are.
 
