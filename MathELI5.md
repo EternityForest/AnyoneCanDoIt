@@ -1042,6 +1042,55 @@ I think Wile's himself expresses the feeling best:
 
    "I carried this problem around in my head basically the whole time. I would wake up with it first thing in the morning, I would be thinking about it all day, and I would be thinking about it when I went to sleep. Without distraction I would have the same thing going round and round in my mind."
 
+## Imaginary Numbers
+
+These are numbers on a separate number line from the "real" ones.
+The imaginary unit, the equivalent of one, is the square root of minus one.
+
+Adding an imaginary number and a real number gives you a complex number, often seen
+as a point on the "complex plane", a 2D chart where going up means you're increasing the imaginary part.
+
+
+Surprisingly, these are extremely important, especially in electronics.
+
+Although, I can't say I have ever used one in a calculation myself.
+
+## Euler's Identity
+
+This is called "The most beautiful equation in the world".  Named for Swiss mathematician Leonhard Euler, often considered one of, or even the greatest mathematician ever to live,
+it relates 5 fundamental constants in a way that you can't help but notice something
+special about, even if you don't really understand it.
+
+The equation is: e^(i*pi)+1=0
+
+The imaginary unit, e, pi, one, and zero. Exponentiation, multiplication, and addition, often seen as three "generations" of repeated addition.
+Within that imaginary unit, we have a reference to negative one(and thus, in some views, the concept of negation), and the square root operation.
+
+Within e, we find a reference to exponential growth and decay, and within pi, we have a reference to the circle, the sine wave, 
+and many other related concepts.
+
+
+
+It shows in an instant the kind of logic mathematical minds find to be profound, and
+the kind of harmony and precision between the parts, all of which must be exactly as they are,
+by pure provable logic, with nothing added or removed.
+
+The real world is of course, messy, and trying to apply this kind of thinking
+to engineering doesn't always work.   And in fact, many of us find the workings
+of nature, or our fellow living beings, with all their irrationality and imperfection,
+to be a more relevant kind of beauty to learn about.
+
+Nonetheless, Euler's Identity holds true by pure logic, and there
+is something very interesting about the fact that people, especially so long ago,
+were able to discover it.  
+
+There are no arbitrary choices, every part fits by virtue of what the
+definition of what those parts are, and all those parts are fundamental
+constants and operations that appear over and over elsewhere, which gives us a feeling
+that this is more than just some "logic mind games" and represents a true discovery.
+
+Interestingly, according to Wikipedia, although it clearly and obviously follows from Euler's work in the 1700s,
+it is unknown who first stated it explicitly, (which to some, might further add to it's appeal as "Something that just *is*").
 
 ## Is Math Real?
 
