@@ -364,18 +364,22 @@ Some advanced algorithms are known to only get slower with the log of the input.
 
 People like these, because as we can see in the zero counting argument, the slowdown eventually
 levels off, as it takes a lot of points added on to add a single zero to
-a very large number.  Think of how much you have to add to 1000000000 to get 10000000000. 
+a very large number(And thus add another linear step to the running time).
+
+
+Think of how much you have to add to 1000000000 to get 10000000000. 
 
 It is a lot!
 
 
 These are actually better than linear time, which means they probably don't
-do something to every input, and instead skip some.  Of we did something
-with every input, unless there's a large overhead, we would usually
-expect twice the input data to take twice as long to handle.
+do something to every input, and instead skip some.  If we did something
+with every input, unless there's a large fixed overhead that doesn't change with the input, we would usually
+expect twice the input data to take about twice as long to handle.
 
 More commonly, you see things that scale with N log N, or N times the logarithm of N.
-Not sure why that seems to show up so much.
+Not sure why that seems to show up so much.   It seems to be common in advanced algorithms
+like the fast fourier transform, and other things that seem(to me) to be based on some Real Hard Math.
 
 ## Sine waves
 
@@ -658,7 +662,7 @@ even less knowledge of math is required now that there are programs like FreeCAD
 which allow you to directly enter constraints like "These two lines must be at this angle",
 and will solve everything for you in real time.
 
-I am told this is not sufficient in real large buildings with a chance of falling over of you get 
+I am told this is not sufficient in real large buildings with a chance of falling over if you get 
 it wrong, and real engineers do, or at least should do, some level
 of manual verification, probaby largely as an additional check, solving the problem
 in unrelated ways to find any errors in the reasoning.
@@ -911,6 +915,74 @@ But to most of us, it means "They REALLY have a lot of divisors. The first 15 su
 
 
 
+### Game Theory
+
+According to Wikipedia, Game theory is the study
+of mathematical models of strategic interaction
+among rational decision-makers.
+
+What this means for the non math types, is the study of situations
+where different groups make choices.  Sometimes they take turns, sometimes
+they choose at the same time, without knowing the other's choice, etc.
+
+The basic concept can be used by anyone, to look closely at how
+people handle their response to unknowns.  
+
+Few people would spend $100 a month
+on a safe deposit box to protect $1000.   After a year, you've already lost
+more than any burglar could take!
+
+A very simplified veiw of game theory allows us to calculate expected values, the average result we would expect if we "played the game"
+many many times with a certain strategy.
+
+However, if using this as a real life tool, we must be very careful about
+non-linear effects, as some possibilities are worse when considered fully, than the raw numbers would imply.
+
+Something with a positive expected value, that benefits you most of the time, but is likely
+to end with homelessness in 30% of attempts, would probably be considered not worth it
+to many, even if the possible benefits were large.
+
+
+
+### Gambling
+
+One obvious example is gambling.   Should I
+buy a lottery ticket, for 1 dollar, with a 1 in 10
+chance of winning 5?
+
+I can easily "Run a simulation" with a weighted average,
+multiplying the payoff of each scenario, by the number of times
+they occur, and dividing by the total number of events.
+
+In 9 tries out of ten, I win nothing, and 9/*0=0.
+
+In 1 out of 10, I win $5, and 5/10 is $0.50.
+
+Combine that with the $0.00 I won in the other nine, and my average
+payoff is only 50 cents.  Since every ticket costs a dollar, I
+lose 50 cents every time.
+
+Perhaps if it was for charity, or an entertaining enough spectacle to provide at least 
+50 cents of value, a rational person might buy a ticket. An important part of game theory is
+assigning values to outcomes based on the whole picture.
+
+But they should not expect to win,
+as everyone knows, the house always wins.
+
+In a real casino, the games may be designed such that most people do in fact win.  This is possible if a few people have really big losses. If ten people win a dollar, but the eleventh loses 
+$20, on average, the players are still losing money, and if one plays long enough,
+they will eventually be the loser, and lose everything they made, and game theory still
+applies, and informs us that roulette is not a substitute for a 401k.
+
+
+Because of non-linear effects, however, it has been argued that
+a rational person can in fact expect to gain from playing the lottery, because the one dollar
+ticket cost does not effect them in any practical way, while the million dollar prize definitely would.
+
+This same argument could also be used to say "I'm a thousand in debt, might as well try to win it back with my last hundred!"
+if one was a problem gambler.  But these personal value assignments are
+outside what a math guide can tell you (And if you got yourself in $1k of gambling debt, you're
+probably thinking rationally to begin with!).
 
 
 ### Fermat's Last Theorem
