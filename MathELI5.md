@@ -162,6 +162,37 @@ This is one of those "The internet seems to agree it's true" things I have no ex
 This also apparently trips up and confuses people analyzing data,
 and could even be used to intentionally mislead people.
 
+## Weighted Averaging
+
+Sometimes you want to give any to give certain values more "weight" than others.
+
+One way to do this, is to multiply every number by it's weight, add them, then divide by the
+sum of all the weights.
+
+This essentially makes "extra copies" of the numbers that are "most important" in the average.
+
+Dividing by the sum of weights is pretty much the same as dividing by the total count of items, 
+except we account for the "extra copies" we added.
+
+This technique will be important later,when we look at game theory and gambling.
+
+## Moving average
+
+To smooth out a graph, one can "slide" a window across it.
+
+At every step, we take the average of the points in the window, and add that point to our new,
+smoothed graph, in the same place as the window's center, or perhaps in the same place as the start or
+end in other applications(Such as in realtime, when you can't see the future).
+
+Stock traders like to do this, but from what I hear, they can't actually predict the market as well as
+they think.  But you might use it to far better effect, for analyzing the trend of a
+water level in a lake, while ignoring short term variations.
+
+Sometimes one even combines the moving and weighted average, and gives more weight
+to points closer to the end or center of the window.
+
+I believe that in certain configurations, the "exponentially weighted average" is equivalent to the first order filter we
+discuss later.  The first order filter has the advantage of being very easy to implement and very fast.
 
 ## Division
 
@@ -210,6 +241,9 @@ gives something other than zero. Multiplying by zero is like an "off switch" tha
 Clearly, if division by zero had a defined result, it can't be a regular number, and still work in
 the way we might expect division to work.
 
+It kind of reminds me of when physicists say that information cannot be destroyed.
+To divide by zero would remove the information about what the original number was, but preserving
+that information is part of what we accept as "division".
 
 ## Exponentiation 
 
@@ -1026,4 +1060,13 @@ This title has been applied to math, seemingly because every other branch of sci
 When doing an experiment, you want to know if you got that result by random chance.
 
 And so scientists use math to calculate what the odds of getting a certain result purely by chance are.
+
+Without math, it is often said, there really isn't any of what we call modern science at all.
+
+Famously, even some things loved by mathematicians for their purely
+abstract nature, far from any possibility of being used for anything like war,
+now have many practical uses, including many military ones.
+
+While today there are things so incredibly abstract you would not expect to see
+any practical use...  We can't predict the future, I'm no judge of the value of this stuff.
 
