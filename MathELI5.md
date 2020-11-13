@@ -304,6 +304,84 @@ The oversimplified explanation however, is that the values in between follow the
 
 
 
+## Order of Operations
+
+When evaluating a mathematical statement, the order
+you do the steps in matters.
+
+This order, in the usual notation, is PEMDAS, parentheses,
+exponentiation, multiplication and division, addition, subtraction.
+
+Therefore, to calculate 4*7+8, you do the multiplication first, then the addition.
+
+If we wanted to do the addition first, we would use parentheses, (1+2)*3 is nine, because
+we first add the two in parentheses to get three, then multiply by three.
+
+I believe that when you have a whole entire expression as a superscript for exponentiation,
+you do that entire sub-expression first, as if it were in parentheses.
+
+When using computers, of course, programming languages don't use superscripts to denote
+exponents, but it may be relevant when reading documentation.
+
+## In Programming
+
+Programming languages *mostly* follow this order as well, but some ancient ones do not, and non-mathematical
+operations also have their own place in the order, which may be slightly different between languages.
+
+However, programming is not quite the same as math, reliability and clarity matter more than creating any kind
+of compact logical statement.
+
+Often the individual sub-operations in an expression result in things that are meaningful in their own right.
+
+In addition, as we will see later, many calculations can be done by automatic solvers.
+
+Therefore, in some cases, you may find:
+```
+pricePerBox=priceEach*itemsPerBox
+totalPrice=pricePerBox*boxes
+```
+
+To be more clear than:
+"price=priceEach*itemsPerBox*boxes"
+
+
+In this example, many programmers would prefer the latter,
+but some might choose the former, and the former approach gets more and more
+appealing with larger expressions.
+
+Real mathematicians may put a high value on compactness and see
+and additional content as distractions.  But for practical use, it is up to you
+to choose wisely what should be spelled out, and what should just be implied,
+for maximum clarity, taking into account those who will read it 
+
+## RPN
+
+Reverse Polish Notation is another way of expressing math, but it is not that common.
+
+In RPN, the operation comes after the numbers.   Numbers are placed on a stack, and operations do something with that
+stack.
+
+`2 2 3 + *` means:
+
+* Place 2 on the stack, then put 2 on top, then 3
+* The + means: take the top two numbers off the stack, add them, and put the result back.
+* Now we have a 2  that was on the bottom, and the 5 we got from the addition of 2 and 3
+* Finally, the * takes both off the stack, multiplies, and leaves us with a 10.
+
+I am told it is very nice, simple, and logical, and people seem to love the programming languages
+based on this concept.  It is certainly extremely easy for a computer to parse, and has value
+on very small chips, but other than that I have a very hard time seeing the value.
+
+I'll leave the debate on which is better to the mathematical minds that value compactness, and pure "expressive power",
+but in practice, you probably won't find this kind of thing unless you seek it out.
+
+It is, however, a very interesting insight into how an algorithm can be represented.
+
+Note the fact that it is completely unambiguous, no parentheses are needed, there is no
+order of operations, yet you can always specify exactly what you want to do.
+
+
+
 
 ## Base systems
 
