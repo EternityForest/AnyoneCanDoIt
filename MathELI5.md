@@ -1096,8 +1096,58 @@ if one was a problem gambler.  But these personal value assignments are
 outside what a math guide can tell you (And if you got yourself in $1k of gambling debt, you're
 probably thinking rationally to begin with!).
 
+## Statistics
 
-### Fermat's Last Theorem
+### Standard Deviation
+
+For any set of data, this number just means "On average, how far is a number likely to be
+from the average of all values".  Note that this not the RMS value we saw earlier.
+
+I believe it is computed by averaging the absolute value of every point's distance from the the average.
+
+### Normal Distributions
+
+Normal or Gaussian distributions are also known as a bell curve.
+
+When measuring something like test scores, you don't expect that all possible values are equally likely.
+
+Instead, the father from the average you get, the less likely the result. If the average is 50, you will see 60 much
+more than 100.
+
+Many real world data sets are normally distributed.  When you graph the value against
+the likelihood of finding that value, it looks like a bell, with the high point being the average.
+
+This distribution is symmetric, higher values are just as likely as low ones, and is defined
+by two parameters: the average, and a parameter representing how spread out the values are.   It is possible
+to directly calculate that parameter for any particular standard deviation.
+
+
+#### Central Limit Theorem
+When you take lots of different random values, and add them together to make a new set of numbers, such as adding
+a hundred factors that could influence someone's test score, the distribution of the final set
+often tends to look more and more like a Gaussian distribution.
+
+Therefore, it is very widely used in modeling real world phenomena.
+
+### Exponential Distribution
+
+When you have a lot of random events from different sources, not
+like the variance in a single clock, but more like people arriving at a store,
+from different places, the intervals between those events are not gaussian.
+
+Instead, they follow an exponential distribution, with the shorter times being more common, and the longer
+times being less common.
+
+### Use in programming
+
+Generating random values that follow these distributions,
+or estimating the parameters of a data set, are common library functions in most languages.
+
+You probably won't need to calculate any of this yourself, but again, you should
+probably learn it like the math teachers say!
+
+
+## Fermat's Last Theorem
 
 The theorem itself might not seem interesting to you, but the amount of human drama and deep passion that came from it definitely makes it
 worth including in any overview of mathematics.
