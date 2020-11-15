@@ -284,4 +284,67 @@ points trying to do the same thing.
 This is why o rings are used, to take up the gaps that show up anyway if you don't get everything micrometer-perfect, or someone accidentally makes a tiny scratch.
 
 
-In practice, sealed parts usually work because the parts that actually do the sealin
+In practice, sealed parts usually work because the parts that actually do the sealing are flexible, or mass produced precisely.
+
+
+## Waterproofing
+
+Most waterproofing is just water resistant, which really just means it gets wet, but
+dslowly enough that it dries faster that it wets, in normal conditions.
+
+But water is unpredictable.  And people like me without a natural intuition for physics
+should probably not try to predict it, and aim for real, positive Waterproofing as much as possible.
+
+### Caulk
+
+This is not a glue! It can't really be trusted unless there is something holding it in place, like filling a gap.  If you try to glue
+the lid of a box on using it, it will fail, and people will wonder why the light fixture has black mold, and sizzles.
+
+
+### Bottom of The Barrel
+
+When you have completely sealed everything, and done a really good job,
+the water will not care and will probably get in anyway.  It will of course pool in 
+a big puddle.   The bottom is a convenient place to mount things, but don't. 
+
+Drain holes may be essential if you cannot afford anything like dry argon, dessicants, or solid
+state dehumidifiers.   But these have yet another problem, which is that they are the perfect inlet for
+all manner of bugs.  You can use some kind of filtering to prevent this(a screen might not be enough in some places, for all bugs),
+as long as surface tension still lets water out.
+
+Another issue is that water finds the level. If your bottom is not perfectly flat, there can still be puddling areas.
+
+### Cables are Hoses
+
+The average electric cable has lots of room for water to run, which it will do, probaby
+destroying the whole cable along it's path eventually.  Very tiny amounts are unlikely to do much,
+but cables that aren't gel-filled or something, should be assumed to be at risk.
+
+In particular, they can cary water into your enclosure.
+
+Free hanging cables will also act as surface tension conveyors for the water.
+
+### Joints
+Where cables enter, is a major at risk joint where water could get in.
+Any time there are materials not specifically meant to seal, that are sealing,
+there could be a leak.
+
+### Roofs seem to Work
+
+Of all the water resistant but not quite submersible designs, the
+roof or other slopes covering seems to be the best.
+
+In particular, Even if it is not perfectly waterproof, it keeps all *large amounts* of water
+at a distance so that it can't overwhelm the inner secondary waterproofing, and it generally
+causes any leaks to be in a predictable downward direction, with some protection from
+many angles of driving rain, with enough overhang.
+
+This of course, only works until someone turns on the sprinkler in the wrong place.
+
+And of course, they can and do leak.   They may be fine for things like those mini-libraries that 
+have their own level of water resistance, but not for things that must stay totally dry.
+
+### User Error
+
+A very common waterproofing failure is when someone just
+doesn't close something correctly. This must be made hard to do accidentally.
