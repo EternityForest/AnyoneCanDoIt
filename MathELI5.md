@@ -1220,7 +1220,7 @@ that this is more than just some "logic mind games" and represents a true discov
 Interestingly, according to Wikipedia, although it clearly and obviously follows from Euler's work in the 1700s,
 it is unknown who first stated it explicitly, (which to some, might further add to it's appeal as "Something that just *is*").
 
-## [https://en.m.wikipedia.org/wiki/Logistic_map](The Logistic Map)
+## (The Logistic Map)[https://en.m.wikipedia.org/wiki/Logistic_map]
 
 This function was meant to model population growth but shows up in lots of random places.
 
