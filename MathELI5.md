@@ -1220,6 +1220,16 @@ that this is more than just some "logic mind games" and represents a true discov
 Interestingly, according to Wikipedia, although it clearly and obviously follows from Euler's work in the 1700s,
 it is unknown who first stated it explicitly, (which to some, might further add to it's appeal as "Something that just *is*").
 
+## [https://en.m.wikipedia.org/wiki/Logistic_map](The Logistic Map)
+
+This function was meant to model population growth but shows up in lots of random places.
+
+It has the interesting property that the population, when the parameters are set right,
+will oscillate around a few specific values, and this phenomena is sometimes actually found in nature.
+
+There are several interesting videos on the topic.   The function is very simple, and plots
+a curve that may be useful in some cases, like some types of user input.
+
 ## Is Math Real?
 
 Math is definitely a real tool, that can produce useful results.  But there are different schools
