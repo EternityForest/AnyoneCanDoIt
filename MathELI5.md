@@ -128,10 +128,12 @@ Multiplying by a negative number inverts. 5 times -2 is -10. -5 times -2 is 10. 
 ## Percents
 
 Percents are pretty much multiplication. 10 percent of
-50 is the same as 10 times 0.10.
+50 is the same as 0.10 times 50. 200% of 50 is the same as 2.0 \* 50.
 
 Note that there are 100 percent steps, and 100 steps
-of 0.01 between 0 and 1, which is why this works.
+of 0.01 between 0 and 1, which is why this works.  
+
+You're just dividing the percentage by 100, to get the ratio.  
 
 This also means that percentages are reversible, because multiplication is.
 
@@ -142,6 +144,20 @@ have your phone.
 As an aside, some math people will insist this is very
 obvious, but like most of the stuff in this file, I only know because
 of some random Facebook meme.
+
+### Percentage Point Confusion Fun Times
+
+These are a very common way to confuse people. Suppose has a vote to decide what color to paint the school. Yesterday, green got 10 votes in a preliminary poll, or 1%, and today, it has 2% approval.
+
+There are three different ways to report this.  One is to say it increased by one percentage point.  Which is correct.  However, a you could also shorten that to "it increased by one percent", which would not be correct at all.
+
+You could say it has "200% of yesterday's approval", or you could say it had a "100% increase", as those 10 votes it gained are 100% of yesterday's total.
+
+Making raw data available will disambiguate this confusion, as can adding redundancy.  If I say "out of 1000 students, 1%(10 students) preferred green yesterday.  Today 20 students did, a 100% increase!", then you can see for yourself what is actually happening.
+
+Of course, in real science, words are used more precisely, and people are usually expected to know what they mean.  But in everyday writing, this stuff is well known to be confusing.
+
+
 
 ## Averaging
 
