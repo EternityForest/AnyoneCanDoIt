@@ -733,6 +733,12 @@ If you add another line directly between the points,
 you get a triangle, and you can find the length of that line
 the same as any other triangle.
 
+Unrelated note: if one calculates the total distance traveled if one literally goes across, then down, they are using
+"Manhatten Geometry", in reference to the layout of a city's street. 
+
+
+As I understand it,  No matter what route you take on a perfectly even grid of streets, you'll still need to take N steps across and Y steps down/up, so the "Manhattan distance" really does tell you the shortest possible distance if you can't travel at diagonals, even if you approximate it with a stairstep pattern.  Try it yourself on paper if you want!
+
 ### Distance between three points
 
 For reasons I don't understand, you can extend this to three
@@ -1110,7 +1116,7 @@ ticket cost does not effect them in any practical way, while the million dollar 
 This same argument could also be used to say "I'm a thousand in debt, might as well try to win it back with my last hundred!"
 if one was a problem gambler.  But these personal value assignments are
 outside what a math guide can tell you (And if you got yourself in $1k of gambling debt, you're
-probably thinking rationally to begin with!).
+probably not thinking rationally to begin with!).
 
 ## Statistics
 
