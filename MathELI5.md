@@ -1117,9 +1117,13 @@ probably thinking rationally to begin with!).
 ### Standard Deviation
 
 For any set of data, this number just means "On average, how far is a number likely to be
-from the average of all values".  Note that this not the RMS value we saw earlier.
+from the average of all values".
 
-I believe it is computed by averaging the absolute value of every point's distance from the the average.
+I believe it is computed by averaging the square of every point's distance from the the average, and then taking the 
+square root.  Why do we not just taken the average of the absolute differences?  I have no idea.  Probably because
+there's a bunch of other math that doesn't work nicely if you don't do it this way.
+
+In any case, it is similar to RMS, and as we saw earlier, RMS has properties that make it very useful.
 
 ### Normal Distributions
 
@@ -1136,6 +1140,34 @@ the likelihood of finding that value, it looks like a bell, with the high point 
 This distribution is symmetric, higher values are just as likely as low ones, and is defined
 by two parameters: the average, and a parameter representing how spread out the values are.   It is possible
 to directly calculate that parameter for any particular standard deviation.
+
+The variance is usually expressed as sigma, meaning the standard deviation, or sigma squared.  Sigma squared is also called the variance.
+
+
+
+## Operations on distributions
+
+If we measure two planks of wood, we can assume that each measurements has it's own error.
+
+But what if we stack them together? We can estimate the total length by adding out measurement, but
+how do we estimate the error in then totall?   Rather unsurprisingly, we can just add the variances of the
+two measurements to get the variance in the total.
+
+
+What if we multiply two uncorrelated and independent gaussians? The center point is just the product of the two original center points.
+
+But the variance (sigma squared) will be(I think, someone please fact check this!):
+
+varianceXY = (varianceX + averageX\*\*2) \* (varianceY + averageY\*\*2) - (averageX\*\*2 + averageY\*\*2)
+
+Does this make any sense to you? It doesn't make any sense to me, but I think the crazy nonlinear stuff may be why averaging large amounts of samples gives you a more accurate picture, rather than reducing accuracy with every sample as you add more error to the mix.
+
+Note that this equation is for variances, not the more sigma or standard deviation, and doesn't work with the sigma directly, you'll need to convert.
+
+
+
+
+
 
 
 #### Central Limit Theorem
