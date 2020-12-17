@@ -478,6 +478,14 @@ Obviously, nobody really does this anymore, but the property is still a very imp
 fundamental thing that finds use elsewhere. In fact, there are still computers
 that can add much faster than they can multiply.
 
+
+Interestingly, before logarithms and slide rules, a much more complicated thing called
+(https://en.m.wikipedia.org/wiki/Prosthaphaeresis) was used, which involved a set of identities
+or equations that let one approximate things involving multiplication, by adding and subtracting
+the results of sines and cosines.
+
+The technique was used by astronomers, who previously had to use "Long multiplication" for this purpose.
+
 ### Count the Zeros!
 
 Adding a zero to a decimal integer multiplies by ten, log10(10) is 1
