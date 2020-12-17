@@ -113,6 +113,26 @@ what they can do, or who will want revenge.
 In every way, and on every level, even the common everyday crimes,
 hurtful actions, and lies, are a bad deal.
 
+
+### Redundant Info
+
+Have you ever seen a Claymore mine that says "front towards enemy"?   How do
+you *know* that side is the front?   Most people will probably guess correctly, and in the military, one is presumably trained.
+
+But in civilian life, many of us would rather see "This side up" explicitly.
+
+In mechanical design, an excessive number of straps, bolts, and constraints can fight each other, and be a bad thing.
+
+In labeling and instruction, redundancy can be positive, because it gives multiple chances to correct an error.
+
+A "fully idiotpoofed" claymore might have both the front and back labeled as such.  You
+might not want someone who needs that kind of thing to be using a Claymore mine, but on something like a washing
+machine, it's easy to see the value.
+
+Whenever there is ambiguity, as in "Does 'push right' mean to push it from the right, or push on the right end",
+ensure that it is possible to figure out, without assuming any preexisting knowledge, even if some of that preexisting information
+seems obvious.
+
 ### Storage and Organization
 
 It's essentially *always* worth the money to buy a case for your phone. If you're gonna buy something that needs an extra adapter, buy one that doesn't if you can.  Use Bluetooth headphones instead of corded ones.
