@@ -229,6 +229,9 @@ It's also generally ugly and delicate, because the aesthetic parts, the function
 Many argue that it's just the price of fine craftsmanship, that an old 1800s writing desk was not meant to be set drinks on, but accepting that principle means putting the responsibility back on the people, rather than preventing failure at the design stage,
 where you have the best chance of stopping it once and for all, regardless of unexpected circumstances.
 
+A more extreme statement of this might be "Just right is all wrong".   When there's nothing
+to add or take away, and every piece fits perfectly, ask yourself what happens when someone drops it in the mud
+and it's not so perfect anymore.
 
 ### No Guessing
 
