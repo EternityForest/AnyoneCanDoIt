@@ -114,12 +114,14 @@ Example: You have 100 items, and you want to display a statistic like "This is m
 
 Instead, you could pass the full list to a proper sorting algorithm(Which uses code I don't understand to sort things much faster than comparing every element to every other), and simply look at how high up everything is on the list.  The second item costs more than 1% of items and less than 98%.
 
-### Scaling
+### Scaling and Gating
 
-It can also make things bigger or smaller. x *\ 0.5 is half of something, x \* 2 is twice that thing.  Because it is linear, 
+It can also make things bigger or smaller. x \* 0.5 is half of something, x \* 2 is twice that thing.  Because it is linear, 
 doing this to an audio signal will not distort.
 
 Multiplying by zero is always zero, like a closed gate letting through 0% of what tries to come in.
+
+It's easy to imagine it as a door that only "lets through" a certain fraction.
 
 ### Negative numbers
 
@@ -488,11 +490,16 @@ The technique was used by astronomers, who previously had to use "Long multiplic
 
 ### Count the Zeros!
 
-Adding a zero to a decimal integer multiplies by ten, log10(10) is 1
+Adding a zero to a decimal integer multiplies by ten.  Logarithms can count those zeros. log10(10) is 1
 log10(100) is 2, etc.
 
 1,10, 100, etc, are known as the "powers of ten" just like
-1,2,4,8 are the powers of two.
+1,2,4,8 are the powers of two.  Written in binary, the powers of two would be 1, 10, 100, etc,
+so the "zero counting" concept still holds.
+
+Note that log10(50) is much farther than the halfway point of log10(10) and log10(100) than
+you would think.  It is a nonlinear curve, and linear interpolation and halfway points won't tell you much
+about it. 
 
 ### Complexity theory
 
@@ -1109,7 +1116,8 @@ Perhaps if it was for charity, or an entertaining enough spectacle to provide at
 assigning values to outcomes based on the whole picture.
 
 But they should not expect to win,
-as everyone knows, the house always wins.
+as everyone knows, the house always wins(when averaged over the long run)
+
 
 In a real casino, the games may be designed such that most people do in fact win.  This is possible if a few people have really big losses. If ten people win a dollar, but the eleventh loses 
 $20, on average, the players are still losing money, and if one plays long enough,
@@ -1121,10 +1129,13 @@ Because of non-linear effects, however, it has been argued that
 a rational person can in fact expect to gain from playing the lottery, because the one dollar
 ticket cost does not effect them in any practical way, while the million dollar prize definitely would.
 
-This same argument could also be used to say "I'm a thousand in debt, might as well try to win it back with my last hundred!"
+Which seems reasonable to me, but this same argument could also be used to say "I'm a thousand in debt, might as well try to win it back with my last hundred!"
 if one was a problem gambler.  But these personal value assignments are
 outside what a math guide can tell you (And if you got yourself in $1k of gambling debt, you're
 probably not thinking rationally to begin with!).
+
+And of course, a dollar a week over decades adds up, although so do the smaller prizes you will likely win even if you
+don't hit the jackpot, partially offsetting that.
 
 ## Statistics
 
@@ -1145,7 +1156,7 @@ Normal or Gaussian distributions are also known as a bell curve.
 
 When measuring something like test scores, you don't expect that all possible values are equally likely.
 
-Instead, the father from the average you get, the less likely the result. If the average is 50, you will see 60 much
+Instead, the farther from the average you get, the less likely the result. If the average is 50, you will see 60 much
 more than 100.
 
 Many real world data sets are normally distributed.  When you graph the value against
