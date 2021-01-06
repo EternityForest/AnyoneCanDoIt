@@ -44,7 +44,7 @@ It's generally pretty good.   Your biggest issue is likely to be with Nvidia gra
 drivers.  Test everything in live USB mode to ensure you can make it work!
 
 
-===== Desktops =====
+## Desktops
 
 On Linux, everything you see on the screen is normally provided by the Desktop Environment.  When you install Linux, the DE is usually included, but can be freely swapped out, like changing the launcher on Android.
 
@@ -58,7 +58,7 @@ Cinnamon is similar, but simplified and missing some features. It's included wit
 GNOME is a bizzare mashup of Android and maybe MacOS inspired design, that apparently has good touchscreen and accessibility support for those with disabilities, but I would otherwise stay away.  It comes with vanilla Ubuntu.
 
 
-===== Distros =====
+## Distros
 
 As a free OS, there are many versions and variants available based on the core Linux Kernel, called distros.
 
@@ -88,7 +88,7 @@ The other important thing about distros is that almost none of them are truly li
 There's no need to "Graduate" from the easy distros, even for professional users.
 
 
-==== Ubuntu Family ====
+### Ubuntu Family 
 Kubuntu, Mint, Pop!_os,  and KDE Neon are all perfectly good.
 
 Coming from windows, you won't find any surprises.
@@ -99,7 +99,7 @@ This upgrade process is usually painless, but has a chance to go wrong, just lik
 
 The advantage is much greater consistency.  The fixed releases are stable platforms for developers, not moving targets, and the goal is that things break far less, even if you forget to update for a long time.
 
-=== Snap Packages ===
+#### Snap Packages 
 The major complaint is the use of Snap packages for many things on Ubuntu and Kubuntu, but not as much on most of the derivatives.
 
 Snap packages are a new way of distributing software, heavily pushed by Canonical, Ubuntu's company.
@@ -121,7 +121,7 @@ I would personally be totally in favor of snaps, if they would open source the s
 
 As is, I'd suggest not purposely going out of your way to use snaps, and to consider using  Mint or Pop!.
 
-==== Arch and Manjaro ====
+#### Arch and Manjaro 
 
 Arch seems to be the most popular distro among enthusiasts.  They promote them heavily, but this is NOT an easy distro. It doesn't even include an installer!
 
@@ -131,7 +131,7 @@ Even it's consumer friendly derivative Manjaro may not be as easy as others, alt
 
 The reason is the rolling release.  New packages are delivered continually, and with more frequent updates, leading to less testing happening before you get the software.  More changes means less predictability, but more features.
 
-===== The Software =====
+## The Software 
 
 The best part about Linux is all the great software!
 
@@ -155,18 +155,18 @@ PCB Design: LibrePCB
 
 
 
-===== Dual Booting ======
+## Dual Booting 
 
 You can have Windows and Linux on one machine.  But Windows may break Linux.  You won't lose files, but you'll need to repair the boot info on your disk, and it will be annoying.
 
 
-===== The UNIX philosphy =====
+## The UNIX philosphy 
 
 If you hand out with older Linux users, you'll hear this a lot.  Basically, it means that programs should be small and easily connected by the user as needed on the command line, rather than large premade apps that handle your entire workflow.
 
 It is, of course, a philosphy, and opinions vary on whether it is useful.  I personally do not believe in it at all, but many will throw it around as an unqualified, absolute good.
 
-===== Systemd =====
+## Systemd
 
 One thing to be aware of is the controversy surrounding systemd.  Systemd replaced sysvinit, a core bit of system software, in most Linux distros.
 
