@@ -43,120 +43,146 @@ Just use Etcher for single distros, but check out multibootusb to pack two versi
 It's generally pretty good.   Your biggest issue is likely to be with Nvidia graphics, or A few specific WiFi
 drivers.  Test everything in live USB mode to ensure you can make it work!
 
-## Distros 
 
-There is not one single "Linux OS".  
-People have made thousands of variants, called Distros.
+===== Desktops =====
 
-The distro you choose will affect your experience *greatly*.  If you want the quick answer,
-I'm going to say you should go download Kubuntu or Mint, and not spend too much time looking at the others.
+On Linux, everything you see on the screen is normally provided by the Desktop Environment.  When you install Linux, the DE is usually included, but can be freely swapped out, like changing the launcher on Android.
 
-The act of switching between them rapidly is known as distro hopping.  It's somewhere between a hobby, a meme,
-an educational pursuit, and an addiction.  I wouldn't suggest doing too much of this!
+There are really only three DEs I would suggest bothering with. KDE, Cinnamon, and Gnome.
 
-Although there are thousands, the vast majority are not worth your time
-In fact, you probably already know most of the ones that are.  Being free, anyone
+
+KDE is windows-like, very easy, and extremely customizable.  It would be my top suggestions for most, although you may need to install it yourself from the "app store" if your chosen distro doesn't come with it. It is included with Kubuntu.
+
+Cinnamon is similar, but simplified and missing some features. It's included with Mint, and is honestly probably good enough for most.
+
+GNOME is a bizzare mashup of Android and maybe MacOS inspired design, that apparently has good touchscreen and accessibility support for those with disabilities, but I would otherwise stay away.  It comes with vanilla Ubuntu.
+
+
+===== Distros =====
+
+As a free OS, there are many versions and variants available based on the core Linux Kernel, called distros.
+
+The act of switching between them rapidly is known as distro hopping, somewhere between a hobby, educational experience, and addiction.  I'd suggest not doing too much of this.
+
+Although there are thousands, the vast majority are not worth your time.
+
+In fact, you probably already know most of the ones that are. Being free, anyone
 Can make one, but very few people can make one well, as that takes an incredible amount of effort.
 
 
 The biggest ones are mostly all variants of Ubuntu, itself a variant of Debian. If you're wondering what distro
 to use and just want the easy one word answer, it's probably Kubuntu or Mint.
 
-Do *not* trust DistroWatch.  They do not track what people are using, they track search
-traffic.  You do not want the distros that people read about a lot!  The reliable ones being
-used at home and in industry get a moderate and steady flow of traffic, people are too busy using
-them to discuss details online.
+Do *not* trust DistroWatch. They do not track what people are using, they track search
+traffic. 
+
+You do not want the distros that people read about a lot! The reliable ones being
+used at home and in industry get a moderate and steady flow of traffic. People are too busy using
+them to discuss details online, and they rarely break, so the support forums may look quiet.
 
 Top DistroWatch distros are very likely to be the shiny new toy for distro hoppers, rather than
 a solid and reliable platform.
 
-### Arch 
+The other important thing about distros is that almost none of them are truly limited.  They can all do just about anything Linux can do.  The big difference is in community support, and in how much is preconfigured.
 
-This seems to be the most popular distro among enthusiasts. It
-has no installer, you install yourself with a sequence of commands.  This is perfectly
-fine, according to the fans.
-
-It is not an easy distro.  It is advised that you read the forums before
-updating any software, to be sure you don't break something.
-
-It is loved for how much you learn while using it, and for it's up-to-data packages, but
-that's not always a good thing.
-
-You definitely *cannot* get by on this one without using the command line, although you probably can on
-Manjaro.
-
-#### Manjaro
-
-This is built on Arch,but with a lot of things preconfigured. It
-is easy enough for just about anyone, they say, but it still has some remnants
-oof it's Arch heritage.
+There's no need to "Graduate" from the easy distros, even for professional users.
 
 
-### Ubuntu Family (Ubuntu, Mint, Pop, Kubuntu)
+==== Ubuntu Family ====
+Kubuntu, Mint, Pop!_os,  and KDE Neon are all perfectly good.
 
-This is what I would very strongly suggest.  Kubuntu has the
-most full featured UI thanks to KDE Plasma, but you can install that later on others.
+Coming from windows, you won't find any surprises.
 
+They use fixed point releases, meaning there are discrete versions, like windows, that recieve updates for a time, and then are deprecated, and you must upgrade.
 
-They are extremely popular, and designed for stability.
+This upgrade process is usually painless, but has a chance to go wrong, just like it does on Windows.
 
-One notable thing is that they are fixed release.  Like windows,
-there are versions that come out periodically.  With Arch, there is one
-Arch that gets constant upgrades, so there is no true stable platfom.
+The advantage is much greater consistency.  The fixed releases are stable platforms for developers, not moving targets, and the goal is that things break far less, even if you forget to update for a long time.
 
-The downside is that you will need to upgrade between fixed point. This is extremely easy if
-you stick with LTS(Long Term Service) releases. Those are the ones generally suggested for most users.
+=== Snap Packages ===
+The major complaint is the use of Snap packages for many things on Ubuntu and Kubuntu, but not as much on most of the derivatives.
 
+Snap packages are a new way of distributing software, heavily pushed by Canonical, Ubuntu's company.
 
-There is of course, a chance that something breaks when upgrading, but
-Arch can also break when upgrading packages.
+Snap packages use a lot of storage space, and have an automatic update feature that you can't disable.   But most things, with the exception of the Chromium browser, are still non-snapped.
 
-### Rescue-oriented distros
-
-There are many distros specifically meant to repair broken systems. It may be worth it
-to have one, but Linux shouldn't break much.
+Chrome itself is still non-snapped, if you are fine with using Google's proprietary browser.
 
 
-## Systemd
-
-This is probably the very biggest controversy in Linux, which is most likely completely irrelevant to you.
-I only mention it here because of how often it comes up in discussion,  causing new users to think they need to avoid it.
-
-What happened was a core piece of system software, known as sysvinit, was replaced with  systemd in most popular distros, about 5-10 years ago,
-and a lot of people got angry.
-
-The important thing to note is that most professional large scale users seem to love systemd.
-
-But, if you want to be part of the community, it's important to understand the depths of
-hate some people feel for it.
-
-The big complaint is that it's too big.  Old school Linux fans
-like software to be small, and assembled by the user to fit the application.
-
-The other big complaint is security.  There was, and may still be, a few bugs, mostly patched in a hurry,
-but the attitude of the dev team scared many.
-
-The biggest one I can think of, is that configuring a service to autorun under a non-existent user's account,
-resulted in that service running with full Admin privileges.
-
-Fairly obscure, and the team has reasons for this, and systemd actually includes many security sandboxing features.
-
-But to the "Keep a loaded gun in case the printer gains sentience" types, or anyone who's primary focus with Linux is security,
-they may be uncomfortable with things like that, and doubly uncomfortable with the sometimes dismissive attitude of the devs.
-
-Another issue is that some claim systemd was "forced" on them, because popular distros dropped support for non-systemd alternatives.
-
-As of now, however, systemd free distros like Devuan still exist, although some are afraid there won't be enough interest to
-maintain them indefinitely.  It takes more development resources to support more than one system, and standardization and consistency
-was one of the main reasons people wanted to switch to systemd in the first place, so I find it hard to blame anyone for dropping support.
-
-systemd has some major benefits.  It provides and integrated and standardized way to 
-manage things, that were originally done by piecemeal assemblies of tools and scripts, and the majority
-of people complaining about systemd just don't like anything large and Integrated.
-
-Most people seem to like, or not mind it. It most likely will have no effect on your experience as a normal user.
-Even Arch, the premier tinkerers and DIYers distro, accepts it.
-
-But if you really want to do something else, there are alternatives.
+In practice, it's mostly fine.   Auto updates download in the background, and the switch is  near instant, so you likely won't see any big issues.  There's even a new feature that disables updates while apps are running.
 
 
+But it is something to keep in mind, especially as the app stores and even command line tools, if you choose them, will install snaps for you when you expect traditional packages, for certain apps.
+
+
+Of course, the advantage of all this, is that you get up to date packages in a much more reliable format, because packages include everything they need, and you don't run into compatibility issues with other packages.
+
+I would personally be totally in favor of snaps, if they would open source the snap server code, and allow us to disable auto-update.
+
+As is, I'd suggest not purposely going out of your way to use snaps, and to consider using  Mint or Pop!.
+
+==== Arch and Manjaro ====
+
+Arch seems to be the most popular distro among enthusiasts.  They promote them heavily, but this is NOT an easy distro. It doesn't even include an installer!
+
+They even recommend reading forums before installing updates, so you don't break things.  They also recommend you definitely don't forget to update for too long, or you may face problems when you finally do.
+
+Even it's consumer friendly derivative Manjaro may not be as easy as others, although it is said to be perfectly usable for non-technical people.  I still don't trust the reliability quite as much.
+
+The reason is the rolling release.  New packages are delivered continually, and with more frequent updates, leading to less testing happening before you get the software.  More changes means less predictability, but more features.
+
+===== The Software =====
+
+The best part about Linux is all the great software!
+
+Linux allows downloading from the internet, like windows, or installing from trusted repositories through an app store or command line.
+
+For the most secure experience, use the trusted repos!
+
+Here's some free apps you should know, most of which you can pick up and use without reading the manual:
+
+Programming: VS Code
+Image Editing: Krita or Gimp
+Sync Files between machines: SyncThing
+
+Make backups: Back in Time
+Spreadsheet, word processor: LibreOffice
+
+3D Modeling: Blender
+CAD: RealThunder's FreeCad variant Assembly3
+
+PCB Design: LibrePCB
+
+
+
+===== Dual Booting ======
+
+You can have Windows and Linux on one machine.  But Windows may break Linux.  You won't lose files, but you'll need to repair the boot info on your disk, and it will be annoying.
+
+
+===== The UNIX philosphy =====
+
+If you hand out with older Linux users, you'll hear this a lot.  Basically, it means that programs should be small and easily connected by the user as needed on the command line, rather than large premade apps that handle your entire workflow.
+
+It is, of course, a philosphy, and opinions vary on whether it is useful.  I personally do not believe in it at all, but many will throw it around as an unqualified, absolute good.
+
+===== Systemd =====
+
+One thing to be aware of is the controversy surrounding systemd.  Systemd replaced sysvinit, a core bit of system software, in most Linux distros.
+
+The important thing to note is that the big players overwhelmingly choose systemd. The people who hate it are a significant, but small minority.
+
+
+There were a few security issues, as with any software, which got resolved.
+
+Some people take offense to what they see as the developer's dismissive attitude.
+
+Most just don't like that it's large and Integrated. They see it as being too much like Windows, not following the UNIX philosphy, etc.
+
+Some also feel it was "forced on them", because large companies don't want to spend the resources to keep support for sysvinit, and they frame it as an issue of freedom.
+
+As I see it, they really aren't obligated to maintain support for something very few people want, and there are in fact, several community supported distros for systemd-haters.
+
+You can probably safely ignore any and all discussions of, or related to, systemd, unless you are developer.
+
+I personally think systemd is one of the best things to happen to Linux in decades, and I wouldn't touch a distro without it.
