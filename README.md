@@ -161,6 +161,19 @@ Rather than asking "How is this working", ask "has this worked for anyone else" 
 
 All too often this quote is a lazy shortcut used to dismiss things without thinking.
 
+
+### Watch your Wallet(And other similar things like it)
+
+Always have a backup plan for highly critical items. Assume you will lose them at the worst possible time.  Have things like Kroger's mobile payment app ready-to-go should you find yourself with a full card or groceries, and no way to pay for them.  I didn't, and spent a half an hour installing the app in the middle of QFC one day when I left my cards at home, thanks to a crappy and worn out wallet.
+
+The only reason I was able to do that?  I had the card info saved in Chrome, and the security code written in an old notetaking app.
+
+Things like that slightly increase your risk of fraud. But this must be considered against the odds and results of losing a card at just the wrong time, and the effectiveness of fraud protection.
+
+Similarly, you can hide a backup set of keys in a backpack pocket or even an outdoor safe, if you find one you consider secure enough.
+
+Your phone, too, is not perfectly immune from being lost or stolen.  Use the best case you can find, enable any tracking features you want, and be sure to back up all data.
+
 ### Minimum Energy
 
 Don't use dynamite. Or rat poison. Or High voltages, or big strong springs, or giant hydraulics, or anything else with real power behind it, unless you actually need it.
