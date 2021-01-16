@@ -4,7 +4,8 @@ Here's what you should know!
 
 ## The Terminal
 
-This is the one that scares new users the most, but the good news is, you can just ignore it.
+This is the one that scares new users the most, but the good news is, you can just ignore it most of the time.
+Modern Linux doesn't require terminal use much more than Windows does.
 
 The console is useful for many things.  The main thing is that a sequence of actions
 can be written and shared with others,and another great feature is that you can log in
@@ -62,7 +63,7 @@ GNOME is a bizzare mashup of Android and maybe MacOS inspired design, that appar
 
 As a free OS, there are many versions and variants available based on the core Linux Kernel, called distros.
 
-The act of switching between them rapidly is known as distro hopping, somewhere between a hobby, educational experience, and addiction.  I'd suggest not doing too much of this.
+The act of switching between them rapidly is known as distro hopping, somewhere between a hobby, educational experience, and addiction.  I'd suggest not doing too much of this.  If you're looking for easy, ome size fits all kind of answers here, just use Linux Mint.
 
 Although there are thousands, the vast majority are not worth your time.
 
