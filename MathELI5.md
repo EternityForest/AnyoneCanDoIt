@@ -864,6 +864,9 @@ always a fraction of that distance.
 
 ![RC Lowpass filter](images/math/rc_lowpass.png)
 
+
+
+
 ## Algebra
 
 As typically encountered, algebra is the fact that you 
@@ -927,6 +930,15 @@ unknown variables you are looking for, and is called an overdetermined system.
 This conflict is similar to the same kind of thing in
 an overconstrained machine design.
 
+### Approximation
+
+CAS can't solve something? You can't either?  Often times, rather than actually doing the algebra,
+people will use approximations done by "Optimization Algorithms".  This amounts to extremely fast, computer aided trial and error.
+
+Features like Excel/LibreOffice Goal Seek can help you find the question, when you know the answer, looking for the
+inputs to an equation that will give the output you want.
+
+They have limitations, but they are a very good tool to know about.
 
 ## Calculus
 
@@ -1138,6 +1150,16 @@ And of course, a dollar a week over decades adds up, although so do the smaller 
 don't hit the jackpot, partially offsetting that.
 
 ## Statistics
+
+### Regression
+
+A very common operation, given a bunch of data points, like "temperature vs lattitude", is to find a simple equation, like a line, that best expresses the general pattern, even though the real-world data is not perfectly on some nice graph and has plenty of randomness.
+
+This is usually called "Linear regression" in the case of a linear equation, or "Polynomial regression" when looking for more complicated patterns that can have curves in the graph using a polynomial equation.
+
+It is easy to fool yourself and get patterns that have nothing to do with reality, if you are not careful in choosign what kind of regression to use, the "degree"(kind of like the "resolution" or "complexity", having to do with the number of terms in the equation) of the polynomial.
+
+However, the tools to do this are built into spreadsheet apps and can be found online, and you may at some point find that even a basic linear regression could help you make sense of noisy measurements.  Even without really understanding statistics, it may be better than a random guess!
 
 ### Standard Deviation
 
