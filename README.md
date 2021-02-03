@@ -575,6 +575,29 @@ A proper module system is seamless, and trivial to reconfigure, but this is ofte
 achieve.  Beware of building toolkits to build another tool to do something,
 and mislabeling them as directly usable tools.
 
+
+Some people claim that engineering a brand new solution
+is a good thing, because of the increased power and flexibility.
+
+The trouble is, this throws away a major advantage of
+technical solutions.  Traditionally, they are never deployed
+outside a lab without hours of testing.
+
+However, modular systems like UNIX shell pipelines can't
+be developed offline and extensively tested before real deployment.
+It would just take take far too long to triple check and peer review
+every command.
+
+However, less flexible tools like Etcher(as opposed to dd) CAN be thoroughly tested, as they
+aare meant to solve a common problem once and for all, and get used enough
+to be worth testing.
+
+Note that that the issue has nothing to with simplicity. Massively
+complicated things can still be thoroughly tested if there is the economics
+to support it, but ad-hoc solutions rarely get a proportional level of scrutiny regardless
+oof how simple they are.
+
+
 ### Watch out for tasks involving listing or counting scattered elements
 
 Tasks like "Count how many cars are in that parking lot" are very difficult because
