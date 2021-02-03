@@ -195,6 +195,37 @@ This applies to non-physical "Material" too, like lines of code.  Anything you h
 Go with things that are cheap, common, and inert.
 
 
+### Avoid hidden state
+
+Hidden state is anything that has a variable condition, such as a door that can be open or closed, but which does not make that state visible, or makes it insufficiently visible.
+
+
+Appliances that get hot should have power lights.  Just as you shouldn't trust a person to do something later, you shouldn't trust a person to check on something later.
+
+There should not be any "Do X, then check Y" steps. X should obviously and instantly fail if Y is in the wrong state.
+
+Ideally, all things should return to a default safe state if left unattended.
+
+
+### Nondestructive Verifiability 
+
+A related, and possibly more important concept, is that you
+should always be able to verify that something was done correctly after it has
+been done, without undoing it.
+
+At most houses, one cannot check if they left the iron
+on, without opening the doors.
+
+The state is not exactly hidden, but the result is that there is no
+state in which things are both guaranteed to not change,
+and inspectible.  This creates a big problem, because once
+the task is done, you must rely on memory or documentation,
+and unless you videotaped everything, documentation can be forged,
+making it impossible to prove that the task was done correctly.
+
+This is often not practical to solve without online sensors,
+but occasionally can be resolved with transparent covers.
+
 ### Positive Locking
 
 This probably has a well-defined engineering meaning,
@@ -410,16 +441,6 @@ Things are not guaranteed to behave as they did in testing in all cases.
 
 If it works in a test, but theory says it will fail, watch out.
 
-### Avoid hidden state
-
-Hidden state is anything that has a variable condition, such as a door that can be open or closed, but which does not make that state visible, or makes it insufficiently visible.
-
-
-Appliances that get hot should have power lights.  Just as you shouldn't trust a person to do something later, you shouldn't trust a person to check on something later.
-
-There should not be any "Do X, then check Y" steps. X should obviously and instantly fail if Y is in the wrong state.
-
-Ideally, all things should return to a default safe state if left unattended.
 
 
 ### No Ordering dependancies
