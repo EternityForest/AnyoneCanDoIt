@@ -1242,6 +1242,25 @@ You probably won't need to calculate any of this yourself, but again, you should
 probably learn it like the math teachers say!
 
 
+
+## Do Boring Numbers Exist?
+
+The Interesting Numbers Paradox goes something like:
+
+Suppose there are boring integers, and some clear way to tell the difference between
+interesting and boring numbers.
+
+If we start counting, eventually we will reach a boring number.
+
+However, it will have the distinction of being the smallest boring integer,
+and therefore it will not actually be boring at all.
+
+I'm not sure how many times you can repeat the process, calling
+the next one interesting for being the new lowest boring number, before
+one gets bored of the whole process, but some might argue that it never ends.
+
+"Every positive integer is one of Ramanujan's personal friends." —J. E. Littlewood, according to some sources
+
 ## Fermat's Last Theorem
 
 The theorem itself might not seem interesting to you, but the amount of human drama and deep passion that came from it definitely makes it
