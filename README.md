@@ -161,6 +161,23 @@ Rather than asking "How is this working", ask "has this worked for anyone else" 
 
 All too often this quote is a lazy shortcut used to dismiss things without thinking.
 
+### Stopping the Dropping
+
+Dropping things is always a hassle, made worse by the fact that people will advise you to be more careful next time,
+and never explain how.
+
+The easy way is to examine how you are holding things and take note of the points of failure.  If you are relying on friction, a little less pressure for even a moment will cause a slip.  If you rely on gravity, any tilt will cause you to drop it.
+
+Pay attention to the margin of error.  The goal is to put as much distance as possible between you and an accident. Be sure that small movements can't result in a drop.  I like to wrap a finger around the handle of a cup, amd additionally put my pinky underneath for a very slight bit of extra protection, if I'm going to be walking around a lot.
+
+
+Next, consider what happens if you DO drop something. The higher up, the more damage. So avoid unnecessary fussing witu things above a high drop.  Always use wrist and neck straps when available. Always use protective cases.
+
+Dropping things is one of the most common mistakes, and it's rarely answered with a real plan.
+
+
+
+
 
 ### Watch your Wallet(And other similar things like it)
 
