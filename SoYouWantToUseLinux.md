@@ -58,6 +58,15 @@ Cinnamon is similar, but simplified and missing some features. It's included wit
 
 GNOME is a bizzare mashup of Android and maybe MacOS inspired design, that apparently has good touchscreen and accessibility support for those with disabilities, but I would otherwise stay away.  It comes with vanilla Ubuntu.
 
+### When Swapping Goes Wrong
+
+There are two problems I know of that can happen when swapping your browser. One is that it could simply not work,
+or require fussing.
+
+The second is that it seems to, as of 2021, be able to interfere with browser sync.  I'd suggest not swapping
+too much if you use sync for e everything like I do.
+
+
 
 ## Distros
 
