@@ -133,6 +133,23 @@ Whenever there is ambiguity, as in "Does 'push right' mean to push it from the r
 ensure that it is possible to figure out, without assuming any preexisting knowledge, even if some of that preexisting information
 seems obvious.
 
+### Firebreak points
+
+I forgot my mask one day.  In the process of buying one
+in a hurry, I lost my wallet.
+
+Mistakes generally cause other mistakes.  Things propagate via
+chains of cause and effect.  To control this, one can avoid
+ever having long continual periods of time with a scheduled plan.
+
+Even if there is no reason to suspect a problem, reserve time is critical for
+preventing error propagation.
+
+These reserved time periods should ideally be absolutely as empty as
+possibly and truly reserved for future assignment, nothing that can't
+be cancelled should be planned for them, and they should not be outside of
+and in addition to any extra time allotted for any particular project.
+
 ### Storage and Organization
 
 It's essentially *always* worth the money to buy a case for your phone. If you're gonna buy something that needs an extra adapter, buy one that doesn't if you can.  Use Bluetooth headphones instead of corded ones.
