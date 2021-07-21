@@ -1076,7 +1076,7 @@ But to most of us, it means "They REALLY have a lot of divisors. The first 15 su
 
 
 
-### Game Theory
+## Game Theory
 
 According to Wikipedia, Game theory is the study
 of mathematical models of strategic interaction
@@ -1102,6 +1102,31 @@ non-linear effects, as some possibilities are worse when considered fully, than 
 Something with a positive expected value, that benefits you most of the time, but is likely
 to end with homelessness in 30% of attempts, would probably be considered not worth it
 to many, even if the possible benefits were large.
+
+#### Fair Division
+
+The classic "Billy cuts and Kate chooses" way of dividing a peanut butter sandwich is just one of many ways of dividing things.
+These are the subject of mathematical study, and many more complex scenarios have been studied.
+See: (https://en.wikipedia.org/wiki/Fair_division)
+
+
+### Social Choice Theory
+(https://en.wikipedia.org/wiki/Social_choice_theory) is the branch of math that deals with elections.
+
+There are many desirable criteria for an election system, some of them impossible to satisfy at once.
+
+Some of them include the idea that anyone who is preferred by more voters than any other candidate should be the winner, and
+that many people would prefer not to have a system where vote splitting is likely to occur.
+
+In that scenario,2 very similar candidates A and B who are generally liked by most people can each get 30% of the votes,
+while a third one, who may even be disliked by the 60% total who voted for one of A or B, can nonetheless win with only 40% of the vote.
+
+In this scenario the election may be considered fair, as the person with the most votes won, and yet the result may still be undesirable to 60% of the population.
+
+
+Other desirable qualities include reducing the desire for "tactical voting", wherein one votes for someone they prefer less, because they do not believe their 
+preffered candidate can win.
+
 
 
 
@@ -1242,6 +1267,55 @@ You probably won't need to calculate any of this yourself, but again, you should
 probably learn it like the math teachers say!
 
 
+## Control Theory
+
+This branch of mathematics is exactly what it sounds like. Things like drones and hoverboards use it to know how much of what
+outputs to apply(Wheel speeds, propeller thrust, heater power, etc) to get the right result(Holding a position, keeping balanced, maintaining temperature).
+
+### PID Control
+
+The most famous thing in control theory is perhaps the PID controller, which stands for proportional, integral, and derivitive, three operations
+used simultaniously to correct different errors.  Generally the error is a value representing the difference between actual and desired temperature, position, etc.
+
+The proportional term applies an amount of correction proportional to the amount of error.  The intergral term applies a correction based on the integral of
+the error.  If the error remains steady, it will gradually increase the correction until it goes away.
+
+The derivative term looks at the change in the controlled variable.  If the error is actively increasing, we need to apply more correction.
+
+### Why 3 terms?
+
+To see why P,I,and D are all used together, let's look at what happens when we leave some out(As is commonly done in simple cases).
+
+### P only
+
+Your boat should be sailing at a heading of 5 degrees, but the wind is pushing you more towards 7 degrees.  The system applies a correction via thrusters or rudders, but it is not enough.  Your boat stays steady at 6 degrees.   
+
+#### Let's crank it up!
+You *could* just turn up the gain, increasing the amount of corection per ammount of error.  This would certainly give enough correction to stay on course.
+But, if you were to do that,  what happens when the error is not 2 degrees but 10?  You might get a moure violent turn than you wanted, or even overshoot end swing from side to side in a cycle!
+
+## Delay and Oscillation
+
+This swinging is especially likely if there is a delay between action and reaction, or in your ability to detect the reaction.  Imagine increasing the size of
+a fire to heat a room.  You may not practically be able to increase or reduce the size as fast as you want. So if it's really cold, and you make a big fire,
+the room may be warmer than you want by the time the logs are used up.
+
+If you then only put a few logs on at a time, it might get cooler than you want by the time you notice and go get more logs.
+
+See (https://en.wikipedia.org/wiki/Barkhausen_stability_criterion) for an example of how much fancy math has gone into the subject of stability.
+
+
+### The "I" in PID
+
+When we add an integral term, the controller is able to "look at it's history" and "see" that the 1 degree error is still there. The integral term
+will just keep on increasing(Up to some limit, in the real world), till the error goes away, and without needing any crazy.
+
+
+### Adding D
+
+Finally we cone to the derivative term.  Derivative control watches the rate of change in the output, and resists changes in it.  It
+can be used to reduce oscillations or give a strong response to sudden external events like gusts of wind.  The key here is the ability to respond to
+things like that as they are happening, not just after they have already pushed the controlled variable far from the desired setpoint.
 
 ## Do Boring Numbers Exist?
 
@@ -1300,36 +1374,28 @@ Although, I can't say I have ever used one in a calculation myself.
 ## Euler's Identity
 
 This is called "The most beautiful equation in the world".  Named for Swiss mathematician Leonhard Euler, often considered one of, or even the greatest mathematician ever to live,
-it relates 5 fundamental constants in a way that you can't help but notice something
-special about, even if you don't really understand it.
+
+it relates 5 fundamental constants in a way that you can't help but notice something special about, even if you don't really understand it.
 
 The equation is: e^(i*pi)+1=0
 
-The imaginary unit, e, pi, one, and zero. Exponentiation, multiplication, and addition, often seen as three "generations" of repeated addition.
-Within that imaginary unit, we have a reference to negative one(and thus, in some views, the concept of negation), and the square root operation.
-
-Within e, we find a reference to exponential growth and decay, and within pi, we have a reference to the circle, the sine wave, 
-and many other related concepts.
-
-
-
-It shows in an instant the kind of logic mathematical minds find to be profound, and
-the kind of harmony and precision between the parts, all of which must be exactly as they are,
+It shows in an instant the kind of logic mathematical minds find to be profound, and the kind of harmony and precision between the parts, all of which must be exactly as they are,
 by pure provable logic, with nothing added or removed.
 
-The real world is of course, messy, and trying to apply this kind of thinking
-to engineering doesn't always work.   And in fact, many of us find the workings
-of nature, or our fellow living beings, with all their irrationality and imperfection,
-to be a more relevant kind of beauty to learn about.
+The identity links the imaginary unit, e, pi, one, and zero, using Exponentiation, multiplication, and addition, often seen as three "generations" of repeated addition.
+
+Within that imaginary unit, we have a reference to negative one(and thus, in some views, the concept of negation), and the square root operation.
+
+Within e, we find a reference to exponential growth and decay concepts we see in everything from the economics to biology, and within pi, we have a reference to the circle, the pure tone of a sine wave,  and many other related concepts found in things we take for granted every day.
+
+
+The real world is of course, messy, and trying to make it fit this kind of beautiful idea doesn't always work.   And in fact, many of us find the workings of nature, or our fellow living beings, with all their irrationality and imperfection, to be a more relevant kind of beauty to learn about.
 
 Nonetheless, Euler's Identity holds true by pure logic, and there
-is something very interesting about the fact that people, especially so long ago,
-were able to discover it.  
+is something very interesting about the fact that people, especially so long ago, were able to discover it, and that it's importance and fame have not diminished at all.
 
 There are no arbitrary choices, every part fits by virtue of what the
-definition of what those parts are, and all those parts are fundamental
-constants and operations that appear over and over elsewhere, which gives us a feeling
-that this is more than just some "logic mind games" and represents a true discovery.
+definition of what those parts are, and all those parts are fundamental constants and operations that appear over and over elsewhere, which gives us a feeling that this is more than just some "logic mind games" and represents a true discovery.
 
 Interestingly, according to Wikipedia, although it clearly and obviously follows from Euler's work in the 1700s,
 it is unknown who first stated it explicitly, (which to some, might further add to it's appeal as "Something that just *is*").
