@@ -89,6 +89,26 @@ More generally, never drag another person, whatsoever, into your
 playing fast and loose, doing things the hard way lifestyle.  When someone
 says they can't do something your way, listen to them.
 
+### False Resolution By Unusual Tasks
+FRBUT is a phenomenon I propose to explain a common source of mistakes.
+
+The effect occurs when a set of routine tasks are interrupted by an unusual task
+or sudden difficulty in a routine task.
+
+Upon completion of the unusual task, one has spent as much or
+more time on it as they would have on the routine tasks.
+
+Therefore they experience most of the same conditions they would, had
+the unusual task not occurred, and had they completed all routine tasks.
+
+As this time was spent not thinking at all of routine tasks, conditions are perfect
+to forget that there were any tasks at all besides the sudden unusual one.
+
+This effect could possibly be prevented by rigorous use of checklists, as
+crossing off the unusual item provides a chance to review the usual items, by completing all
+routine tasks first, or by habitually treating task completion 
+as a danger point, opposite of the normal connotations of completing a task.
+
 ### Nothing to prove
 
 If you don't want to do something, and it doesn't need to be done, there's
