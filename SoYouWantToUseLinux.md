@@ -38,6 +38,20 @@ But first, you must flash the distro.  There are two good ways to do this: Etche
 
 Just use Etcher for single distros, but check out multibootusb to pack two versions of Linux on one USB card.
 
+## Using it in VirtualBox
+
+If you don't have a dedicated linux laptop, you may want to just run Linux in a virtual
+machine hosted on your existing windows/mac laptop.  This works, and may let you avoid any hardware
+compatibility problems, but watch out for
+some issues:
+
+
+### The network adapter mode
+
+By default it gives the VM a virtual network card, which may be inside it's
+own little sandboxed network VirtualBox makes.  If you find yourself unable
+to access something in your local network from within the VM, maybe you need
+to set the network card mode to "bridged" instead of NAT.
 
 ## Hardware Support
 
