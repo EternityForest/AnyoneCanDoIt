@@ -1038,6 +1038,11 @@ don't make sense or have to be reworded, so the generally accepted definition ex
 
 Depending on your view of the philosophy, Both the set of all primes, and the set of all primes, plus one "exist" regardless of what we call them, but choosing to exclude one for what we know as primes makes a lot of things neater and more elegant, which mathematicians love.
 
+Besides the practical reasoning, there is another property that makes it different
+from primes.  It has only one divisor, one, whereas primes all have two, themselves and one.
+
+With one, it IS one, so "Itself and one" are the same.
+
 ### Fundamental Theorem of arithmetic
 
 From Wikipedia:
@@ -1060,9 +1065,13 @@ There is no known easy way to go backwards, and find the original primes, once t
 ## Highly composite numbers
 
 A highly composite number is a positive integer with more divisors than any smaller positive integer.  They are essentially the "opposite"
-of primes, and as such are extremely useful, but little known. The number 360, which is chosen as the number of degrees in a circle, is one such number, and it can be evenly divided by: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120, 180, and 360
+of primes, and as such are extremely useful, but little known compared to primes, at least to the general public. 
+
+The number 360, which is chosen as the number of degrees in a circle, is one such number, and it can be evenly divided by: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120, 180, and 360
 
 This is very convenient, as it gives us nice round numbers for many different angles, including very common ones like 180, 90, and 45.
+
+Some people even think we should use 12, rather than 10, as the base of our ways of writing numbers!
 
 ### List of the first few
 1, 2, 4, 6, 12, 24, 36, 48, 60, 120, 180, 240, 360, 720, 840, 1260, 1680, 2520, 5040, 7560, 10080, 15120, 20160, 25200, 27720, 45360, 50400, 55440, 83160, 110880, 166320, 221760, 277200, 332640, 498960, 554400, 665280, 720720, 1081080, 1441440
@@ -1175,6 +1184,10 @@ And of course, a dollar a week over decades adds up, although so do the smaller 
 don't hit the jackpot, partially offsetting that.
 
 ## Statistics
+
+Statistics deals with chance, probability, averages, and things like that.
+
+It is very widely used in science.
 
 ### Regression
 
@@ -1333,6 +1346,9 @@ I'm not sure how many times you can repeat the process, calling
 the next one interesting for being the new lowest boring number, before
 one gets bored of the whole process, but some might argue that it never ends.
 
+Perhaps boringness is a spectrum and one must first define a minimum "interestingness" value
+to be not-boring.
+
 "Every positive integer is one of Ramanujan's personal friends." —J. E. Littlewood, according to some sources
 
 ## Fermat's Last Theorem
@@ -1350,7 +1366,7 @@ It was proposed around 1637, and remained unsolved for hundreds of years.  Ferma
 It was finally proved by English mathematician Andrew Wiles around 1993, working in largely secret, possibly to avoid ridicule for trying such an ambitiuos thing.
 
 People worked for a *long* time on this, and I think it's a wonderful example of just how deep the rabbit hole goes, and how dedicated to
-their work a mathematician is.  In the end, his proof was around 100 pages long, and understood by only a handful.
+their work a mathematician often is.  In the end, his proof was around 100 pages long, and understood by only a handful.
 
 I think Wile's himself expresses the feeling best:
 
