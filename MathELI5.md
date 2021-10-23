@@ -1112,6 +1112,22 @@ Another sequence that seems to be related
 
 1, 2, 4, 6, 12, 24, 36, 48, 60, 120, 180, 240, 360, 720, 840, 1260, 1680, 2520, 5040, 10080,
 
+### 5-Smooth numbers
+
+These numbers have no prime factors greater than 5. They also
+seem vaugely familar or commonly used, and largely overlap with some of the other lists.
+
+
+#### First few examples
+1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30, 32, 36, 40, 45, 48, 50, 54, 60, 64, 72, 75, 80, 81, 90, 96, 100, 108, 120, 125, 128, 135, 144, 150, 160, 162, 180, 192, 200, 216, 225, 240, 243, 250, 256, 270, 288, 300, 320, 324, 360, 375, 384, 400, 405
+
+### 7-smooth
+According to OEIS, upposedly these numbers are occasionally called highly composite. I don't think anyone actually
+calls them that, it would be very confusing. 
+
+Notably they include the full 1-10 range, 42(The answer to life, the universe, and everything, according to one powerful computer!)
+#### Examples
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 24, 25, 27, 28, 30, 32, 35, 36, 40, 42, 45, 48, 49, 50, 54, 56, 60, 63, 64, 70, 72, 75, 80, 81, 84, 90, 96, 98, 100, 105, 108, 112, 120, 125, 126, 128, 135, 140, 144, 147, 150, 160, 162, 168, 175, 180, 189, 192 
 
 ## Game Theory
 
