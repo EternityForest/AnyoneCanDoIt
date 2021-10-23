@@ -1083,7 +1083,28 @@ According to wikipedia:
    
 But to most of us, it means "They REALLY have a lot of divisors. The first 15 superior highly composite numbers, 2, 6, 12, 60, 120, 360, 2520, 5040, 55440, 720720, 1441440, 4324320, 21621600, 367567200, 6983776800.  They get big in a real hurry, but the enduring popularity of 12(a dozen!), 60(A minute!), and 360(a circle!) may have something to do with this property.  I'm sure you can think of even more examples of these numbers in use.
 
+### Abundant Numbers
 
+An abundant number is a number such that all "proper divisors"(Divisors that aren't
+the number itself, are greater than the number itself.
+
+I am not sure what the significance of this is, but many of these have a vauge
+sense of familiarity, like you probably own something with that length or have seen
+them in pop culture somewhere.
+
+The list seems to overlap with the highly composite numbers, but includes some extras.
+
+Perhaps they would also be a good choice for sizing objects, etc, to maximize standardization, as they seem to be common.
+
+They may also be useful in algorithmic art, when naming locations or such, because of the vauge familiarity.
+
+
+This property could be partly because they can mostly be said to have "A lot" of divisors, so they may be common for the same reason
+highly composite numbers are. 
+
+#### First few examples
+
+12, 18, 20, 24, 30, 36, 40, 42, 48, 54, 56, 60, 66, 70, 72, 78, 80, 84, 88, 90, 96, 100, 102, 104, 108, 112, 114, 120, 126, 132, 138, 140, 144, 150, 156, 160, 162, 168, 174, 176, 180, 186, 192, 196, 198, 200, 204, 208, 210, 216, 220, 222, 224, 228, 234, 240, 246, 252, 258, 260, 264, 270
 
 ## Game Theory
 
