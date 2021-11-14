@@ -62,7 +62,8 @@ be melting, share the ease of use of paper mache for the same reason.
 ### Wood
 
 Bare wood does not hide mistakes.  Joints that are not perfectly square
-are almost immediately evident.
+are almost immediately evident.   The exception is rustic/distressed work, which has enough randomness and
+texture to be much more forgiving.
 
 
 
@@ -77,6 +78,15 @@ directly.
 Anything that can't be tweaked and adjusted freely should
 be done with some sort of guide, transferring the responsibility for precision
 from ourselves, to the guide itself.
+
+
+## Fear the cantilever
+
+A cantilever is a beam supported at only one end, such as the plank that a dirty pirate might walk.  These have mani applications, but also cause lots of issuss.
+They are essentially a lever creating torque on the attachment point. Think of how much force you can apply with a torque wrench or pry bar.
+
+### Spans supoprted on both ends
+These are also a common source of issues. A taut clothesline will have way more force than a loose one.  In fact, more than the actual weight on it, somehow.
 
 
 ## Stress Concentration
@@ -98,6 +108,7 @@ Even knots in a rope weaken it.
 * eliminate the sharp corner entirely.
 
 
+
 ## 3D printed layers
 
 Print orientation matters.  Layers detach from each other with less force
@@ -116,9 +127,6 @@ fast if repeated only a few times.  This effect makes male 0.1" crimp pins some 
 most delicate connectors you can get.
 
 Things need to have some thickness going in the same axis as the load trying not bned them.
-
-
-
 
 
 
