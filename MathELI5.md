@@ -65,7 +65,7 @@ to the mathematical meaning.
 ### Graphs
 
 When graphing something, the Y or vertical position is usually the dependant variable,
-because we are studying how it goes up and down as we move from left to right(The horizontal position is usually called Y, 
+because we are studying how it goes up and down as we move from left to right(The horizontal position is usually called X, 
 and is usually the independent variable, because it's doing it's own thing, we increase it evenly as we go across the chart to see what happens).
 
 Often the independent variable is time, and the vertical axis represents how something changes over time.
