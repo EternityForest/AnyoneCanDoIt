@@ -318,7 +318,7 @@ x\*\*2.  If it were, it would not make the same nice continous curve the exponen
 
 In reality, raising to any number is just as valid as raising to an integer, the only difference as far as I know,is that integers can be explained as "X times itself Y times", but there is probably some deeper mathematical phenomena underlying it all which explains the values in between more completely.
 
-The oversimplified explanation however, is that the values in between follow the same curve you would expect them to, from looking at the integer powers, rather than following a "curve" made of straight lines between integer points.
+The oversimplified explanation however, is that the values in between follow the same curve you would expect them to, from looking at the integer powers, rather than following a "curve" made of straight lines.  For example, 1 to the 1.5 is not halfway between 1**1 and 1**2.
 
 
 
