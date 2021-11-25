@@ -713,6 +713,134 @@ The volume of a sphere is defined by `volume = (4/3) \* (pi * radius ** 3)`, and
 I'm not sure what the explanation for those is, but they are well known and easy to find online.
 
 
+## Angles
+
+
+I find angles to be very confusing.  We typically measure angles in degrees, which are 360ths of a turn
+around a full circle, back so that you are facing the way you started.  360 seems to have been chosen because
+it has many possible divisors and is thus very convenient(See highly composite numbers).
+
+Angles are, by convention, expressed as increasing numbers the farther counterclockwise you go, or negative numbers representing clockwise
+movement.
+
+However, to quote Wikipedia:
+
+The size of a geometric angle is usually characterized by the magnitude of the smallest rotation that maps one of the rays into the other. 
+
+This means that there's seems to be something we call "angles" don't inherently have a "starting" path like a navigational turn.  The main property
+that seems to define this kind of angle seems to be the *separation*.  Were we to spin the whole piece of paper at once, the two
+segments still have the same "angle between them". Perhaps if we were being fussy we would say "an angular separation" every time.
+
+
+
+The confusing part is best explained by the fact that two straight line segements in a row is a 180 degree angle. This makes sense.
+If we have a straight line and rotate it around one of it's ends half a turn(180), we get the other one.
+
+A 90 degree angle also makes sense.  Starting with the original line, we just have to rotate a quarter turn and get the
+familar right angle.
+
+Knives and hatchets and other cutting tools generally use 15 to 40 degree angles.   The smaller numbers
+are sharper, because they turn back on themselves more sharply.  A 0 degree angle would be an impossible single line of atoms,
+with one side going exactly the same direction as the other.   Many knives have two separate angles
+meeting at a center point, some tools have only one with a flat edge.
+
+
+
+The real confusion comes because we commonly speak of "180 degree turns".
+This is a turn thar makes you go exactly the opposite of the way you were going.
+
+But, if you were to Google "180 degree angle", you'd see a picture of a straight line.
+
+
+We might also say someone "Turned one degree to the left", meaning a very small course correction, whereas
+a "one degree angle" is very sharp and goes back on itself.
+
+However, if we were to plot the full course, the path that they would have
+taken with no turn at all, and compare *that* to the new course, we would in fact find a negative one degee angle.
+
+It is as if we don't measure navigational turns relative to the path the walked, we measure relative to
+*the path they would have walked, had they not turned at all*.
+
+The "angle between" two segments is apparently *not* the same as the angle of the turn to get from one "road" to the other!!
+
+
+
+
+When we "turn one degree to the right" or "Five degree north", we seem to be measuring the interior angle between where they will go
+now, and where they would have gone.  
+
+A less confusing way to think of this is just as a rotation.  To rotate one degree north is a simple enough concept.
+If we rotate our body, we change our heading.  No need to describe it in terms of two lines, although we can certainly use it
+to get from one line to another.
+
+I really know how clockwise and counterclockwise come into this.  In practice it seems people say the
+absolute value (without any plus or minus signs), and explicitly say what they are turning towards.
+
+This makes sense.  As we saw before, the "angle" is characterized by the separation between two lines,
+not by which one was first.    The fact that one road was the *old* and one the *new* might be though of as not actually part of the angle itself.
+
+Mathemically this object is just an amount of separation, and we explicitly described what that separation means to us.
+
+
+This is related to the idea of interior and exterior angles. It seems the exterior angle is always 180 degrees, minus
+the interior angle.   The interior angle is the rotation you would do when opening a hairpin to a certain angle, or the absolute
+separation we discussed earlier.
+
+The exterior angle, then, is the rotation you would do to half a straight wire, rotating around the bend point, to make a given angle.
+
+As the interior angle is smaller, we always know which one we are dealing with, exterior angles will be greater than 90 degrees.
+
+
+
+
+To add even more confusion to all of this, we often need to measure absolute headings relative to the compass directions. To quote Wikipedia:
+
+
+Heading is typically based on compass directions, so 0° (or 360°) indicates a direction toward true North, 90° indicates a direction toward true East, 180° is true South, and 270° is true West.
+
+Note that if we are facing north, and turn east, we would think of this as a clockwise turn, but our heading number is increasing.
+You would think that increasing heading would go counterclockwise, but it does not. Are there two different conventions, or
+is there some logic to all this?  As far as Wikipedia has been able to tell me so far, it seems the conventions are just different.
+
+
+
+Perhaps the real confusion is that lines and angles aren't actually going anywhere, and don't double back on themselves.
+They can't, because they "just exist".  The two lines just *are*, and there is an angle between them
+
+We might describe them as if they were a path or a story, because the eye is drawn to follow them that way,
+but they themselves don't seem to have a start or finish.  Like most of the other things that make math seem alien, things
+just are, all at the same time, their relationships don't always make sense to someone used to thinking
+in terms of time and separate steps.
+
+
+A rotation is definitely a real thing. It makes a lot more sense in terms of a start and a finish.
+
+It seems that something measured in degrees could be referring to any of several different things, and maybe more.
+
+One is just a separation. It has no direction, it's just a difference.  Nothing is changing or moving.
+
+Another is a simple rotation, which does make sense in terms of a starting ending state, and does have a direction,
+which we might say in terms of positive and negative values for direction, or we might describe as some absolute number to the right or left.
+
+Another is a measurement of how much we would have to rotate a line to get another line.
+
+
+It gets even more confusing when we try to add and subtract them.  When doing this,
+it's quite likely that what we actually want is the rotation needed to get from one to another. We always
+have to watch out for what we actually mean.
+
+
+If our absolute heading is 0 degrees, due North, and we want to be at 90 degrees, we could easily subtract these and get a 90 degree
+clockwise turn.
+
+But if we were to use a library like Pillow on a computer to rotate an image, we would need a *negative* 90 degree angle to turn clockwise.
+
+With so much confusion, multiple conventions, and not-quite-intuitive logic, it seems that the most prtactical way to use angles is to clarify, either with words or diagrams,
+whenever there is any ambiguity.
+
+
+
+
 
 
 ## Pythagorean Theorem
