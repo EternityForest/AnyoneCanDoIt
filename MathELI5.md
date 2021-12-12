@@ -46,7 +46,6 @@ while you are away from a smart phone, so for the purposes of getting by
 without actually understanding it, this is entirely a computer's job.
 
 
-
 ### Programming
 
 Variables in math are not the same as variables in
@@ -71,6 +70,11 @@ and is usually the independent variable, because it's doing it's own thing, we i
 Often the independent variable is time, and the vertical axis represents how something changes over time.
 
 There are all sorts of other charts that may use different meanings for each axis, this is just a very common convention.
+
+
+Note that "Graphs" are also a completely different kind of object studied in Graph Theory
+In this case a Graph is basically a bunch of connected nodes, like cities with roads
+going between them.  There are many kinds of graphs out there with many computer science applications.
 
 
 ## [Linear](https://en.wikipedia.org/wiki/Linear_function_(calculus)) and Nonlinear functions
@@ -713,6 +717,8 @@ The volume of a sphere is defined by `volume = (4/3) \* (pi * radius ** 3)`, and
 I'm not sure what the explanation for those is, but they are well known and easy to find online.
 
 
+
+
 ## Angles
 
 
@@ -1256,6 +1262,60 @@ calls them that, it would be very confusing.
 Notably they include the full 1-10 range, 42(The answer to life, the universe, and everything, according to one powerful computer!)
 #### Examples
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 24, 25, 27, 28, 30, 32, 35, 36, 40, 42, 45, 48, 49, 50, 54, 56, 60, 63, 64, 70, 72, 75, 80, 81, 84, 90, 96, 98, 100, 105, 108, 112, 120, 125, 126, 128, 135, 140, 144, 147, 150, 160, 162, 168, 175, 180, 189, 192 
+
+
+
+
+## Proofs
+
+This seems to be the classic "real math".  
+A proof in math is not like "evidence" in everyday conversation.  Mathematical
+proofs are meant to absolutely prove that something is true to the limit of how much we
+can trust logic itself, and our ability to use it.
+
+While flawed *reasoning* can occasionally be found, proofs do not require any physical tests or measurements,
+and the peer review process of mathematics seems to be less controversial than other sciences.
+
+Proofs come it constructive and non-constructive proofs.  A constructive proof generally proves that an
+object(Such as a number, but proofs are not just about numbers!) matching the description exists by showing
+you how to create it.
+
+As an example, which might not be up to the rigor of a real proof,
+Is that we can an "Prove that for any number N, there's a number X that gives you N when you add 5"
+
+We know that adding five "undoes" subtracting five, and vice versa.  Therfore, when we subtract 5 from N,
+whatever we get is the X that will give us N again if we add 5.
+
+If it were not, then adding and subtracting would not "undo" each other.
+Out whole understanding of what addition and subtraction do would have to be completely
+different for it to be any other way.
+
+
+
+Proofs can also be non-constructive.  These proofs show that something exists, but not how to get there.
+
+### Axioms
+
+These are the starting points of math.  They are not proven exactly, they are true by
+definition, they are "the rules of the game".   You could in theory create a whole
+system of math with totally different axioms, but whether it would be useful or interesting is another matter.
+
+We assume the properties of numbers are true because that's part of the definition of what we call a number.
+
+We believe that to be the "correct" idea of how numbers work because... it seems to work and to be 
+very effective at understanding the things we experience in the world.
+
+### Theorems
+
+These are statements that have been proven.  It causes confusion
+because "Theory" can mean a proposed unproven idea, or it can
+refer to a whole branch of study (as in "Music Theory").
+
+### Conjecture
+
+These have not been proven.
+
+
 
 ## Game Theory
 
