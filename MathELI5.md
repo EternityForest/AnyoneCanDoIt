@@ -1464,9 +1464,31 @@ A very common operation, given a bunch of data points, like "temperature vs latt
 
 This is usually called "Linear regression" in the case of a linear equation, or "Polynomial regression" when looking for more complicated patterns that can have curves in the graph using a polynomial equation.
 
-It is easy to fool yourself and get patterns that have nothing to do with reality, if you are not careful in choosign what kind of regression to use, the "degree"(kind of like the "resolution" or "complexity", having to do with the number of terms in the equation) of the polynomial.
+It is easy to fool yourself and get patterns that have nothing to do with reality, if you are not careful in choosing what kind of regression to use, the "degree"(kind of like the "resolution" or "complexity", having to do with the number of terms in the equation) of the polynomial.
 
-However, the tools to do this are built into spreadsheet apps and can be found online, and you may at some point find that even a basic linear regression could help you make sense of noisy measurements.  Even without really understanding statistics, it may be better than a random guess!
+You can always add more terms and get a polynomial that passes through ANY list of points. However it might not mean much. If the underlying data isn't truly well described by this model,
+your curve will probably have random nonsense between the points and the equation will be of no use in predicting or understanding
+the actual phenomena.
+
+For example, you could find a polynomial that describes all past lottery numbers in your state.  But the underlying process of those
+numbers is just computerized random number generation, so you could not use it to predict the future.  Even in the past, if you tried to use it to find a number in between
+days, it would obviously give you a nonsense result.
+
+This gets more likely with more terms, at a certain point you basically have an "Algorithmic crackpot theory generator", making
+up insanely convoluted theories to explain data that really needs a totally different approach.  
+
+This is what people mean when they talk about "overfitting" a model.  It fits the data
+perfectly and yet sometimes does not give any insight at all into what in means!
+
+The number of terms in the equation could almost be thought of as reflecting how complicated of an explanation you are looking for, which means you have to
+know how complex of an explanation you need.
+
+However, a lot of things can be well-represented by polynomials.  
+
+The tools to do this are built into spreadsheet apps and can be found online, 
+and you may at some point find that even a basic linear regression could help you make sense of noisy measurements.  
+
+Even without really understanding statistics, it may be better than a pure random guess!
 
 ### Standard Deviation
 
