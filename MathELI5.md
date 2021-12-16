@@ -925,7 +925,7 @@ Unrelated note: if one calculates the total distance traveled if one literally g
 
 As I understand it,  No matter what route you take on a perfectly even grid of streets, you'll still need to take N steps across and Y steps down/up, so the "Manhattan distance" really does tell you the shortest possible distance if you can't travel at diagonals, even if you approximate it with a stairstep pattern.  Try it yourself on paper if you want!
 
-### Distance between three points
+### Distance between 3D points
 
 For reasons I don't understand, you can extend this to three
 dimensions.  
