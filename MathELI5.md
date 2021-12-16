@@ -269,7 +269,7 @@ that information is part of what we accept as "division".
 
 ## Exponentiation 
 
-2\*\*5 means "Two times itself five times, or 2\*2\*2\2\*2". It is also said as
+2\*\*5 means "Two times itself five times, or 2\*2\*2\*2\*2". It is also said as
 "Two raised to the power of five" or "to the fifth power" or similar.
 
 It is sometimes also written as 2^5, but that symbol is also used for other things occasionally, in programming,
@@ -296,7 +296,7 @@ x\*\*3 is cubing.  It gives you the volume of a cube given the length of it's ed
 ### X\*\*1
 Anything to the one, is itself. Five times itself one time, is just 5.
 
-### X**0
+### X\*\*0
 
 Any number raised to the power of 0, is 1, except possibly zero in some cases(see below!)
 
@@ -304,7 +304,7 @@ I am sure there's a cool math reason for this, but it
 also happens to be really convienent in programming.
 
 
-### 0**0
+### 0\*\*0
 
 I have no idea what is going on here.  Android calculator thinks it
 is "Undefined, or 1”.  That probably means you shouldn't rely
