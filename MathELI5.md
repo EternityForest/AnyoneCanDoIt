@@ -630,6 +630,43 @@ type of wave, be it sine, square, or even random noise.
 As household electricity is measured in RMS, the real peak of the wave can be around 170 volts even though
 the nominal voltage is 120vac RMS.
 
+
+## Degrees of Freedom
+
+Many things have this concept.  A "degree of freedom" is basically something about a thing that can change.
+
+A ridgid object has 6. It can move up/down, left/right, forward/backwards, and rotate in pitch, yaw, and roll.
+
+Many important ideas are based on this.
+
+### Holonomic robots
+
+A car-like robot can be simplified to assuming it has 3 degrees of freedom, because it
+can move in 2 dimensions, and turn.
+
+However, a typical car steering cannot turn in place. You can only control steering angle
+and go forward or backwards. It is non-holonomic because you cannot control all of the degrees of
+freedom individually.   This property makes a lot of thing hard, because you must get the result you want
+indirectly.
+
+
+### Overconstraint or over-determination
+
+In engineering, when you have more constraints like screws and brackets
+then actual degrees of freedom, some are likely to fight each other. You have to watch out!
+
+In practice this often is handled by making things very precise, or adjustable to be so,
+and by the fact that flexibility in real materials, even strong things like steel, can be though of as extra "hidden" degrees of freedom.
+
+But exact constraint design is still valuable as it lets us reduce the need for perfect precision
+and avoid flex and tension that may cause issues.
+
+In algebra you might have a system with more equations than answers.  There may
+be two equations trying to tell you the value of one variable.
+
+You might not have any actual solution, for the same reason, because equations
+might not agree, but you may be able to find an approximate solution.
+
 ## Area and volume
 
 These are measured in square units and cubic units, respectively.  A square inch is teh area of a square that
