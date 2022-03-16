@@ -1301,7 +1301,83 @@ Notably they include the full 1-10 range, 42(The answer to life, the universe, a
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 24, 25, 27, 28, 30, 32, 35, 36, 40, 42, 45, 48, 49, 50, 54, 56, 60, 63, 64, 70, 72, 75, 80, 81, 84, 90, 96, 98, 100, 105, 108, 112, 120, 125, 126, 128, 135, 140, 144, 147, 150, 160, 162, 168, 175, 180, 189, 192 
 
 
+## Associativity
 
+An operation is associative if you can repeatedly do
+it in different orders and get the same result.
+
+Addition is associative. 4 + 3 + 7 is the same as 7 + 3 + 4.
+
+Multiplcation is not. (2 \* 4) \* 8 is not 2 \* (4 \* 8).
+
+ 
+
+
+
+## Category Theory
+
+A category is a math object.  It is a graph made of objects with arrows
+between them having certain special properties.
+
+Arrows are operations that turn one node into another, as far as I can tell,
+and they can be added together, and this addition is associative.
+
+Adding the arrow that gets you from A to B, with the arrow that gets you
+from B to C, results in an arrow from A to C.
+
+It is, or can be, central to the foundations of math.
+
+
+## Set Theory
+
+These are apparently very important and used to define some of the fundamentals of math
+
+A set seems to be, as far as I can tell, what it sounds like. A set of other objects. They can be numbers,
+other objects, other sets... and they can even contain themselves!
+
+### Closed Under?
+
+A set is "Closed under" some operation if doing that operation to members of the set
+gives you another member.
+
+The set of all real numbers is closed under addition because adding any two numbers
+results in a number, not something that isn't a number.
+
+### Does the set of all sets that do not contain themself contain itself?
+
+This question is Russel's Paradox. It made a big stir around the turn of the 20th century.
+
+
+## A Monoid
+
+A monoid is a structure that has a set, which is closed under some 
+associative binary operation, that has an identity element.
+
+A binary operation is something that takes 2 inputs.
+
+Addition is associative because it does not matter what order you do the operations
+in.
+
+An identity element is something that doesn't do anything when you use it
+as one of the inputs to that binary operation. With addition, zero
+is the identity element.
+
+"Adding whole numbers" is an example of a monoid.
+
+To you and I this probably seems about as interesting as giving a special name
+to "All buildings over 500 feet tall with 3 residents named Kyle in a city starting with P".
+
+But this structure shows up in so many places that it is apparently a big deal.  I include it here
+for that reason, and as an excuse to go over associativity and identity elements. Identity in 
+particular is one you'll actually want to know.
+
+
+### A Monad
+
+A monad is a monoid in the category of endofunctors.  You'll hear this as a semi-joke a lot.
+
+Apparently, people who truly understand them see them everywhere and can use them in
+All kinds of situations when programming.
 
 ## Proofs
 
