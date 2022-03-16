@@ -164,6 +164,23 @@ Making raw data available will disambiguate this confusion, as can adding redund
 Of course, in real science, words are used more precisely, and people are usually expected to know what they mean.  But in everyday writing, this stuff is well known to be confusing.
 
 
+## Modulo
+
+In programming languages, the percent sign often means modulo.  Which has absolutely
+nothing to do with percents.
+
+Modulo means essentially to wrap around.
+
+1%2 is one. 2%2 is zero. 3%2 is one again.  When the input number would be equal to the modulo
+number, we set it back to zero.
+
+There are apparently tons of variations implemented by languages that are not actually modulo, and handle negative numbers
+in odd ways that deal with negative numbers differently, but we can ignore those for now.
+
+
+Note that you can use this to tell if a number is even. If N is even, N%2
+Will be zero.  You can also use this to detect every 3rd or 4th or whateverth number,
+N%5 will be zero at every 5th number.
 
 ## Averaging
 
@@ -425,6 +442,22 @@ Note that a real three digit number only goes up to 999, although there are a th
 because zero is the first possibility.
 
 This fact causes massive numbers of errors in programming, when people get confused by it.  They are generally known as a type of off-by-one error.
+
+Also note that base systems related to the modulo operation because of the way digits wrap to zero when counting overflows to the next digit.
+
+Look at the sequence 8, 9, 10. The first digit becomes zero because each digit can only hold 9, and we add
+the one. 18, 19, 20 is the same idea. We need to go from 9 to ten, but 10 doesn't fit, so we "move everything" to the tens place.
+
+If one wanted to know the value of just the ones place, they would take the number modulo 10.
+
+Any multiple of ten does nothing to the modulo value. 35 and 25 are different by exactly ten,
+so when we wrap around on the "Modulo wheel" we are back where we started.  Only the ones place values make it through the "filter".
+
+This works in any base system too.  N modulo 2 tells you the value of the first digit of a binary number.
+
+It even works on multiple digits.  N % 100 gives you the value of the first 2 digits of a base 10 number.
+
+If you added anything to the thousands place, the modulo would wrap around, only changes in the tens and hundreds can affect the result.
 
 ### [Base 2(Binary)](https://en.wikipedia.org/wiki/Binary_number)
 Base 2 aka binary is the same thing with 2s. `1111`= one 8, one 4, one 2, and one 1
