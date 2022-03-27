@@ -3,7 +3,7 @@ An open source guide to mistake-resistant engineering for plans that don't
 require natural talent to do. (work in progress)
 
 
-## Intro
+## Introduction
 A lot of planning these days includes the word "carefully".
 
 What does it mean? Well, it means you don't get distracted and do the wrong thing. Your hands don't shake and you don't forget anything.
