@@ -240,7 +240,7 @@ If you need a training video to explain how not to hurt yourself, look at elimin
 
 ### Minimum material
 
-You are trying to make excellent products -- not to use up excellent materials.  Every ounce of matter, be it steel or gold, is a waste.
+You are trying to make excellent products -- not to use up excellent materials.  Every excess ounce of matter, be it steel or gold, is a waste.
 
 When someone says "solid gold" they mean "I probably polluted an entire village somewhere because I didn't have any better ideas"
 
