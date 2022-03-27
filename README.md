@@ -192,7 +192,7 @@ This quote was never said by Einstein so far as I know, and it is fairly harmful
 
 The decision to keep going or to turn back must be made with sound logic, not arbitrary observations of small numbers of situations, most of which are more influenced by outside factors than the action in question.
 
-If this quote were any more popular, we would have no musicians,because they would stop practing after a lesson or two.
+If this quote were any more popular, we would have no musicians, because they would stop practing after a lesson or two.
 
 Rather than asking "How is this working", ask "has this worked for anyone else" and "what reasons do I have to believe this will work in the future" and "What assumptions do those reasons rely on".
 
