@@ -686,7 +686,7 @@ Nobody would be happy if they had to upgrade every device in the house when a ne
 Don't write code that doesn't run on old computers.
 
 And more than that, don't create disruption to existing processes.  Don't 
-fence off an area for a cable if a wireless link will do.  Don't delsy people's lives because you insist they first learn some new system to proceed.
+fence off an area for a cable if a wireless link will do.  Don't delay people's lives because you insist they first learn some new system to proceed.
 
 Don't use updates that run automatically.  Tech should stay out of the way, not add additional things people have to keep up with.
 
@@ -758,7 +758,7 @@ More generally, avoid coupling *any* frequently-done action, (like changing a co
 
 Things that don't last, should be replaceable. Don't let a design leave the drawing
 board if it becomes disposable because of one part. Beyond that, things that wear should
-be common and available anywhere, like 0.7mm pencil leads, not propietary to one manufacturer, or
+be common and available anywhere, like 0.7mm pencil leads, not proprietary to one manufacturer, or
 even handmade and totally unique.
 
 
@@ -978,7 +978,7 @@ conversational style to match an insane idea.
 
 
 
-On top of it all, they may physically move towards their part of whatever they are planning,,
+On top of it all, they may physically move towards their part of whatever they are planning,
 threatening to leave you behind, or implement the bad plan without your agreement at all.
 
 In these cases, there may be no other answer aside from short controlled bursts of your
