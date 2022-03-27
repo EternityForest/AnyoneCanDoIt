@@ -688,7 +688,7 @@ Don't write code that doesn't run on old computers.
 And more than that, don't create disruption to existing processes.  Don't 
 fence off an area for a cable if a wireless link will do.  Don't delay people's lives because you insist they first learn some new system to proceed.
 
-Don't use updates that run automatically.  Tech should stay out of the way, not add additional things people have to keep up with.
+Don't use updates that run automatically.  Technology should stay out of the way, not add additional things people have to keep up with.
 
 Some things are obsolete and should be upgraded immediately, but usually only the user knows which things those are.
 
