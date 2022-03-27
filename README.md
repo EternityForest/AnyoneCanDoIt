@@ -532,9 +532,9 @@ These regions should be minimized, and things should be designed such that thing
 
 Things not meant to separate should not be able to easily, or should at least be able to stick together by themselves.
 
-None of this "hold these three parts in place while you insert rod X" busisness.
+None of this "hold these three parts in place while you insert rod X" business.
 
-Valuable items such as keys and wallets can be tethred to the inside of pockets using carabineers and grommets.   Pens can be affixed to clipboards.
+Valuable items such as keys and wallets can be tethred to the inside of pockets using carabiners and grommets.   Pens can be affixed to clipboards.
 
 Where periodic separation is required, a slipped knot, highwayman's hitch, or mechanical device should be used, but only one that requires definitive action to separate. 
 
