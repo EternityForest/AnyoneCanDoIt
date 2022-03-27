@@ -216,7 +216,7 @@ Dropping things is one of the most common mistakes, and it's rarely answered wit
 
 
 
-### Watch your Wallet(And other similar things like it)
+### Watch your Wallet (And other similar things like it)
 
 Always have a backup plan for highly critical items. Assume you will lose them at the worst possible time.  Have things like Kroger's mobile payment app ready-to-go should you find yourself with a full card or groceries, and no way to pay for them.  I didn't, and spent a half an hour installing the app in the middle of QFC one day when I left my cards at home, thanks to a crappy and worn out wallet.
 
@@ -611,7 +611,7 @@ Removing contributing factors is often easier then directly avoiding problems fo
 
 One is that you cannot always be sure of the future, or what additional circumstances will complicate your plan to avoid the mistake.
 
-Another is that, like the wet floor, "Being careful" must often be done continually, in this case each and every time, whereas removing the contributing factor often only needs to be done one time(as in mopping the water), and will persistently make things safer until something causes the factor to return.
+Another is that, like the wet floor, "Being careful" must often be done continually, in this case each and every time, whereas removing the contributing factor often only needs to be done one time (as in mopping the water), and will persistently make things safer until something causes the factor to return.
 
 ### Beware things that make *using* them the same as *engineering* them
 
@@ -642,7 +642,7 @@ be developed offline and extensively tested before real deployment.
 It would just take take far too long to triple check and peer review
 every command.
 
-However, less flexible tools like Etcher(as opposed to dd) CAN be thoroughly tested, as they
+However, less flexible tools like Etcher (as opposed to dd) CAN be thoroughly tested, as they
 aare meant to solve a common problem once and for all, and get used enough
 to be worth testing.
 
@@ -751,7 +751,7 @@ Don't do that. It's not acceptable!  Actions outside the user's control especial
 should not contribute to device wear.  Things should not just be expected to wear down
 over time.
 
-More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear(like saving to flash)
+More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear (like saving to flash)
 
 
 ### Replaceability!
@@ -862,7 +862,7 @@ which are much simpler than the many square inches of paper badly placed mark me
 Layers in programs like Krita have a similar effect, in that you can work on small parts of a drawing at
 a time, without messing up previous work if you get it wrong.
 
-### Know your Knots(or pretend to)
+### Know your Knots (or pretend to)
 
 The usual overhand knot is often a terrible choice,
 but the others are hard to learn.  The exception is
@@ -930,7 +930,7 @@ feel much better at the end of the day.
 ### Literally get the lead out
 
 I'm sure you know about lead paint and gas, but did you know it could be in your
-keys? The prongs and plastic of your extension cord(It is or was used to stabilize PVC)?
+keys? The prongs and plastic of your extension cord (It is or was used to stabilize PVC)?
 
 Brass often uses it to make machining easier. Old crystal glass has it. Maybe
 new crystal glass too. It has all kinds of uses, so don't
