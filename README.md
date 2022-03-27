@@ -176,7 +176,7 @@ It's essentially *always* worth the money to buy a case for your phone. If you'r
 
 Get a labelmaker. Don't carry anything heavy without a dolly. Use padding to protect anything expensive. Physical objects are a common source of failure, so the accessories we use to manage them, and the upgrades that make them easier to manage, are worth it.
 
-### Force and precision, pick one
+### Force or precision: pick one
 
 Never design anything with the words "firmly but carefully" in it.  Hands and tools slip under force. If force is needed, you should be able to use a hammer, or you should use a better design.
 
