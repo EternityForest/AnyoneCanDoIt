@@ -354,7 +354,7 @@ Especially avoid creating a new tool to avoid learning an industry standard that
 
 Just throw the idea in the bin right then and there if it involves accurately imagining something rotated or flipped.  
 
-Things like reading maps not oriented towards the real directions, manually flipping things for printing on two sides of a page, etc, should be treated with extreme care.
+Things like reading a map that is not oriented in the correct direction, manually inverting document content that is intended for double-sided printing, and so on, should be treated with extreme care.
 
 ### No arbitrary mappings and remappings
 
