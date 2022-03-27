@@ -1,6 +1,6 @@
 # AnyoneCanDoIt
 An open source guide to mistake-resistant engineering for plans that don't
-require natural talent to do. (Work in progress)
+require natural talent to do. (work in progress)
 
 
 ## Intro
@@ -216,7 +216,7 @@ Dropping things is one of the most common mistakes, and it's rarely answered wit
 
 
 
-### Watch your Wallet (And other similar things like it)
+### Watch your Wallet (and other similar things like it)
 
 Always have a backup plan for highly critical items. Assume you will lose them at the worst possible time.  Have things like Kroger's mobile payment app ready-to-go should you find yourself with a full card or groceries, and no way to pay for them.  I didn't, and spent a half an hour installing the app in the middle of QFC one day when I left my cards at home, thanks to a crappy and worn out wallet.
 
@@ -337,7 +337,7 @@ You should never have to adjust something you can't immediately see the results 
 
 There shouldn't be too many tweakable parameters you have to get "just right" to make it work.  Those always result in something getting out of calibration over time, and the whole thing goes down for a week while you wait for the guy who knows how to fix it again.
 
-If there is something that needs adjusting (Usually something that directly affects people, like light levels), it should be controlled in real time, with a knob or a slider. No "Reboot and change a config file" or any such nonsese.
+If there is something that needs adjusting (usually something that directly affects people, like light levels), it should be controlled in real time, with a knob or a slider. No "Reboot and change a config file" or any such nonsese.
 
 In general, things should adjust themselves. Every adjustment the user makes is usually a failure the designer made.
 
@@ -566,7 +566,7 @@ The easiest way to avoid these, is to do things in advance so that they can be d
 
 Absolutely reject any design that involves bending some part in, wedging it at an odd angle, and possibly pushing something out of the way with a chopstick.
 
-Hands and tools should never go where eyes cannot, nor should there be any step where the act of closing a box can easily affect the (Now non-inspectable) contents 
+Hands and tools should never go where eyes cannot, nor should there be any step where the act of closing a box can easily affect the (now non-inspectable) contents 
 
 ### Eschew the Screw, careful how you connect
 
@@ -593,7 +593,7 @@ You need to figure out which pipe to drop each colored ball in to make it come o
 
 If there is already a listing of which pipes to use, but it is incorrect, people will often try to fix it by swapping incorrect ones.  When more than two are wrong, this seems to rarely work.
 
-Instead, make a map of every input and the corresponding output (Giving them all labels that have nothing to do with what specific balls you put in!), and trace outputs back to inputs on the map.
+Instead, make a map of every input and the corresponding output (giving them all labels that have nothing to do with what specific balls you put in!), and trace outputs back to inputs on the map.
 
 
 ### Look for potential problems
@@ -930,7 +930,7 @@ feel much better at the end of the day.
 ### Literally get the lead out
 
 I'm sure you know about lead paint and gas, but did you know it could be in your
-keys? The prongs and plastic of your extension cord (It is or was used to stabilize PVC)?
+keys? The prongs and plastic of your extension cord (it is or was used to stabilize PVC)?
 
 Brass often uses it to make machining easier. Old crystal glass has it. Maybe
 new crystal glass too. It has all kinds of uses, so don't
