@@ -576,7 +576,7 @@ When using terminal blocks, avoid non-detachable versions, and air hose quick co
 
 Generally, connection points are very common failure modes.   All connectors should have a large strain relief if you want them to last, unlike the popular slim white style USB connectors that imitate "luxury" brands.
 
-Keychain carabineers and clips are similar danger points, as is the wrong knot in a rope.
+Keychain carabiners and clips are similar danger points, as is the wrong knot in a rope.
 
 Remember, connection can fail by coming undone, staying stuck, putting force on something else that breaks, and in sealed devices, by leaking.
 
@@ -643,7 +643,7 @@ It would just take take far too long to triple check and peer review
 every command.
 
 However, less flexible tools like Etcher (as opposed to dd) CAN be thoroughly tested, as they
-aare meant to solve a common problem once and for all, and get used enough
+are meant to solve a common problem once and for all, and get used enough
 to be worth testing.
 
 Note that that the issue has nothing to with simplicity. Massively
