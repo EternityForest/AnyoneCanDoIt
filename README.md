@@ -57,7 +57,7 @@ of the gold standard isn't usually a bad thing.
 
 ### "Life Experience": Is it really worth it?
 
-While we absolutely shouuld respect, listen to. and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
+While we absolutely shouuld respect, listen to, and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
 
 This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "You need to learn how to handle the hard stuff if you're going to succeed.".  This is especially prevalant with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "All those broken bones made them who they are" idea.
 
