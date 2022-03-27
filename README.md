@@ -899,7 +899,7 @@ The coiled part is around the first two, but "inside of" the final one, which is
 winding upwards, and to apply pressure to the coils so they don't uncoil.
 
 
-Sheet bends are almost the easiest way to join two ropes reasonably well. the first rope loops back on itself to make an eye.
+Sheet bends are almost the easiest way to join two ropes reasonably well. The first rope loops back on itself to make an eye.
 
 The second rope comes through the eye, from the back, then down and around the back of the "neck" of the eye loop, over the top
 coming forwards, and then down in between itself and the eye.  This one also has a slipped variant, where it goes back up in between itself and the eye to form the
