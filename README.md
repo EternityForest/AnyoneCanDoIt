@@ -170,7 +170,7 @@ possibly and truly reserved for future assignment, nothing that can't
 be cancelled should be planned for them, and they should not be outside of
 and in addition to any extra time allotted for any particular project.
 
-### Storage and Organization
+### Storage and organization
 
 It's essentially *always* worth the money to buy a case for your phone. If you're gonna buy something that needs an extra adapter, buy one that doesn't if you can.  Use Bluetooth headphones instead of corded ones.
 
@@ -198,7 +198,7 @@ Rather than asking "how is this working", ask "has this worked for anyone else" 
 
 All too often this quote is a lazy shortcut used to dismiss things without thinking.
 
-### Stopping the Dropping
+### Stopping the dropping
 
 Dropping things is always a hassle, made worse by the fact that people will advise you to be more careful next time,
 and never explain how.
@@ -216,7 +216,7 @@ Dropping things is one of the most common mistakes, and it's rarely answered wit
 
 
 
-### Watch your Wallet (and other similar things like it)
+### Watch your wallet (and other similar things like it)
 
 Always have a backup plan for highly critical items. Assume you will lose them at the worst possible time.  Have things like Kroger's mobile payment app ready-to-go should you find yourself with a full card or groceries, and no way to pay for them.  I didn't, and spent a half an hour installing the app in the middle of QFC one day when I left my cards at home, thanks to a crappy and worn out wallet.
 
@@ -228,7 +228,7 @@ Similarly, you can hide a backup set of keys in a backpack pocket or even an out
 
 Your phone, too, is not perfectly immune from being lost or stolen.  Use the best case you can find, enable any tracking features you want, and be sure to back up all data.
 
-### Minimum Energy
+### Minimum energy
 
 Don't use dynamite. Or rat poison. Or High voltages, or big strong springs, or giant hydraulics, or anything else with real power behind it, unless you actually need it.
 
@@ -238,7 +238,7 @@ You don't want a plan that *won't* hurt anyone. You want a plan that *cannot* hu
 
 If you need a training video to explain how not to hurt yourself, look at eliminating that step entirely.
 
-### Minimum Material
+### Minimum material
 
 You are trying to make excellent products. Not use up excellent materials.  Every ounce of matter, be it steel or gold, is a waste.
 
@@ -261,7 +261,7 @@ There should not be any "do X, then check Y" steps. X should obviously and insta
 Ideally, all things should return to a default safe state if left unattended.
 
 
-### Nondestructive Verifiability 
+### Nondestructive verifiability 
 
 A related, and possibly more important concept, is that you
 should always be able to verify that something was done correctly after it has
@@ -280,7 +280,7 @@ making it impossible to prove that the task was done correctly.
 This is often not practical to solve without online sensors,
 but occasionally can be resolved with transparent covers.
 
-### Positive Locking
+### Positive locking
 
 This probably has a well-defined engineering meaning,
 but in everyday language, a "positive" click, latch, lock, or connection is
@@ -302,7 +302,7 @@ Screws can be considered positive under vibration-free conditions,
 but nuts and bolts can and do undo themselves in some cases if nothing is
 done to stop this.
 
-### Don't trust Elegance
+### Don't trust elegance
 
 Scientists and engineers LOVE simple, short, expressions of some deeper truth, that cuts right to the essence of what it means to be a pencil or a knife or a razor or something.
 
@@ -331,7 +331,7 @@ A more extreme statement of this might be "just right is all wrong".   When ther
 to add or take away, and every piece fits perfectly, ask yourself what happens when someone drops it in the mud
 and it's not so perfect anymore.
 
-### No Guessing
+### No guessing
 
 You should never have to adjust something you can't immediately see the results of, while you're doing it.  Aside from aesthetics, you mostly shouldn't have anything that needs "adjusting" in the first place.
 
@@ -344,13 +344,13 @@ In general, things should adjust themselves. Every adjustment the user makes is 
 This also applies to pretty much any kind of configuration or setup. Things should just work, and you shouldn't need to tweak them or use a different version for every possible situation.
 
 
-### Too Many Tools 
+### Too many tools 
 
 Avoid having two similar tools for slightly different applications if you can. They can almost always be merged, unless the task is so large that modifying them takes too much time.
 
 Especially avoid creating a new tool to avoid learning an industry standard that you know you will have to learn anyway.
 
-### No Mental rotation
+### No mental rotation
 
 Just throw the idea in the bin right then and there if it involves accurately imagining something rotated or flipped.  
 
@@ -361,7 +361,7 @@ Things like reading maps not oriented towards the real directions, manually flip
 If you're plan has something like "oh yeah A fits into C" or "just press Ctl-N" or "A is also called 1 in some places", you need to document every step, or avoid the whole plan.  Nobody should have to memorize nonstandard arbitrary codes.
 
 
-### No Duplicated information or entry
+### No duplicated information or entry
 
 No reporting the same information to different sets of people at different times.  No giving employees multiple ID numbers that apply in different contexts.
 
@@ -497,12 +497,12 @@ If it works in a test, but theory says it will fail, watch out.
 
 
 
-### No Ordering dependencies
+### No ordering dependencies
 
 Avoid manual processes with steps that must be done in a particular order. This is a common type of error that can be eliminated in the design stage.
 
 
-### Explicit Not Implicit
+### Explicit not implicit
 
 Where possible, avoid expecting anyone to manually determine unknown information, even when it is fully specific by present information.
 
@@ -516,7 +516,7 @@ Transported objects create an element of both variable state and a dynamic time 
 
 ”Kits" for accomplishing an activity are valuable enough to warrant even large amounts of duplication.
 
-### Atomic Time regions
+### Atomic time regions
 
 An atomic time region is the period between beginning an activity and completing it, when the activity cannot be abandon during the region.
 
@@ -527,7 +527,7 @@ Another example is the time between taking an item out of a pocket to use it, an
 These regions should be minimized, and things should be designed such that things can be paused or stopped at arbitrary points without consequence.
 
 
-### Captive Objects
+### Captive objects
 
 
 Things not meant to separate should not be able to easily, or should at least be able to stick together by themselves.
@@ -541,7 +541,7 @@ Where periodic separation is required, a slipped knot, highwayman's hitch, or me
 A tether that can become undone simply through tension is not secure, and magnetic attachment should not be used for things exposed to arbitrary unknown force, such as portable or handheld objects.
 
 
-### Watch for Reversibility
+### Watch for reversibility
 
 Any step that cannot easily be reversed should be avoided or given extreme caution, and an acceptable decision that can be undone may be preferable to an excellent decision that cannot.
 
@@ -551,7 +551,7 @@ In particular, never do something in hardware that can be done digitally, unless
 
 Don't write things in stone or make your mark that lasts forever.   Almost nothing people do is perfect, so be sure that your plans can be erased without a trace when something better comes along.
 
-### Project to Process transitions
+### Project to process transitions
 
 Projects are easy.  They have a beginning, an end, and the only goal is to finish them without seriously wrecking something.
 
@@ -568,7 +568,7 @@ Absolutely reject any design that involves bending some part in, wedging it at a
 
 Hands and tools should never go where eyes cannot, nor should there be any step where the act of closing a box can easily affect the (now non-inspectable) contents 
 
-### Eschew the Screw, careful how you connect
+### Eschew the screw, careful how you connect
 
 Screw-based connectors are often incredibly inconvenient to work with in-place, although they may seem very convenient for use in the lab.
 
@@ -584,7 +584,7 @@ Electrical contacts have all sorts of additional failure modes.
 
 Pay attention to connection points!
 
-### No Remapping By Swapping
+### No remapping By swapping
 
 A relatively common problem is something like this.  You have a box with four coloured pipes going out, and four blank ones going in.
 
@@ -692,7 +692,7 @@ Don't use updates that run automatically.  Tech should stay out of the way, not 
 
 Some things are obsolete and should be upgraded immediately, but usually only the user knows which things those are.
 
-### Minimize Unique parts
+### Minimize unique parts
 
 It's bad enough to use dozens of parts when a few lines
 of code would do.   What's worse is to have dozens of
@@ -741,7 +741,7 @@ Nonetheless, one cannot expect something entirely artificial to be appreciated u
 it has some sort of context.
 
 
-### Beware the Wear
+### Beware the wear
 Many devices use flash memory. Many automatically save whatever you change.  
 
 Few take any steps to avoid wearing out the disk in a few years,
@@ -834,7 +834,7 @@ with sub millimeter accuracy, you probably cannot.
 If you try to, you will likely break something. And even if you don't, someone
 else probably will while trying to keep up.  Avoid this.
 
-### Writing Right
+### Writing right
 
 A common complaint of people who feel unskilled is legible handwriting, but this
 too can at least partially be faked.
@@ -862,7 +862,7 @@ which are much simpler than the many square inches of paper badly placed mark me
 Layers in programs like Krita have a similar effect, in that you can work on small parts of a drawing at
 a time, without messing up previous work if you get it wrong.
 
-### Know your Knots (or pretend to)
+### Know your knots (or pretend to)
 
 The usual overhand knot is often a terrible choice,
 but the others are hard to learn.  The exception is
@@ -936,7 +936,7 @@ Brass often uses it to make machining easier. Old crystal glass has it. Maybe
 new crystal glass too. It has all kinds of uses, so don't
 assume any random thing is good safe.
 
-### Manufactured Hurries and artificial deadlines
+### Manufactured hurries and artificial deadlines
 
 These are terrible mental devices that have been used for everything from
 landing someone in the hospital, to making unwanted sexual advances.
