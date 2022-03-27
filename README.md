@@ -57,7 +57,7 @@ of the gold standard isn't usually a bad thing.
 
 ### "Life Experience": Is it really worth it?
 
-While we absolutely shouuld respect, listen to, and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
+While we absolutely should respect, listen to, and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
 
 This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "You need to learn how to handle the hard stuff if you're going to succeed.".  This is especially prevalant with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "All those broken bones made them who they are" idea.
 
@@ -205,7 +205,7 @@ and never explain how.
 
 The easy way is to examine how you are holding things and take note of the points of failure.  If you are relying on friction, a little less pressure for even a moment will cause a slip.  If you rely on gravity, any tilt will cause you to drop it.
 
-Pay attention to the margin of error.  The goal is to put as much distance as possible between you and an accident. Be sure that small movements can't result in a drop.  I like to wrap a finger around the handle of a cup, amd additionally put my pinky underneath for a very slight bit of extra protection, if I'm going to be walking around a lot.
+Pay attention to the margin of error.  The goal is to put as much distance as possible between you and an accident. Be sure that small movements can't result in a drop.  I like to wrap a finger around the handle of a cup, and additionally put my pinky underneath for a very slight bit of extra protection, if I'm going to be walking around a lot.
 
 
 Next, consider what happens if you DO drop something. The higher up, the more damage. So avoid unnecessary fussing witu things above a high drop.  Always use wrist and neck straps when available. Always use protective cases.
@@ -289,7 +289,7 @@ and it cannot incrementally loosen over time.
 
 Consider velcro, which has varying levels of "attachedness" depending on
 how thoroughly it was pressed together, and it's age.   Or, consider a loose
-bold which can come undone by vibration, or two parts held simply by having "just the right amount"
+bolt which can come undone by vibration, or two parts held simply by having "just the right amount"
 of friction to allow someone to wedge it in securely.
 
 Contrast this with a magnet, that will not detach unless the holding force is exceeded,
@@ -497,7 +497,7 @@ If it works in a test, but theory says it will fail, watch out.
 
 
 
-### No Ordering dependancies
+### No Ordering dependencies
 
 Avoid manual processes with steps that must be done in a particular order. This is a common type of error that can be eliminated in the design stage.
 
@@ -564,7 +564,7 @@ The easiest way to avoid these, is to do things in advance so that they can be d
 
 ### The Dreaded Chopstick
 
-Absolutely reject any design that involves bending some part in, wedging it at an odd angle, and possibly pushing something out of the way with  chopstick.
+Absolutely reject any design that involves bending some part in, wedging it at an odd angle, and possibly pushing something out of the way with a chopstick.
 
 Hands and tools should never go where eyes cannot, nor should there be any step where the act of closing a box can easily affect the (Now non-inspectable) contents 
 
@@ -574,7 +574,7 @@ Screw-based connectors are often incredibly inconvenient to work with in-place, 
 
 When using terminal blocks, avoid non-detachable versions, and air hose quick connects are usually worth it.
 
-Generally, connection points are very common failure modes.   All connectors should have a large strain relief if you want them to last, unlike a the popular slim white style USB connectors that imitate "luxury" brands.
+Generally, connection points are very common failure modes.   All connectors should have a large strain relief if you want them to last, unlike the popular slim white style USB connectors that imitate "luxury" brands.
 
 Keychain carabineers and clips are similar danger points, as is the wrong knot in a rope.
 
@@ -712,7 +712,7 @@ Especially avoid slightly modified off the sheet parts if possible, although it 
 than a scratch build.
 
 In that case, you never know if the original manufacturer will change the internals
-of the design so that it no longer works, on top of the extra effort and unpredictably of
+of the design so that it no longer works, on top of the extra effort and unpredictability of
 customizing something.
 
 This also goes for unique pieces of software.  If you don't have time
@@ -726,7 +726,7 @@ To automate something, you need to be able to fully describe what you want, or j
 
 Fully describing what you want is often equivalent to doing something by hand, or else is a limited version that isn't actually what anyone wants.
 
-Computers can fnd the right decoder for a file format, they can reconnect when the network goes down, but designing a bookshelf requires
+Computers can find the right decoder for a file format, they can reconnect when the network goes down, but designing a bookshelf requires
 a real understanding of how it will be used.   It is important to see what problems are "Hard", and can be fully described in a page or two, and what problems are "soft", meaning we don't really know the algorithm we use to do them.
 
 In addition, aesthetics will always depend on context and one should not expect it to be ignored.
@@ -754,9 +754,9 @@ over time.
 More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear(like saving to flash)
 
 
-### Replacability!
+### Replaceability!
 
-Things that don't last, should be replacable. Don't let a design leave the drawing
+Things that don't last, should be replaceable. Don't let a design leave the drawing
 board if it becomes disposable because of one part. Beyond that, things that wear should
 be common and available anywhere, like 0.7mm pencil leads, not propietary to one manufacturer, or
 even handmade and totally unique.
@@ -917,7 +917,7 @@ a picture.  It is useful because it can be slid by hand, but will not slide unde
 There are few luxuries that can compare to *not* having to carry 
 a bunch of heavy crap.  Be very careful about the weight of the things you buy, if
 you will be carrying them even a short while, and ruthlessly prune or upgrade anything in
-your bag that weighs you donw.  If it costs money I'm sure
+your bag that weighs you down.  If it costs money I'm sure
 there are meals at restaurants you can skip, because not much tastes as
 good as not hauling crap around.
 
@@ -970,7 +970,7 @@ On top of this, your reasons may well involve a mistrust you don't feel comforta
 They may be saying something you know to be untrue, like "It's perfectly safe",
 and you may think you are not in a position to argue.
 
-The added self censorship makes it even harder to speak at their pace.
+The added self-censorship makes it even harder to speak at their pace.
 
 
 They have given themselves the home field advantage, an insane
