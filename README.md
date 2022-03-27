@@ -29,7 +29,7 @@ Nonetheless, I believe they may be useful in spotting likely issues with a plan.
 
 ## Principles
 
-### Redundancy.
+### Redundancy
 
 There should not be anywhere in your plan where a single failure can have significant consequences.  One broken rope, one person dropping something, or one lost flashlight shouldn't affect the plan at all.
 
@@ -381,7 +381,7 @@ Most such cases that use the extra manual calculation step as  a confirmation ca
 
 
 
-### Do not be confident, and don't trust someone because they're better than you.
+### Do not be confident, and don't trust someone because they're better than you
 
 This is neither a football field, nor a chess club, nor a Eugenics festival.
 
