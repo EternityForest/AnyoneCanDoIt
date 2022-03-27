@@ -59,7 +59,7 @@ of the gold standard isn't usually a bad thing.
 
 While we absolutely should respect, listen to, and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
 
-This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "You need to learn how to handle the hard stuff if you're going to succeed.".  This is especially prevalant with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "All those broken bones made them who they are" idea.
+This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "You need to learn how to handle the hard stuff if you're going to succeed".  This is especially prevalant with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "All those broken bones made them who they are" idea.
 
 In reality, going through a lot of stuff may prove you can survive a bad situation, but it's not going to teach you much about avoiding it in the future, especially if you insist on doing the same thing. Living on the streets for a year is no guarantee you're going to know how to run a Dairy Queen, and in fact, many of the habits people learn in suvival situations actively increase the risk of problems down the road.   Many poor people are incredibly kind, but some are plain evil. It might "Build character"... but what kind of character exactly?
 
