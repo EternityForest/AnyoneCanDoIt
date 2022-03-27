@@ -271,7 +271,7 @@ At most houses, one cannot check if they left the iron
 on, without opening the doors.
 
 The state is not exactly hidden, but the result is that there is no
-state in which things are both guaranteed to not change,
+state in which things are both guaranteed to remain as-is,
 and inspectible.  This creates a big problem, because once
 the task is done, you must rely on memory or documentation,
 and unless you videotaped everything, documentation can be forged,
