@@ -134,7 +134,7 @@ In every way, and on every level, even the common everyday crimes,
 hurtful actions, and lies, are a bad deal.
 
 
-### Redundant Info
+### Redundant information
 
 Have you ever seen a Claymore mine that says "front towards enemy"?   How do
 you *know* that side is the front?   Most people will probably guess correctly, and in the military, one is presumably trained.
