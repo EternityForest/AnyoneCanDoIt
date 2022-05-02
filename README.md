@@ -59,9 +59,9 @@ of the gold standard isn't usually a bad thing.
 
 While we absolutely should respect, listen to, and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
 
-This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "you need to learn how to handle the hard stuff if you're going to succeed".  This is especially prevalant with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "all those broken bones made them who they are" idea.
+This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "you need to learn how to handle the hard stuff if you're going to succeed".  This is especially prevalent with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "all those broken bones made them who they are" idea.
 
-In reality, going through a lot of stuff may prove you can survive a bad situation, but it's not going to teach you much about avoiding it in the future, especially if you insist on doing the same thing. Living on the streets for a year is no guarantee you're going to know how to run a Dairy Queen, and in fact, many of the habits people learn in suvival situations actively increase the risk of problems down the road.   Many poor people are incredibly kind, but some are plain evil. It might "build character"... but what kind of character exactly?
+In reality, going through a lot of stuff may prove you can survive a bad situation, but it's not going to teach you much about avoiding it in the future, especially if you insist on doing the same thing. Living on the streets for a year is no guarantee you're going to know how to run a Dairy Queen, and in fact, many of the habits people learn in survival situations actively increase the risk of problems down the road.   Many poor people are incredibly kind, but some are plain evil. It might "build character"... but what kind of character exactly?
 
 There are heroes who are known the world over for their resolve and toughness.  There are also millions of people who made great
 contributions to the world by being careful, looking at the evidence, and avoiding getting themselves into trouble, without ever willingly doing any of these "character building" things we hear so much about.
@@ -192,7 +192,7 @@ This quote was never said by Einstein so far as I know, and it is fairly harmful
 
 The decision to keep going or to turn back must be made with sound logic, not arbitrary observations of small numbers of situations, most of which are more influenced by outside factors than the action in question.
 
-If this quote were any more popular, we would have no musicians, because they would stop practing after a lesson or two.
+If this quote were any more popular, we would have no musicians, because they would stop practicing after a lesson or two.
 
 Rather than asking "how is this working", ask "has this worked for anyone else" and "what reasons do I have to believe this will work in the future" and "what assumptions do those reasons rely on".
 
@@ -208,7 +208,7 @@ The easy way is to examine how you are holding things and take note of the point
 Pay attention to the margin of error.  The goal is to put as much distance as possible between you and an accident. Be sure that small movements can't result in a drop.  I like to wrap a finger around the handle of a cup, and additionally put my pinky underneath for a very slight bit of extra protection, if I'm going to be walking around a lot.
 
 
-Next, consider what happens if you DO drop something. The higher up, the more damage. So avoid unnecessary fussing witu things above a high drop.  Always use wrist and neck straps when available. Always use protective cases.
+Next, consider what happens if you DO drop something. The higher up, the more damage. So avoid unnecessary fussing with things above a high drop.  Always use wrist and neck straps when available. Always use protective cases.
 
 Dropping things is one of the most common mistakes, and it's rarely answered with a real plan.
 
@@ -288,7 +288,7 @@ one that is absolute.  You cannot disconnect in any way but the intended manner 
 and it cannot incrementally loosen over time.
 
 Consider velcro, which has varying levels of "attachedness" depending on
-how thoroughly it was pressed together, and it's age.   Or, consider a loose
+how thoroughly it was pressed together, and its age.   Or, consider a loose
 bolt which can come undone by vibration, or two parts held simply by having "just the right amount"
 of friction to allow someone to wedge it in securely.
 
@@ -337,7 +337,7 @@ You should never have to adjust something you can't immediately see the results 
 
 There shouldn't be too many tweakable parameters you have to get "just right" to make it work.  Those always result in something getting out of calibration over time, and the whole thing goes down for a week while you wait for the guy who knows how to fix it again.
 
-If there is something that needs adjusting (usually something that directly affects people, like light levels), it should be controlled in real time, with a knob or a slider. No "reboot and change a config file" or any such nonsese.
+If there is something that needs adjusting (usually something that directly affects people, like light levels), it should be controlled in real time, with a knob or a slider. No "Reboot and change a config file" or any such nonsense.
 
 In general, things should adjust themselves. Every adjustment the user makes is usually a failure the designer made.
 
@@ -358,7 +358,7 @@ Things like reading a map that is not oriented in the correct direction, manuall
 
 ### No arbitrary mappings and remappings
 
-If you're plan has something like "oh yeah A fits into C" or "just press Ctl-N" or "A is also called 1 in some places", you need to document every step, or avoid the whole plan.  Nobody should have to memorize nonstandard arbitrary codes.
+If your plan has something like "oh yeah A fits into C" or "just press Ctl-N" or "A is also called 1 in some places", you need to document every step, or avoid the whole plan.  Nobody should have to memorize nonstandard arbitrary codes.
 
 
 ### No duplicated information or entry
@@ -444,13 +444,13 @@ a path may have a very high cost.
 "Cloud services" are very popular, but they can disappear
 at any time, and sometimes cost money constantly, and it doesn't
 work without the internet.  As more and more
-software becomes cloud oriented, you may want to stat moving away
+software becomes cloud oriented, you may want to start moving away
 from such things.
 
 Especially watch out for any physical devices tied to a specific
 cloud services.    Voice assistants tend to be from very big companies,
 and they probably want to keep selling data, so you might be able to trust that
-they will be around a while.
+they will be around for a while.
 
 But other things, like smart thermostats, can and have completely dropped support
 for old products.
@@ -510,7 +510,7 @@ Examples include inches to feet conversion, or manually finding the center of a 
 
 ### Watch for highly transported objects
 
-An objects is unlikely to be lost if it stays in one place.  When a cheap object such as a pen or pair of scissors is used in two locations, it is likely far better to duplicate the item rather than transport it.
+An object is unlikely to be lost if it stays in one place.  When a cheap object such as a pen or pair of scissors is used in two locations, it is likely far better to duplicate the item rather than transport it.
 
 Transported objects create an element of both variable state and a dynamic time region while it is in transit.
 
@@ -518,7 +518,7 @@ Transported objects create an element of both variable state and a dynamic time 
 
 ### Atomic time regions
 
-An atomic time region is the period between beginning an activity and completing it, when the activity cannot be abandon during the region.
+An atomic time region is the period between beginning an activity and completing it, when the activity cannot be abandoned during the region.
 
 A section of fast moving traffic is one such example.  There is neither a way to exit at an arbitrary point, nor any inherent stability that would return things to a safe state were the driver to stop paying attention.
 
@@ -534,7 +534,7 @@ Things not meant to separate should not be able to easily, or should at least be
 
 None of this "hold these three parts in place while you insert rod X" business.
 
-Valuable items such as keys and wallets can be tethred to the inside of pockets using carabiners and grommets.   Pens can be affixed to clipboards.
+Valuable items such as keys and wallets can be tethered to the inside of pockets using carabiners and grommets.   Pens can be affixed to clipboards.
 
 Where periodic separation is required, a slipped knot, highwayman's hitch, or mechanical device should be used, but only one that requires definitive action to separate. 
 
@@ -545,7 +545,7 @@ A tether that can become undone simply through tension is not secure, and magnet
 
 Any step that cannot easily be reversed should be avoided or given extreme caution, and an acceptable decision that can be undone may be preferable to an excellent decision that cannot.
 
-As situations change, fixed elements add extra challenge to keep up with, but fixed elements can often be avoided through planning and engineering.
+As situations change, fixed elements add extra challenges to keep up with, but fixed elements can often be avoided through planning and engineering.
 
 In particular, never do something in hardware that can be done digitally, unless it is safety critical and studies have shown hardware failsafes to be needed.
 
@@ -564,7 +564,7 @@ The easiest way to avoid these, is to do things in advance so that they can be d
 
 ### The Dreaded Chopstick
 
-Absolutely reject any design that involves bending some part in, wedging it at an odd angle, and possibly pushing something out of the way with a chopstick.
+Absolutely reject any design that involves bending some part in, wedging it at an odd angle, and possibly pushing something out of the way with chopsticks.
 
 Hands and tools should never go where eyes cannot, nor should there be any step where the act of closing a box can easily affect the (now non-inspectable) contents 
 
@@ -607,7 +607,7 @@ This is important, but more equally important is to look for points where a mist
 A wet floor is not an immediate problem until someone slips on it.  It would be easy for someone who is used to assuming perfect competence to conclude that people should see it and not slip.
 
 
-Removing contributing factors is often easier then directly avoiding problems for several reasons.
+Removing contributing factors is often easier than directly avoiding problems for several reasons.
 
 One is that you cannot always be sure of the future, or what additional circumstances will complicate your plan to avoid the mistake.
 
@@ -646,7 +646,7 @@ However, less flexible tools like Etcher (as opposed to dd) CAN be thoroughly te
 are meant to solve a common problem once and for all, and get used enough
 to be worth testing.
 
-Note that that the issue has nothing to with simplicity. Massively
+Note that the issue has nothing to do with simplicity. Massively
 complicated things can still be thoroughly tested if there is the economics
 to support it, but ad-hoc solutions rarely get a proportional level of scrutiny regardless
 oof how simple they are.
@@ -775,7 +775,7 @@ themselves.  Perhaps they think you don't want to be bothered.  Maybe they
 have already reported several issues and think you're getting tired of them.
 
 Whatever the case may be, people will often not tell you things
-you need to know, unless you specificaly ask, and even then, they may not know.
+you need to know, unless you specifically ask, and even then, they may not know.
 
 
 ### People are bad at monitoring things
@@ -813,7 +813,7 @@ to tell you how a product will perform, look, or whether it will last.
 
 What they tell you is how well they conform to some tradition that
 seems, to someone, to be associated with quality.  There may be
-reasons for this in some cases, but over time, these vauge indicators
+reasons for this in some cases, but over time, these vague indicators
 become goals in and of themselves, and eventually they can become philosophical
 axioms, where the value of product itself is irrelevant, and the choice
 is made for idealistic reasons.
@@ -867,7 +867,7 @@ a time, without messing up previous work if you get it wrong.
 The usual overhand knot is often a terrible choice,
 but the others are hard to learn.  The exception is
 the common area shoelace knot, which has a verbal description that doesn't rely 
-on muscle memory at all, but it is surprising hard to find.
+on muscle memory at all, but it is surprisingly hard to find.
 
 Most people seem to have no trouble learning to tie this, but I definitely had plenty of it before finding this hack.
 
