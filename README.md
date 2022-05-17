@@ -1,9 +1,9 @@
 # AnyoneCanDoIt
 An open source guide to mistake-resistant engineering for plans that don't
-require natural talent to do. (Work in progress)
+require natural talent to do. (work in progress)
 
 
-## Intro
+## Introduction
 A lot of planning these days includes the word "carefully".
 
 What does it mean? Well, it means you don't get distracted and do the wrong thing. Your hands don't shake and you don't forget anything.
@@ -29,11 +29,11 @@ Nonetheless, I believe they may be useful in spotting likely issues with a plan.
 
 ## Principles
 
-### Redundancy.
+### Redundancy
 
 There should not be anywhere in your plan where a single failure can have significant consequences.  One broken rope, one person dropping something, or one lost flashlight shouldn't affect the plan at all.
 
-Two is one and one is none, not just with things, but with actions.  If the plan starts with "It's basically impossible, but I know one guy who can do it by hand for a good price" you might want a different plan.
+Two is one and one is none, not just with things, but with actions.  If the plan starts with "it's basically impossible, but I know one guy who can do it by hand for a good price" you might want a different plan.
 
 
 When adding redundancy, often it is best to use unrelated technologies.
@@ -57,11 +57,11 @@ of the gold standard isn't usually a bad thing.
 
 ### "Life Experience": Is it really worth it?
 
-While we absolutely should respect, listen to. and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
+While we absolutely should respect, listen to, and learn from the people who have seen and done a lot, I doubt it is any guarantee that they know any particular fact.  Many people will use their general experience to make specific claims without evidence, by saying "I know how the world works, you don't" or similar.
 
-This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "You need to learn how to handle the hard stuff if you're going to succeed.".  This is especially prevalent with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "All those broken bones made them who they are" idea.
+This idea is sometimes used to convince people to put themselves through all kinds of unnecessary torture, by claiming things like "you need to learn how to handle the hard stuff if you're going to succeed".  This is especially prevalent with sports, with the whole "I learned a lot about life on the gridiron" thing, or the "all those broken bones made them who they are" idea.
 
-In reality, going through a lot of stuff may prove you can survive a bad situation, but it's not going to teach you much about avoiding it in the future, especially if you insist on doing the same thing. Living on the streets for a year is no guarantee you're going to know how to run a Dairy Queen, and in fact, many of the habits people learn in survival situations actively increase the risk of problems down the road.   Many poor people are incredibly kind, but some are plain evil. It might "Build character"... but what kind of character exactly?
+In reality, going through a lot of stuff may prove you can survive a bad situation, but it's not going to teach you much about avoiding it in the future, especially if you insist on doing the same thing. Living on the streets for a year is no guarantee you're going to know how to run a Dairy Queen, and in fact, many of the habits people learn in survival situations actively increase the risk of problems down the road.   Many poor people are incredibly kind, but some are plain evil. It might "build character"... but what kind of character exactly?
 
 There are heroes who are known the world over for their resolve and toughness.  There are also millions of people who made great
 contributions to the world by being careful, looking at the evidence, and avoiding getting themselves into trouble, without ever willingly doing any of these "character building" things we hear so much about.
@@ -134,12 +134,12 @@ In every way, and on every level, even the common everyday crimes,
 hurtful actions, and lies, are a bad deal.
 
 
-### Redundant Info
+### Redundant information
 
 Have you ever seen a Claymore mine that says "front towards enemy"?   How do
 you *know* that side is the front?   Most people will probably guess correctly, and in the military, one is presumably trained.
 
-But in civilian life, many of us would rather see "This side up" explicitly.
+But in civilian life, many of us would rather see "this side up" explicitly.
 
 In mechanical design, an excessive number of straps, bolts, and constraints can fight each other, and be a bad thing.
 
@@ -149,7 +149,7 @@ A "fully idiotpoofed" claymore might have both the front and back labeled as suc
 might not want someone who needs that kind of thing to be using a Claymore mine, but on something like a washing
 machine, it's easy to see the value.
 
-Whenever there is ambiguity, as in "Does 'push right' mean to push it from the right, or push on the right end",
+Whenever there is ambiguity, as in "does 'push right' mean to push it from the right, or push on the right end",
 ensure that it is possible to figure out, without assuming any preexisting knowledge, even if some of that preexisting information
 seems obvious.
 
@@ -170,15 +170,15 @@ possibly and truly reserved for future assignment, nothing that can't
 be cancelled should be planned for them, and they should not be outside of
 and in addition to any extra time allotted for any particular project.
 
-### Storage and Organization
+### Storage and organization
 
 It's essentially *always* worth the money to buy a case for your phone. If you're gonna buy something that needs an extra adapter, buy one that doesn't if you can.  Use Bluetooth headphones instead of corded ones.
 
 Get a labelmaker. Don't carry anything heavy without a dolly. Use padding to protect anything expensive. Physical objects are a common source of failure, so the accessories we use to manage them, and the upgrades that make them easier to manage, are worth it.
 
-### Force and precision, pick one
+### Force or precision: pick one
 
-Never design anything with the words "Firmly but carefully" in it.  Hands and tools slip under force. If force is needed, you should be able to use a hammer, or you should use a better design.
+Never design anything with the words "firmly but carefully" in it.  Hands and tools slip under force. If force is needed, you should be able to use a hammer, or you should use a better design.
 
 Stay away from all screws aside from Torx heads. Phillips requires pressing and turning at the same time. No more of that!
 
@@ -194,11 +194,11 @@ The decision to keep going or to turn back must be made with sound logic, not ar
 
 If this quote were any more popular, we would have no musicians, because they would stop practicing after a lesson or two.
 
-Rather than asking "How is this working", ask "has this worked for anyone else" and "what reasons do I have to believe this will work in the future" and "What assumptions do those reasons rely on".
+Rather than asking "how is this working", ask "has this worked for anyone else" and "what reasons do I have to believe this will work in the future" and "what assumptions do those reasons rely on".
 
 All too often this quote is a lazy shortcut used to dismiss things without thinking.
 
-### Stopping the Dropping
+### Stopping the dropping
 
 Dropping things is always a hassle, made worse by the fact that people will advise you to be more careful next time,
 and never explain how.
@@ -216,7 +216,7 @@ Dropping things is one of the most common mistakes, and it's rarely answered wit
 
 
 
-### Watch your Wallet(And other similar things like it)
+### Watch your wallet (and other similar things like it)
 
 Always have a backup plan for highly critical items. Assume you will lose them at the worst possible time.  Have things like Kroger's mobile payment app ready-to-go should you find yourself with a full card or groceries, and no way to pay for them.  I didn't, and spent a half an hour installing the app in the middle of QFC one day when I left my cards at home, thanks to a crappy and worn out wallet.
 
@@ -228,7 +228,7 @@ Similarly, you can hide a backup set of keys in a backpack pocket or even an out
 
 Your phone, too, is not perfectly immune from being lost or stolen.  Use the best case you can find, enable any tracking features you want, and be sure to back up all data.
 
-### Minimum Energy
+### Minimum energy
 
 Don't use dynamite. Or rat poison. Or High voltages, or big strong springs, or giant hydraulics, or anything else with real power behind it, unless you actually need it.
 
@@ -238,13 +238,13 @@ You don't want a plan that *won't* hurt anyone. You want a plan that *cannot* hu
 
 If you need a training video to explain how not to hurt yourself, look at eliminating that step entirely.
 
-### Minimum Material
+### Minimum material
 
-You are trying to make excellent products. Not use up excellent materials.  Every ounce of matter, be it steel or gold, is a waste.
+You are trying to make excellent products -- not to use up excellent materials.  Every excess ounce of matter, be it steel or gold, is a waste.
 
-When someone says "Solid gold" they mean "I probably polluted an entire village somewhere because I didn't have any better ideas"
+When someone says "solid gold" they mean "I probably polluted an entire village somewhere because I didn't have any better ideas"
 
-This applies to non-physical "Material" too, like lines of code.  Anything you have to buy, carry, maintain, etc, is a liability.
+This applies to non-physical "material" too, like lines of code.  Anything you have to buy, carry, maintain, etc, is a liability.
 
 Go with things that are cheap, common, and inert.
 
@@ -256,12 +256,12 @@ Hidden state is anything that has a variable condition, such as a door that can 
 
 Appliances that get hot should have power lights.  Just as you shouldn't trust a person to do something later, you shouldn't trust a person to check on something later.
 
-There should not be any "Do X, then check Y" steps. X should obviously and instantly fail if Y is in the wrong state.
+There should not be any "do X, then check Y" steps. X should obviously and instantly fail if Y is in the wrong state.
 
 Ideally, all things should return to a default safe state if left unattended.
 
 
-### Nondestructive Verifiability 
+### Nondestructive verifiability 
 
 A related, and possibly more important concept, is that you
 should always be able to verify that something was done correctly after it has
@@ -271,7 +271,7 @@ At most houses, one cannot check if they left the iron
 on, without opening the doors.
 
 The state is not exactly hidden, but the result is that there is no
-state in which things are both guaranteed to not change,
+state in which things are both guaranteed to remain as-is,
 and inspectible.  This creates a big problem, because once
 the task is done, you must rely on memory or documentation,
 and unless you videotaped everything, documentation can be forged,
@@ -280,7 +280,7 @@ making it impossible to prove that the task was done correctly.
 This is often not practical to solve without online sensors,
 but occasionally can be resolved with transparent covers.
 
-### Positive Locking
+### Positive locking
 
 This probably has a well-defined engineering meaning,
 but in everyday language, a "positive" click, latch, lock, or connection is
@@ -289,7 +289,7 @@ and it cannot incrementally loosen over time.
 
 Consider velcro, which has varying levels of "attachedness" depending on
 how thoroughly it was pressed together, and its age.   Or, consider a loose
-bold which can come undone by vibration, or two parts held simply by having "just the right amount"
+bolt which can come undone by vibration, or two parts held simply by having "just the right amount"
 of friction to allow someone to wedge it in securely.
 
 Contrast this with a magnet, that will not detach unless the holding force is exceeded,
@@ -302,12 +302,12 @@ Screws can be considered positive under vibration-free conditions,
 but nuts and bolts can and do undo themselves in some cases if nothing is
 done to stop this.
 
-### Don't trust Elegance
+### Don't trust elegance
 
 Scientists and engineers LOVE simple, short, expressions of some deeper truth, that cuts right to the essence of what it means to be a pencil or a knife or a razor or something.
 
 They are mathematical theorems made concrete. No part could be added or removed and still make sense, and not much can be changed without
-totally changing the character of the whole thing.   The people that like this stuff might use the word "Perfection" to describe it.
+totally changing the character of the whole thing.   The people that like this stuff might use the word "perfection" to describe it.
 
 They also love to wonder why consumer products aren't built like this anymore.   To everyone else, it's obvious.
 
@@ -327,41 +327,41 @@ It's also generally ugly and delicate, because the aesthetic parts, the function
 Many argue that it's just the price of fine craftsmanship, that an old 1800s writing desk was not meant to be set drinks on, but accepting that principle means putting the responsibility back on the people, rather than preventing failure at the design stage,
 where you have the best chance of stopping it once and for all, regardless of unexpected circumstances.
 
-A more extreme statement of this might be "Just right is all wrong".   When there's nothing
+A more extreme statement of this might be "just right is all wrong".   When there's nothing
 to add or take away, and every piece fits perfectly, ask yourself what happens when someone drops it in the mud
 and it's not so perfect anymore.
 
-### No Guessing
+### No guessing
 
 You should never have to adjust something you can't immediately see the results of, while you're doing it.  Aside from aesthetics, you mostly shouldn't have anything that needs "adjusting" in the first place.
 
 There shouldn't be too many tweakable parameters you have to get "just right" to make it work.  Those always result in something getting out of calibration over time, and the whole thing goes down for a week while you wait for the guy who knows how to fix it again.
 
-If there is something that needs adjusting (Usually something that directly affects people, like light levels), it should be controlled in real time, with a knob or a slider. No "Reboot and change a config file" or any such nonsense.
+If there is something that needs adjusting (usually something that directly affects people, like light levels), it should be controlled in real time, with a knob or a slider. No "Reboot and change a config file" or any such nonsense.
 
 In general, things should adjust themselves. Every adjustment the user makes is usually a failure the designer made.
 
 This also applies to pretty much any kind of configuration or setup. Things should just work, and you shouldn't need to tweak them or use a different version for every possible situation.
 
 
-### Too Many Tools 
+### Too many tools 
 
 Avoid having two similar tools for slightly different applications if you can. They can almost always be merged, unless the task is so large that modifying them takes too much time.
 
 Especially avoid creating a new tool to avoid learning an industry standard that you know you will have to learn anyway.
 
-### No Mental rotation
+### No mental rotation
 
 Just throw the idea in the bin right then and there if it involves accurately imagining something rotated or flipped.  
 
-Things like reading maps not oriented towards the real directions, manually flipping things for printing on two sides of a page, etc, should be treated with extreme care.
+Things like reading a map that is not oriented in the correct direction, manually inverting document content that is intended for double-sided printing, and so on, should be treated with extreme care.
 
 ### No arbitrary mappings and remappings
 
-If your plan has something like "Oh yeah A fits into C" or "Just press Ctl-N" or "A is also called 1 in some places", you need to document every step, or avoid the whole plan.  Nobody should have to memorize nonstandard arbitrary codes.
+If your plan has something like "oh yeah A fits into C" or "just press Ctl-N" or "A is also called 1 in some places", you need to document every step, or avoid the whole plan.  Nobody should have to memorize nonstandard arbitrary codes.
 
 
-### No Duplicated information or entry
+### No duplicated information or entry
 
 No reporting the same information to different sets of people at different times.  No giving employees multiple ID numbers that apply in different contexts.
 
@@ -381,7 +381,7 @@ Most such cases that use the extra manual calculation step as  a confirmation ca
 
 
 
-### Do not be confident, and don't trust someone because they're better than you.
+### Do not be confident, and don't trust someone because they're better than you
 
 This is neither a football field, nor a chess club, nor a Eugenics festival.
 
@@ -399,7 +399,7 @@ No matter how long your day was at the office, I am quite sure the team that had
 
 If they tell you something, believe it.
 
-Sometimes non-technical people have some unscientific ideas and think things are "Too cheap and plasticity" or "not powerful enough" or something, but even then, they probably have at least one legitimate complaint, and ten more they aren't even telling you.
+Sometimes non-technical people have some unscientific ideas and think things are "too cheap and plasticity" or "not powerful enough" or something, but even then, they probably have at least one legitimate complaint, and ten more they aren't even telling you.
 
 The ones who actually use these systems in real life know a lot more than the ones who design them from behind a desk.
 
@@ -462,7 +462,7 @@ usually take some research to find.
 
 ### There is no later
 
-Avoid any plan that involves a person remembering "When X, do Y" or "In 30 minutes, check on the pot".
+Avoid any plan that involves a person remembering "when X, do Y" or "in 30 minutes, check on the pot".
 
 Especially avoid anything that requires regular recurring maintenance.   
 
@@ -483,7 +483,7 @@ a reminder.
 
 Don't assume you or anyone else will be able to remember something later.
 
-And especially watch out for statements of the form "When X, I will do Y".
+And especially watch out for statements of the form "when X, I will do Y".
 
 I personally usually treat those as a complete impossibility that I am guaranteed to forget,
 if the matter is of any importance.
@@ -497,12 +497,12 @@ If it works in a test, but theory says it will fail, watch out.
 
 
 
-### No Ordering dependencies
+### No ordering dependencies
 
 Avoid manual processes with steps that must be done in a particular order. This is a common type of error that can be eliminated in the design stage.
 
 
-### Explicit Not Implicit
+### Explicit, not implicit
 
 Where possible, avoid expecting anyone to manually determine unknown information, even when it is fully specific by present information.
 
@@ -516,7 +516,7 @@ Transported objects create an element of both variable state and a dynamic time 
 
 ”Kits" for accomplishing an activity are valuable enough to warrant even large amounts of duplication.
 
-### Atomic Time regions
+### Atomic time regions
 
 An atomic time region is the period between beginning an activity and completing it, when the activity cannot be abandoned during the region.
 
@@ -527,21 +527,21 @@ Another example is the time between taking an item out of a pocket to use it, an
 These regions should be minimized, and things should be designed such that things can be paused or stopped at arbitrary points without consequence.
 
 
-### Captive Objects
+### Captive objects
 
 
 Things not meant to separate should not be able to easily, or should at least be able to stick together by themselves.
 
-None of this "Hold these three parts in place while you Insert rod X" business.
+None of this "hold these three parts in place while you insert rod X" business.
 
-Valuable items such as keys and wallets can be tethered to the inside of pockets using carabineers and grommets.   Pens can be affixed to clipboards.
+Valuable items such as keys and wallets can be tethered to the inside of pockets using carabiners and grommets.   Pens can be affixed to clipboards.
 
 Where periodic separation is required, a slipped knot, highwayman's hitch, or mechanical device should be used, but only one that requires definitive action to separate. 
 
 A tether that can become undone simply through tension is not secure, and magnetic attachment should not be used for things exposed to arbitrary unknown force, such as portable or handheld objects.
 
 
-### Watch for Reversibility
+### Watch for reversibility
 
 Any step that cannot easily be reversed should be avoided or given extreme caution, and an acceptable decision that can be undone may be preferable to an excellent decision that cannot.
 
@@ -551,7 +551,7 @@ In particular, never do something in hardware that can be done digitally, unless
 
 Don't write things in stone or make your mark that lasts forever.   Almost nothing people do is perfect, so be sure that your plans can be erased without a trace when something better comes along.
 
-### Project to Process transitions
+### Project to process transitions
 
 Projects are easy.  They have a beginning, an end, and the only goal is to finish them without seriously wrecking something.
 
@@ -566,9 +566,9 @@ The easiest way to avoid these, is to do things in advance so that they can be d
 
 Absolutely reject any design that involves bending some part in, wedging it at an odd angle, and possibly pushing something out of the way with chopsticks.
 
-Hands and tools should never go where eyes cannot, nor should there be any step where the act of closing a box can easily affect the (Now non-inspectable) contents 
+Hands and tools should never go where eyes cannot, nor should there be any step where the act of closing a box can easily affect the (now non-inspectable) contents 
 
-### Eschew the Screw, careful how you connect
+### Eschew the screw, careful how you connect
 
 Screw-based connectors are often incredibly inconvenient to work with in-place, although they may seem very convenient for use in the lab.
 
@@ -584,7 +584,7 @@ Electrical contacts have all sorts of additional failure modes.
 
 Pay attention to connection points!
 
-### No Remapping By Swapping
+### No remapping By swapping
 
 A relatively common problem is something like this.  You have a box with four coloured pipes going out, and four blank ones going in.
 
@@ -593,7 +593,7 @@ You need to figure out which pipe to drop each colored ball in to make it come o
 
 If there is already a listing of which pipes to use, but it is incorrect, people will often try to fix it by swapping incorrect ones.  When more than two are wrong, this seems to rarely work.
 
-Instead, make a map of every input and the corresponding output (Giving them all labels that have nothing to do with what specific balls you put in!), and trace outputs back to inputs on the map.
+Instead, make a map of every input and the corresponding output (giving them all labels that have nothing to do with what specific balls you put in!), and trace outputs back to inputs on the map.
 
 
 ### Look for potential problems
@@ -611,7 +611,7 @@ Removing contributing factors is often easier than directly avoiding problems fo
 
 One is that you cannot always be sure of the future, or what additional circumstances will complicate your plan to avoid the mistake.
 
-Another is that, like the wet floor, "Being careful" must often be done continually, in this case each and every time, whereas removing the contributing factor often only needs to be done one time(as in mopping the water), and will persistently make things safer until something causes the factor to return.
+Another is that, like the wet floor, "being careful" must often be done continually, in this case each and every time, whereas removing the contributing factor often only needs to be done one time (as in mopping the water), and will persistently make things safer until something causes the factor to return.
 
 ### Beware things that make *using* them the same as *engineering* them
 
@@ -642,8 +642,8 @@ be developed offline and extensively tested before real deployment.
 It would just take take far too long to triple check and peer review
 every command.
 
-However, less flexible tools like Etcher(as opposed to dd) CAN be thoroughly tested, as they
-aare meant to solve a common problem once and for all, and get used enough
+However, less flexible tools like Etcher (as opposed to dd) CAN be thoroughly tested, as they
+are meant to solve a common problem once and for all, and get used enough
 to be worth testing.
 
 Note that the issue has nothing to do with simplicity. Massively
@@ -654,14 +654,14 @@ oof how simple they are.
 
 ### Watch out for tasks involving listing or counting scattered elements
 
-Tasks like "Count how many cars are in that parking lot" are very difficult because
+Tasks like "count how many cars are in that parking lot" are very difficult because
 there is no obvious ordering, and no way to know if you have already counted any particular item.
 
 If you have to do something like this, and can't find any kind of row/column based system, 
 one should not trust their memory. If all can fit in a single photograph, they can be counted and
 digitally marked, or, for things like outlets in a house, they can be physically marked with tape.
 
-Especially watch out for tasks involving listing things that do not yet exist, like "What will we need for the party?"
+Especially watch out for tasks involving listing things that do not yet exist, like "what will we need for the party?"
 
 For that, only a complete dry run test, or detailed plan down to the last paper plate is likely to help you function
 any better than your own talent and competence would.
@@ -686,13 +686,13 @@ Nobody would be happy if they had to upgrade every device in the house when a ne
 Don't write code that doesn't run on old computers.
 
 And more than that, don't create disruption to existing processes.  Don't 
-fence off an area for a cable if a wireless link will do.  Don't delsy people's lives because you insist they first learn some new system to proceed.
+fence off an area for a cable if a wireless link will do.  Don't delay people's lives because you insist they first learn some new system to proceed.
 
-Don't use updates that run automatically.  Tech should stay out of the way, not add additional things people have to keep up with.
+Don't use updates that run automatically.  Technology should stay out of the way, not add additional things people have to keep up with.
 
 Some things are obsolete and should be upgraded immediately, but usually only the user knows which things those are.
 
-### Minimize Unique parts
+### Minimize unique parts
 
 It's bad enough to use dozens of parts when a few lines
 of code would do.   What's worse is to have dozens of
@@ -712,7 +712,7 @@ Especially avoid slightly modified off the sheet parts if possible, although it 
 than a scratch build.
 
 In that case, you never know if the original manufacturer will change the internals
-of the design so that it no longer works, on top of the extra effort and unpredictably of
+of the design so that it no longer works, on top of the extra effort and unpredictability of
 customizing something.
 
 This also goes for unique pieces of software.  If you don't have time
@@ -727,7 +727,7 @@ To automate something, you need to be able to fully describe what you want, or j
 Fully describing what you want is often equivalent to doing something by hand, or else is a limited version that isn't actually what anyone wants.
 
 Computers can find the right decoder for a file format, they can reconnect when the network goes down, but designing a bookshelf requires
-a real understanding of how it will be used.   It is important to see what problems are "Hard", and can be fully described in a page or two, and what problems are "soft", meaning we don't really know the algorithm we use to do them.
+a real understanding of how it will be used.   It is important to see what problems are "hard", and can be fully described in a page or two, and what problems are "soft", meaning we don't really know the algorithm we use to do them.
 
 In addition, aesthetics will always depend on context and one should not expect it to be ignored.
 
@@ -741,7 +741,7 @@ Nonetheless, one cannot expect something entirely artificial to be appreciated u
 it has some sort of context.
 
 
-### Beware the Wear
+### Beware the wear
 Many devices use flash memory. Many automatically save whatever you change.  
 
 Few take any steps to avoid wearing out the disk in a few years,
@@ -751,12 +751,12 @@ Don't do that. It's not acceptable!  Actions outside the user's control especial
 should not contribute to device wear.  Things should not just be expected to wear down
 over time.
 
-More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear(like saving to flash)
+More generally, avoid coupling *any* frequently-done action, (like changing a color), to an automatic action that causes wear (like saving to flash)
 
 
-### Replacability!
+### Replaceability!
 
-Things that don't last, should be replacable. Don't let a design leave the drawing
+Things that don't last, should be replaceable. Don't let a design leave the drawing
 board if it becomes disposable because of one part. Beyond that, things that wear should
 be common and available anywhere, like 0.7mm pencil leads, not proprietary to one manufacturer, or
 even handmade and totally unique.
@@ -834,7 +834,7 @@ with sub millimeter accuracy, you probably cannot.
 If you try to, you will likely break something. And even if you don't, someone
 else probably will while trying to keep up.  Avoid this.
 
-### Writing Right
+### Writing right
 
 A common complaint of people who feel unskilled is legible handwriting, but this
 too can at least partially be faked.
@@ -862,7 +862,7 @@ which are much simpler than the many square inches of paper badly placed mark me
 Layers in programs like Krita have a similar effect, in that you can work on small parts of a drawing at
 a time, without messing up previous work if you get it wrong.
 
-### Know your Knots(or pretend to)
+### Know your knots (or pretend to)
 
 The usual overhand knot is often a terrible choice,
 but the others are hard to learn.  The exception is
@@ -873,10 +873,10 @@ Most people seem to have no trouble learning to tie this, but I definitely had p
 
 What people use to tie their shoes is actually a doubly slipped variant of a reef or square knot.
 
-Once you've seen a picture of a square knot, it's fairly easy to remember the rhyme "Right over left, left over right
+Once you've seen a picture of a square knot, it's fairly easy to remember the rhyme "right over left, left over right
 makes a knot both tidy and tight".
 
-"slipped" variations of many knots exist, that have a "pull tab" to instantly untie it.
+"Slipped" variations of many knots exist, that have a "pull tab" to instantly untie it.
 
 They are almost always made by having the end of a rope retrace it's path and go back the way it came.
 
@@ -899,7 +899,7 @@ The coiled part is around the first two, but "inside of" the final one, which is
 winding upwards, and to apply pressure to the coils so they don't uncoil.
 
 
-Sheet bends are almost the easiest way to join two ropes reasonably well. the first rope loops back on itself to make an eye.
+Sheet bends are almost the easiest way to join two ropes reasonably well. The first rope loops back on itself to make an eye.
 
 The second rope comes through the eye, from the back, then down and around the back of the "neck" of the eye loop, over the top
 coming forwards, and then down in between itself and the eye.  This one also has a slipped variant, where it goes back up in between itself and the eye to form the
@@ -930,13 +930,13 @@ feel much better at the end of the day.
 ### Literally get the lead out
 
 I'm sure you know about lead paint and gas, but did you know it could be in your
-keys? The prongs and plastic of your extension cord(It is or was used to stabilize PVC)?
+keys? The prongs and plastic of your extension cord (it is or was used to stabilize PVC)?
 
 Brass often uses it to make machining easier. Old crystal glass has it. Maybe
 new crystal glass too. It has all kinds of uses, so don't
 assume any random thing is good safe.
 
-### Manufactured Hurries and artificial deadlines
+### Manufactured hurries and artificial deadlines
 
 These are terrible mental devices that have been used for everything from
 landing someone in the hospital, to making unwanted sexual advances.
@@ -963,14 +963,14 @@ they may interrupt you, or look as though they are threatening to.
 
 If you match their pace, you will probably sound like a maniac and stumble
 over your own sentences, because you quite likely need more words to explain
-your position than "It will be awesome bro!".
+your position than "it will be awesome bro!".
 
 On top of this, your reasons may well involve a mistrust you don't feel comfortable expressing.
 
-They may be saying something you know to be untrue, like "It's perfectly safe",
+They may be saying something you know to be untrue, like "it's perfectly safe",
 and you may think you are not in a position to argue.
 
-The added self censorship makes it even harder to speak at their pace.
+The added self-censorship makes it even harder to speak at their pace.
 
 
 They have given themselves the home field advantage, an insane
@@ -978,11 +978,11 @@ conversational style to match an insane idea.
 
 
 
-On top of it all, they may physically move towards their part of whatever they are planning,,
+On top of it all, they may physically move towards their part of whatever they are planning,
 threatening to leave you behind, or implement the bad plan without your agreement at all.
 
 In these cases, there may be no other answer aside from short controlled bursts of your
-own, such as "No way!", possibly with your expletives of choice.
+own, such as "no way!", possibly with your expletives of choice.
 
 The strategy on their part relies on you thinking that you need a reason to refuse,
 and that you must make a decision immediately.
@@ -999,7 +999,7 @@ Facebook, incidentally, is thought to use this via endless scrolling,
 forcing an immediate interaction, or else the risk of losing that content forever
 to the miles long news feed.
 
-### Think "Never again" not "Life Happens"
+### Think "Never Again" not "Life Happens"
 
 For some people, mistakes are a natural part of life,
 to be embraced as a chance to learn about yourself and
@@ -1008,7 +1008,7 @@ your capability under pressure.
 When making a plan to avoid mistakes, these people may attempt
 to guilt trip you.  They may not understand your need for such a plan.
 
-They may tell you to just carry on but "Be more careful" next time,
+They may tell you to just carry on but "be more careful" next time,
 with no explanation for how that works, or how you're
 supposed to not make unrelated mistakes while spending all this
 extra time "being careful" of the original mistake you are trying not
@@ -1027,7 +1027,7 @@ differently.
 "Being more careful" isn't really doing something different
 unless you have a concrete plan.  Will you work slower? Will
 you double and triple check things in different ways? If not,
-then what stops "Being careful" from being empty words?
+then what stops "being careful" from being empty words?
 
 Being careful is often a loaded phrase, implying that
 you were not being careful at all when the mistake was made.
