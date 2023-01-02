@@ -29,6 +29,17 @@ Nonetheless, I believe they may be useful in spotting likely issues with a plan.
 
 ## Principles
 
+### Powder Problems
+
+A very large number of accidents can be stopped by
+keeping things, like a pile of paperwork, away
+from things that could spill or splash, like your full cup of coffee.
+
+This seems to be one of the most common mistakes people
+make, it is very easy to overestimate your ability to control liquids and
+powders.  This includes not wearing gloves when handling something
+that should really be handled with gloves.
+
 ### Redundancy
 
 There should not be anywhere in your plan where a single failure can have significant consequences.  One broken rope, one person dropping something, or one lost flashlight shouldn't affect the plan at all.
