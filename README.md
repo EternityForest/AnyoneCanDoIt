@@ -29,6 +29,13 @@ Nonetheless, I believe they may be useful in spotting likely issues with a plan.
 
 ## Principles
 
+### State/Action confusion
+
+Things should not be labeled in such a way that would make someone confused
+as to whether they represent an action like "Turn this on" or a state like "this is currently on".
+
+This mostly only applies to software toggles.
+
 ### Powder Problems
 
 A very large number of accidents can be stopped by
