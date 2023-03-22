@@ -1022,6 +1022,8 @@ in unrelated ways to find any errors in the reasoning.
 
 But for the home 3D printer, this is, again, the computer's job.
 
+
+
 ## First order filters
 You can use this to make a simple smoothing filter.  At every step, when you get a new input `i`, set x to `x*0.7 + i * 0.3`.
 
@@ -1379,6 +1381,17 @@ results in a number, not something that isn't a number.
 ### Does the set of all sets that do not contain themself contain itself?
 
 This question is Russel's Paradox. It made a big stir around the turn of the 20th century.
+
+### [Jaccard Index](https://en.m.wikipedia.org/wiki/Jaccard_index)
+
+This is a method to measure how similar two sets are.   Since a shape can be viewed as the set of all points they contain, you can,
+for instance, use this to see how similar the size and position of two objects is.
+
+
+From Wiki: The Jaccard coefficient measures similarity between finite sample sets, and is defined as the size of the intersection divided by the size of the union of the sample sets:
+
+Remember, a 2D or 3D surface can be represented as the set of all points contained therein.
+So, one could take, for example, the size of the overlapping parts of two shapes(the intersection), divided by the total size of both(the union), to get a metric of similarity.
 
 
 ## A Monoid
